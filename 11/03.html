@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>眼を開く - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>文頭四十四音順「落下星」</dt></a>
+					<a href= "02.html" ><dt>ドライブ</dt></a>
+					<a href= "03.html" ><dt>眼を開く</dt></a>
+					<a href= "04.html" ><dt>箱</dt></a>
+					<a href= "05.html" ><dt>自然淘汰社会説</dt></a>
+					<a href= "06.html" ><dt>For Whom</dt></a>
+					<a href= "07.html" ><dt>煙草と蟻  改</dt></a>
+					<a href= "08.html" ><dt>青と白</dt></a>
+					<a href= "09.html" ><dt>俳句・短歌集</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十一号 (2023)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">眼を開く</span>
+						<span slot="sub-title"> - 天兎</span>
+						<div slot="content">
+<h2>眼を開く</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　天兎</h4>
+<p>
+　ごっほごほごほごほ……。<br>
+　咳自体は治まっても、痰をゴロゴロと鳴らしながら苦しそうに息をする高齢の男性。それが診療所での地域医療実習、初日の訪問診療で出会った最初の患者さんだった。<br>
+<br>
+　四週間ある地域医療実習。四週間とも同じ施設を割り当てられる学生もいるが、私は各二週間ずつ、二つの施設で実習を行うこととなった。前半は地域の中核となる大病院で。後半は地域密着型の診療所で。対照的な二つの施設で人々と接する、そんなスケジュールのもと、私の学生最後となる実習はスタートした。<br>
+　実習先の大病院で研修医となった知り合いにもアドバイスをもらいながら、私は前半の地域医療実習を滞りなく終えた。そして土日と休息を挟んだ後、緊張で腹痛を起こさぬよう祈りながら、私は診療所の自動ドアをくぐった。担当の看護師さんに院内を案内していただき、院長先生にお話を伺い、朝礼で挨拶をして外来に陪席し……。これまでよりも目まぐるしく、けれど患者さんとは雑談をも交えながら進む外来に眼を白黒しながら午前を過ごし、あっという間に午後の訪問診療に出かける運びとなった。院長先生自ら運転する車で、看護師さんと薬剤師さんの三名と共に、見知らぬ道を走ること約十分。その日の予定は、病院から施設に退院となった患者さんの訪問診療、その初回とのことだった。退院日と訪問診療の日を被らせたため、院長先生も患者さんにお会いするのは初めてらしい。<br>
+　<br>
+　正直な話、これはもう植物状態に近いだろうな、と一目見て思った。患者さんのご家族は、退院時は自分が声をかけると目を開けてくれていたとおっしゃっているが、瞼がひくひく動くのも手に少し力が入るのも本当に本人が私たちの声に反応しているのかそうでないのか私には判別がつかなかった。時折苦しそうに痰の絡んだ咳をされるから、生命維持の中枢自体は問題ないようだ。しかし瞼や筋肉の動きは、私たちのそうであって欲しいという願望がそう捉えさえているだけの錯覚ではないのかと思えるほど弱い。院長先生が最悪の場合どこまで治療を希望するかと問いかけても、良くなる見込みが少しでもあれば治療を希望したい、とご家族は未だ現実を呑み込めていない様子で少しずれた返答をされていた。<br>
+　退院直後ということもあってか次回の訪問診療は翌週となり、実習期間中にもう一度同じ患者さんのもとへ伺う予定となった。ご家族は遠方在住のようで次回以降は同席もできなさそうであるから、次回は目も開けない患者さんを診察し施設の方とやりとりをするのが、この患者さんの診療内容になるのだろうと考えた。であるならば、ご家族の方や施設の職員さんとのやり取りの仕方、初回はどんな内容をご家族の方に伺うべきか、などに重点を置いて学ぶべきだろうと、そう決めつけたのだ。<br>
+<br>
+　翌週の再訪問を待たずして、再度施設に伺うことになったのは本当にたまたまだ。診療所が予定してくださっていた別施設での実習のうち、初週金曜日のそれが諸事情により中止となったために急遽、この患者さんが入所している施設と交渉してくださり、一日実習として伺えることになったのだ。人工肛門まわりの処置に呼ばれ、連れられたのは週初めに彼が横たわっていた部屋だ。しかし、横たわっていたのは彼ではなく、お喋りなおばあちゃん。お話ししながら処置を見せていただき、終わった後うつらうつらとし始めた彼女をベッドに寝かせたまま部屋を辞した。見学内容について多少の自由裁量をいただいた私は、ふと気になってあの患者さんの姿を探したが見当たらなかった。朝、施設内を案内していただいたときも彼の姿は見えなかった。意思疎通ができないとはいえ、彼も自宅に戻れて、今日はサービス利用の日ではないんだなと、勝手に納得した。だからだろうか、午後に痰の吸引に伺った部屋にいたおじいさんと彼が繋がらなかったのは。それとも前回とは別の部屋にいたから？　いや違う。彼が両の眼を開いていたからだ。彼がこちらの言葉に首肯を返してくれたからだ。彼が咳と痰で苦しいながらも言葉を発そうとしたからだ。つまるところ、私が初回の訪問で彼はもう一生眼を開けない状態なのだと勝手に諦め、決めつけたからだった。ああ、何という愚かしさだろう。医師の自己満足はダメだ、独りよがりはいけない、思いあがってはいけないと、初日の外来陪席時に院長先生がご教示くださった数時間後には、この体たらく。医師にすらなっていない学生の自分が。別の機会を含めても訪問診療に数回同行した程度の自分が。退院直後で症状がまだまだ変化しうる患者さんをたった一回、時間にして十数分の訪問で、もう意識はないのだと、眼を開けることはないだろうと思い込んだ。これが思い上がりでなくて何だというのか。<br>
+　終始眠そうで眼を閉じがちだが、声をかければ億劫そうではあるものの眼を開ける。そんな程度でも月曜から比べれば大きな変化だった。痰の吸引が終われば彼はまた眠そうに瞼を落とす。睡眠の邪魔をせぬよう部屋を出た。あるいはそれを口実に、自身の内に生まれた申し訳なさから逃げ出したのか。結局、実習終了時に部屋を覗いても彼は眠ったままだった。<br>
+<br>
+　そして予定されていた再訪問の日、翌週目水曜日。前回の訪問から十日後のこと。彼は両の眼をしっかりと開いていた。もう、たまたま調子が良かったというレベルの回復ではない。彼はしっかりと院長先生の眼を見ていた。ここまでわずか十日である。人間の回復力に驚くと同時、最初の訪問で植物状態に近いのではなどと考えた自分が恥ずかしかった。最悪の想定は必要だ。しかし患者さんを己らの治療で治す職に就こうとする者が最初から諦めているのは患者さんにもご家族にも失礼極まりない。人間の驚異の回復力を目の当たりにした今回の件を教訓に、私はもっと人体の力を信じて医療に携わるべきだと感じた。医学生最後の実習で、己の未熟を突き付けられ、実習の終了や医学部の卒業など医師としての人生のスタートラインでしかないのだと再確認できたことは、とてもありがたいことだ。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

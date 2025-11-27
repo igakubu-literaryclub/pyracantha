@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>時間泥棒 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="#"><dt>時間泥棒</dt></a>
+					<a href="02.html"><dt>あなたの過去とアタシの未来</dt></a>
+					<a href="03.html"><dt>無言の贈り物</dt></a>
+					<a href="04.html"><dt>ねこのゆめ</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第八号 (2019)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">時間泥棒</span>
+						<span slot="sub-title"> - 閂閃</span>
+						<div slot="content">
+<h2>時間泥棒</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　閂閃</h4>
+<p>
+　幼い頃はマドレーヌを紅茶につけていただくのがささやかな楽しみであったが、いつからか母にしつけられてからは一切しなくなった。大人になったということだったのだろう。<br>
+　ところが大人であることに疲れていたのか、ふと思い立って昔のようにマドレーヌを美味しいくいただきたくなった。やるからには完璧にやらないと気が済まされない性の私は、まず庭に小さなテーブルと椅子を運び出すところから始めた。それはかつて私と母が向かい合って腰掛けたそれであり、当時の私には大人向けの椅子はかなり座り心地が悪かったが、今では気持ちよく座ることができる。かなり古くなっているはずだが、いい椅子だったのだろう。<br>
+　テーブルにハンカチを敷く。流石に当時のハンカチは残っていないのでなるべく似せたものを準備する。とはいえ紳士物のハンカチしか手元にはなかったので、あの頃を再現できているかと問われるとかなり怪しい。<br>
+　完璧主義者の看板を下ろす事を考えながら紅茶とマドレーヌを用意する。保存がきかないマドレーヌを常備しているほど手回しのいい私ではないので、大人しく車を出す。<br>
+　最近はめっきり行かなくなった行きつけだったパン屋はとうの昔に潰れていたようだった。三階建ての一階のテナントに入っていたのだが、今では建物すら残っておらずさら地の駐車場になっていた。<br>
+　せめてマドレーヌぐらいは昔ここで買っていたものを準備したいという思いもあったが、もうない店の商品は手に入らない。<br>
+　渋々スーパーで市販品のマドレーヌと茶葉を買う。この時ばかりはお菓子づくりを会得しておけばよかったと後悔した。<br>
+　母は近所の人から分けてもらった茶葉をよく使っていたが、その家はかなり前に空き家になっている。特別言及するほど良い茶葉だったかというと、そうではないはずだが、やはりあの頃の再現性がまた一段と劣ると思うといい気分はしない。<br>
+　紅茶を淹れる程度にマドレーヌも簡単作れたらいいのに、と不満をつぶやきながら紅茶を入れたが、奥が深いとされる紅茶を「簡単に」淹れた自分にはこの程度がお似合いなのだと自分で納得する。<br>
+　ティーポットとソーサー、カップを並べ、最後にレンジで温めたマドレーヌを置く。既成品であることはいただけないが、もうとやかく言っても仕方ない。今はただ、この懐かしい時間を楽しむだけ。少しの間、昔を思い巡らすことにしよう。<br>
+　その時だった。今や安心して体重を任せられるようになった椅子に腰掛けようとした時、塀を越えて紙飛行機一便が庭に不時着した。<br>
+　子供だろうか、これからというところを邪魔されいい気分ではないので注意して早くティータイムを始めよう。そう思い敷地の外に出たのだが誰もいない。<br>
+　外の通りには人影一つ見当たらなかった。それ以前に生物の気配がしない。羽虫の飛ぶ音も、野良猫の視線も感じない。自分以外の動物はすべて絶滅したかのような錯覚に陥る。<br>
+　さっきまで感じていた苛立ちは行き場を失い、釈然としない気持ちで庭に戻る。<br>
+　紅茶を注ぐ前にふと好奇心で紙飛行機を開いた。小学生か中学生かぐらいはわかるんじゃないか程度の考えでだ。<br>
+『貴公の時間は頂いた』<br>
+　文字数にして九、一行の文章がそこに印刷されていた。宛名も差出人も記されていないメッセージ、しかし自分に宛てられていることは理解できた。<br>
+　盗まれた時間に心当たりがあったからだ。すなわち私の幼少期、その時間が盗まれたのだ。幼少期とは椅子の座り心地、テーブルのハンカチ、マドレーヌ、紅茶、すべてがあの頃とは違う。あの頃は再現できない、もう戻ってこない。それはこの手紙の主に盗まれたからだ。<br>
+　その時苛立ちは明確に怒りに変わった。<br>
+　気づけば駆け出していた、時間泥棒を捕まえるために。さっき庭に紙飛行機を飛ばした時間泥棒はそれほど遠くにはいないはず。もしかしたら私の幼少期を今も盗んでいる最中かもしれない。<br>
+　古い記憶を頼りに日が暮れるまでブランコをこぎ続けた公園、カエルを追いかけたあぜ道、足を滑らせかけた貯水池、茶葉をよくもらった近所の農園、どこにもやつはいない。<br>
+　額を汗が滑り落ちる。こんなに走ったのはいつ以来だろうか。体はそれなりに疲れているはずだが疲労感はない。ただコソ泥を見つけ出すことしか頭にはない。<br>
+　とはいえ走って回れる場所は全て回ってみたが見つからない。これ以上遠くまで行くなら車で行ったほうがいい、冷静に考えて一度家に戻って車を取ってくることにした。<br>
+　車の鍵を取るために玄関に入ろうとして庭のマドレーヌをついばむカラスと目があった。血の気が引いていくような感覚に襲われた。<br>
+　それは客人に出した茶菓子ではない。私が一人でいただき、昔を思い起こすためのタイムマシンなのだ。獣ごときが触れていいものではない。<br>
+　気が動転している私がなにか言う前にカラスはマドレーヌをくわえて飛び去ってしまう。ティーポットがカラスの足にあたって倒れ、紅茶が泥水の水たまりに変わってしまった。<br>
+　泥棒が去っていった今、時間泥棒に何を盗まれたのかやっとわかった気がした。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

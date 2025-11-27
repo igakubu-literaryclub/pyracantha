@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>文頭四十四音順「落下星」 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>文頭四十四音順「落下星」</dt></a>
+					<a href= "02.html" ><dt>ドライブ</dt></a>
+					<a href= "03.html" ><dt>眼を開く</dt></a>
+					<a href= "04.html" ><dt>箱</dt></a>
+					<a href= "05.html" ><dt>自然淘汰社会説</dt></a>
+					<a href= "06.html" ><dt>For Whom</dt></a>
+					<a href= "07.html" ><dt>煙草と蟻  改</dt></a>
+					<a href= "08.html" ><dt>青と白</dt></a>
+					<a href= "09.html" ><dt>俳句・短歌集</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十一号 (2023)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">文頭四十四音順「落下星」</span>
+						<span slot="sub-title"> - 唐津 定</span>
+						<div slot="content">
+<h2>文頭四十四音順「落下星」</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　唐津　定</h4>
+<p>
+「あと何分くらいで星は流れるのかね。いい加減飽きてきたよ」<br>
+「うーん、あと十分ってところだな」<br>
+「ええ、さっきもそう言っていたよね」<br>
+「遅くとも十時は回らないさ、今晩がピークなんだから」<br>
+　風が山を吹き抜けるざわめきに虫の鳴き声。木々の無い池の辺で、僕らは天を眺めていた。暗闇の中、ただ星が流れるのを待つ。気怠い夏の暑さに、僕はいよいよ面倒になってきた。<br>
+　この流星群観測に誘われたのがつい一時間前の午後八時。三十分程かけて山を登り、それから二十分弱もこうしている。しかし、こんなに大変なら来なかったものを。すぐに終わるよという奴の言葉を鵜呑みにしてしまった僕が甘かった。世界で一番信用ならないのが、この友人だっていうのに。<br>
+「それで、流星群なんて見てどうするのさ。沢山の流れ星で、沢山の願い事を叶えるなんて言うんじゃないよね」<br>
+「ちょっとお前、流星群なんてだなんて夢の無いことを言うなよ。つまらないなあ、おい。天からの奇麗な贈り物じゃないか。と、言いたい所だが……鋭いな。流れ星に願い事を叶えてもらう、そのために来たのさ」<br>
+　にやりと笑う友人がどれほど本気なのか、長年の付き合いの僕にも分からない。<br>
+「<ruby><rb>鵺</rb><rp>（</rp><rt>ぬえ</rt><rp>）</rp></ruby>的な事を言うなよ、まさかそんな子供じみたことで来たのか」<br>
+「寝転んで見上げようや、そろそろ首が疲れたよ」<br>
+　伸びをして、地面に寝転びながら友人はそう言った。はぐらかし方が雑なのを、もはや突っ込む気力も出ずに僕も横に寝転ぶ。<br>
+「光って消えるまで、長くても五秒は無いくらい。普通にやっているとその間に三回唱えるなんて出来ないぞ、準備しておくんだな」<br>
+「変なことを言うなよ。殆ど不可能じゃないか。まあ、だからこその願い事なのだろうけどさ」<br>
+「見てろよ、俺には秘蔵の作戦があるからよ」<br>
+　無理なことを無理なりに何とかするのがこの友人の、数少ない尊敬できる所だ。面倒だが、ここまで来たら付き合うしかないだろう。問題は、肝心の流れ星が全く降らないことだが。<br>
+「やあ、全く星が降らないじゃないか」<br>
+「ゆっくり待てばいいさ、にしても待ちくたびれたが……おい、見ろよ」<br>
+　呼びかけられて友人が指す方向を見ると、池一杯に蛍が飛んでいる。楽園と見まがうような光景は、僕らの息を飲ませるには充分だった。<br>
+「流星群じゃないか、まるで。<ruby><rb>羸憊</rb><rp>（</rp><rt>るいはい</rt><rp>）</rp></ruby>してまで流れ星を待つより、こっちの方がいいなあ、おい。冷笑しないで聞いてくれよ。露天よりも池中にこそ実がある、これぞまさしく落下星ってな、どうだ」<br>
+「笑えもしないよ、馬鹿」<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

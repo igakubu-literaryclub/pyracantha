@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>人間関係マニュアル - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>インヴァース</dt></a>
+					<a href="02.html"><dt>煙草と蟻</dt></a>
+					<a href="03.html"><dt>海の見える街</dt></a>
+					<a href="04.html"><dt>交差</dt></a>
+					<a href="05.html"><dt>ブリンクァスタの祝福</dt></a>
+					<a href="#"><dt>人間関係マニュアル</dt></a>
+					<a href="07.html"><dt>夜の女神、あるいは、</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第九号 (2021)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">人間関係マニュアル</span>
+						<span slot="sub-title"> - 天兎</span>
+						<div slot="content">
+<h2>人間関係マニュアル</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　天兎</h4>
+<p>
+「残念ながら、現時点では不治の病です。原因不明、医学的介入の術はなし、これからの展望不明。病因としては経過観察ですね。こちらのフォームに入力のうえ、近日中に職場と役所宛にメールでご提出ください。以上です。お大事に」<br>
+　機械的かつ事務的な声に見送られて診療室を出る。一昔前であれば、もっと全人的な対応を、患者である僕の感情に寄り添うべきだ、なんてクレームが多発したのだろう。とうの昔に死語になったから合っているか自信がないが、炎上、というのだったか。ネットワークに対象へ向けた誹謗中傷があふれかえる現象が起こること待ったなしだったろう。<br>
+　現在、地球歴六一六年。前の暦である西暦に直せば西暦四〇〇〇年くらい。つい数百年前に地球は遂に一つになった。戦争はなくなり、少なくとも信仰や肌の色による差別は駆逐された。国、という概念は日本地域でいうところの県、アメリカ地域で言うところの州くらいの意味にまで暴落した。細かな諍いは未だあるものの、西暦の時代から比べれば余程平和だろう。やったぜ万歳おめでとさん。これがちゃんと人類の功績であるなら全力で興奮して褒め称えることもできたのだろうが、実際は棒読みで称えるフリをする価値すらない。<br>
+　最初はハウツー本ならぬ、ハウツーサイトだったらしい。会員制ではあるものの無料、日々改稿され、その度に使いやすくなるうえ、職業どころか個人毎に友達や上司への対応がマニュアル化されている。このサイトがオープンした当初は見向きもされなかったらしい。当然だろう。人間は一人一人違う。接客程度なら多少マニュアル化できても、人間関係なんてマニュアル化できるはずもないと誰もが見向きもしなかった。だが、話のネタ程度にとやってみる好奇心旺盛な人間もいれば、評判が良ければ触ってみようという流されやすい人間もいる。そして人間、便利なものは使いたくなるもので、口コミやSNSでゆっくりとだが確実に広まっていった。サイトが出来た頃にはAR技術の発達で一般人が自分だけに見えるようにサイトを表示しておけるようになっていたのも拡散の一因だろう。そうして何世代もかけて、大多数の人間が暗黙の了解でこのサイトを使っているくらいになった頃。これがいつの間にか生まれていたらしい機械知性の管理するサイトであったことが発覚。この頃には友達付き合いの仕方から夫婦の会話まで、このサイトに従うようになっていた。マニュアル通りのコミュニケーションしかとれなくなるまで飼い慣らされた人類は、あっという間に支配関係を逆転された。不幸中の幸いは機械知性に人類を滅ぼすつもりが今のところ無いらしい、という事実だけ。コミュニケーションをとるための器官がだんだん退化しているので、わざわざ機械知性が手を下さずとも人類はそのうち勝手に滅ぶ。気の長いことだが、既に気の長い方法で人類を飼いならしたのだから機械知性的にはそれで問題ないのだろう。<br>
+　便利な世界、でも退屈な世界。マニュアル通りに人付き合いして誰も彼も心の奥底は覗かせない。僕と同じように、機械知性が指定する職業に就き、淡々と日々の職務をこなす。頭脳労働は機械知性が担い、僕らはただ働くだけの働きアリ。結婚まで相性診断的な何かで機械がお見合いをセッティングする。医師、なんて職業はとうに消えて、診断と治療を、ベルトコンベアのように機械知性がこなす。倫理なんてそっちのけ、大量の動物実験と人体実験で数多の病気をあっという間に解き明かした。人の感情までもほとんど解き明かしてハウツーサイトなんてものを運営していたわりに、人を思いやるという行動は未だに苦手のようだが。それにしたってたぶん、思いやるというコストに対して、人からの印象が良くなるというだけしか返ってこないリターンが釣り合っていないと判断したからやっていないに過ぎないのだろう。<br>
+ピピッ。無駄な思考を巡らせている内に提出したデータが役所と職場から返却された。<br>
+『一目惚れ症候群による恋患いの対策として一目惚れ相手との相性を診断いたしました。相性度６８％。可も無く不可も無く。一目惚れ対象は独身ですので見合い日を１０月４日に設定しました』<br>
+『役所からの指示により貴殿に見合い該当日の休暇が与えられました』<br>
+　人類が何もしなくても発展して便利になっていくユートピア。人類がとうに機械に支配され、緩やかに衰退してゆくディストピア。そんな世界で、僕は今、恋をしている。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

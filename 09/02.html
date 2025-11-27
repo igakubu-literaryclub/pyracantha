@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>煙草と蟻 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>インヴァース</dt></a>
+					<a href="#"><dt>煙草と蟻</dt></a>
+					<a href="03.html"><dt>海の見える街</dt></a>
+					<a href="04.html"><dt>交差</dt></a>
+					<a href="05.html"><dt>ブリンクァスタの祝福</dt></a>
+					<a href="06.html"><dt>人間関係マニュアル</dt></a>
+					<a href="07.html"><dt>夜の女神、あるいは、</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第九号 (2021)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">煙草と蟻</span>
+						<span slot="sub-title"> - 蜥蜴</span>
+						<div slot="content">
+<h2>煙草と蟻</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　蜥蜴</h4>
+<p>
+　中天を過ぎかかった満月が夜の漁港を照らしている。もう二、三時間もすれば朝漁の活気に包まれる港も、今はまだ寝静まっている。<br>
+　時折打ち寄せる紺色のさざ波が、コンクリートの岸壁に砕けて小さな銀色のしぶきを上げる。<br>
+　ふいに濃紺の海に光が差し、細長くもやい杭の影が落ちたかと思うと、つい、と横に流れて消えた。岸壁上に一台の車が入ってきたのである。車は静かに減速すると、ぽつぽつと立ち並ぶ常夜灯を何本か通り過ぎ、もやい杭に小舟が係留されている辺りで止まった。<br>
+　ドアが開き、一人の男性が降りてくる。五十がらみで、髪には白いものが混ざっている。肩幅は広く、歳の割に頑丈そうな身体つきをしている。車のドアをバタンと閉めると、着古したコートにチノパンというラフな出で立ちにはおよそ似合わないきびきびとした足取りで岸壁上を歩き始める。<br>
+　小舟の近く、常夜灯の照らしている辺りには先客がいた。六・七歳くらいの少年で、着ている服はひどくみすぼらしい。こちらに背を向けている。しゃがみこんで何かをしているようだ。<br>
+　男性は少年の姿を見ると、はた、と足を止める。暫し当惑したかのように立ち止まっていたが、一つ深呼吸をすると、何かを決心したかのように頷き、やはりきびきびとした足取りで少年に近づいていく。しかし少年はじっと地面を見つめていて気づく様子がない。<br>
+「……おい」<br>
+　隣に立った男性が声をかけると少年はビクッとして振り向いた。そして初めて男性の存在に気づいたらしく、しゃがんだままあんぐりと口を開けている。年相応のあどけない表情に、男性は毒気を抜かれたような心地がしたが、気を取り直して尋ねる。<br>
+「何をしているんだ、こんな時間に」<br>
+　少年は少しの間戸惑っていたようだったが、やがて割合にはっきりとした声でこう答えた。<br>
+「ありを見てる」<br>
+　しかし少年が見ている地面は彼自身の影になっていて暗い。<br>
+「……その暗さじゃ何も見えんだろう」<br>
+　男性は呆れたように少年を見下ろしている。<br>
+「見えるよ、ぼく、目いいから」<br>
+　少年はむっとしたような顔をして、少々拗ねたように答える。<br>
+「……そうか」<br>
+　男性の言葉を最後に二人の会話が途切れると、辺りは静けさに包まれた。聞こえるのはゆったりとした波音と、それに合わせて軋む係留用のロープの音だけだ。少年は男性をまじまじと観察するかのように眺めている。<br>
+　男性は居心地の悪さを感じ、無意識にコートのポケットを探る。煙草の箱を取り出すと、一本引き抜いて口に咥える。興味深げにその様子を見ていた少年が尋ねる。<br>
+「おじさんはなんでタバコをすうの」<br>
+「美味いからさ」<br>
+　口の端に煙草を咥えたまま器用に男性は答える。<br>
+「おかしよりも」<br>
+「さあな」<br>
+「でもタバコってからだにわるいんでしょ」<br>
+「よく知ってるな」<br>
+「タバコ屋のひとがいってた」<br>
+　そう言うと、少年は再び俯いて地面を這う蟻を眺め始めた。蟻はコンクリートに散った小魚用の撒き餌に群がっている。男性はライターを取り出して、煙草に火を着けた。深く息を吸い込んで、ふうっと煙を吐き出す。徐に口を開く。<br>
+「親父さんじゃなくてか」<br>
+　なにが、と地べたを見つめたまま少年は聞き返す。<br>
+「煙草が身体に悪いって言ったのは」<br>
+「うん」<br>
+「だよな」<br>
+　少年は不思議そうに顔を上げる。<br>
+「なんでそんなこときくの」<br>
+「普通な、そういうことは煙草を吸ってる身近な大人か、学校の先生に聞くもんだ」<br>
+　少年はきまり悪げに目を伏せた。<br>
+「まあ、大体想像はつく」<br>
+　そう言って男性は煙草を燻らせると、青みがかった月を見上げた。<br>
+「大方、親父さんが美味そうに吸ってた煙草がどんなもんか気になって煙草屋に買いに行ったってとこだろう。そこで『煙草は身体に悪いから大人になるまでは駄目だ』って店員に言われた」<br>
+　少年は目を丸くして男性を見つめた。<br>
+「なんでわかったの」<br>
+「……年の功ってやつさ」<br>
+　ボソリと答え、男性は肩をすくめる。<br>
+「としのこう？」<br>
+　なにそれ、と首をかしげる少年を尻目に、男性は不精ひげの生えた顎を撫でながら説明する。<br>
+「年を取るにつれていろんなことが分かってくるってことだ。楽しいことも辛いこともたくさん経験するからな」<br>
+「じゃあぼくのことぜんぶわかるの」<br>
+「全部は無理だ」<br>
+　男性はまた煙草を吸うと、煙とともに吐き捨てるようにこう言った。<br>
+「だがな、おまえが蟻を気に入らない人間に見立てて潰していたことくらいは分かる」<br>
+　穏やかな、しかし冷たい秋の潮風が吹き抜けてゆく。ゆらり、と立ち上った紫煙が、風に揉まれて消える。少年は男性を見上げたまま凍り付いたかのように動かない。<br>
+　男性はため息を吐き、抑揚を欠いた声で続ける。<br>
+「自分より弱いやつをいじめて楽しむのはよせ。それじゃあお前をいじめてる奴らと変わらんだろう」<br>
+　常夜灯が男性を見上げる少年の顔をはっきりと照らし出す。驚愕と畏怖のないまぜになった表情が浮かんでいる。その顔から半ば目を逸らすようにして、尚も男性は続ける。<br>
+「それと、親父さんとしっかり話すことだ。お互いに黙っていたら、伝わるものも伝わらん」<br>
+　親父さん、と聞いた瞬間、少年の眉がぴくりと動いた。途端に顔から怯えが消えて、怒りにも似た嫌悪の面持ちが表れる。幼い子どもとは思えない表情の変化に男性は思わずはっと息を呑む。少年は暫し言葉を探していたようだったが、やがて絞り出すようにこう言った。<br>
+「はなすことなんてないよ」<br>
+「……本当に？」<br>
+　そう尋ねた男性の声が、二人の他に誰もいない漁港に寂しく響く。ぽつりと、まるで長年溜めてきた思いがやっと吐き出されたかのように。<br>
+　少年は答えない。ただじっと、探るように男性の顔を見つめている。<br>
+　男性は静かに、それでいて断定的に話し始める。<br>
+「今、話しておかないとお前は絶対に後悔することになる」<br>
+「どうして」<br>
+「どうしてもだ」<br>
+　そうきっぱりと告げる男性に、それでも少年は食い下がる。<br>
+「なんでそんなことがわかるの？」<br>
+　男性は何とかはぐらかそうと口を開く。しかし、少年の目を見てそれを諦める。一度決めたら絶対に意思を曲げない頑固な目。幼い頃から変わらない自分自身の目を。<br>
+「実際に経験したからさ」<br>
+　男性は沖合の方を眺める。海は一個の巨大な生命体のように泰然と横たわっている。<br>
+　男性は訥々と語り始めた。自分の送ってきた生涯を改めて手に取って、一つひとつ吟味してゆくように。<br>
+　自分が貧しい漁師の子どもとして生まれたこと。母親は自分が生まれたときには死んでいて、顔を覚えていないこと。父親と二人で、この漁港で漁をして暮らしていたこと。その暮らしが気に入っていたが、小学校に上がると貧しさのせいでいじめを受けることになったこと。心配する父親と口を利かず、だんだんと疎遠になっていったこと。高校を卒業してすぐに、都会で働くためこの街を出たこと。それ以来父親と連絡をとることはなく、父の死に目に立ち会えなかったこと。父親の訃報ですら人づてに聞いたこと。<br>
+　少年は始めから終わりまで黙って耳を傾けていた。<br>
+「いいか、これだけは覚えておけ」<br>
+　話の締めくくりに男性はこう言うと、少年の頭の上に片手を置いた。<br>
+「命というのは尊いものだ。一度失ったら決してもとには戻らない。だからな、それを無闇に奪ったり、つまらない意地を張って誰かを傷つけたりしたら駄目だ。分かるな？」<br>
+　少年は素直にこくん、と頷いた。男性はその頭を荒っぽくくしゃっと撫でる。大人の体温よりも少しだけ高い少年の体温が、かじかんだ男性の掌に伝わってくる。ふと、気まぐれを起こして男性は尋ねる。<br>
+「もし、俺が未来のお前自身だと言ったら信じるか？」<br>
+　少年はきょとんとした眼差しを男性に向けたが、こう答えた。<br>
+「しんじるよ。だって、おじさんはぼくのことをなんでもしってたし、それに」<br>
+　少年は微笑むと、<br>
+「おじさんはぼくの父さんににてるから」<br>
+その言葉を最後に姿を消した。<br>
+　男性は左手に持った煙草を見つめた。気づかないうちに随分長くなった灰が落ち、潮風に散ってゆく。少年の最後の言葉を思い出し、苦笑する。頑固さ、朴訥さ、広いが少々くたびれたかのような肩に、緑のマルボロ。どれをとっても父親ゆずりのもののように思える。<br>
+　短くなった煙草に口をつけ、最後にもう一度だけ吸う。磯の香と混ざった煙草は、いつもより少しだけ美味く感じられた。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

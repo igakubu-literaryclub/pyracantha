@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>虎の咆哮 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>■■</dt></a>
+					<a href= "02.html" ><dt>灯籠</dt></a>
+					<a href= "03.html" ><dt>まずは床を綺麗にするところから</dt></a>
+					<a href= "04.html" ><dt>前奏曲・リプロローグ</dt></a>
+					<a href= "05.html" ><dt>脳みそのおかげよ</dt></a>
+					<a href= "06.html" ><dt>虎の咆哮</dt></a>
+					<a href= "07.html" ><dt>エモーショナル・ミー</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十号 (2022)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">虎の咆哮</span>
+						<span slot="sub-title"> - 宇治丸</span>
+						<div slot="content">
+<h2>虎の咆哮</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　宇治丸</h4>
+<p>
+　将棋オタクでは将棋に勝てないのか<br>
+　別に将棋に限った話ではない。物事を練達するための方法論としての話である。簡単に言うなればその道のマスターとなるのにその分野だけをやりこむのか、ほかの分野のこともやりつつ極めていくのがよいのかというものである。そんなのその分野をマスターしたいならその分野のことを勉強して反復するなりするしかないではないか、と思うかもしれないが意外と奥が深いテーマなのである。<br>
+　いくつかのエピソードがあるのでそれをもとに考察していきたい。棋界の顔である羽生善治九段の話である。羽生さんと棋界の先輩方と飲む機会があったようで一次会はまあ普通に参加したのであるが二次会に行くか行かぬかでもめたそうだ。先輩方がいうにはこういう付き合いで将棋にも深みが増していくのだといったことを羽生さんに言って二次会に連れて行こうとしたらしい。しかし羽生さんは、酒を飲んでも将棋は強くならない、ときっぱり断り一人ですたすたと帰宅したそう。将棋はゲームと言い切る羽生さんらしい逸話である。将棋を言わば人間の総合力的な勝負ととらえるか完全なボードゲームとしてとらえるかという永遠ともいえるテーマに手を突っ込んだ羽生善治氏。一方漫画の世界では漫画家鳥山明がこう述べている。漫画がうまくなるためには漫画ばかり読んでいてはいけないと。映画なんか見て広い視野を持つほうが良いと。他にも中国の逸話なんかで立派な官僚になるためにあれこれ教養として習わせたのだが結局科挙には受からなかったというものもある。<br>
+　ここまで書いていていろいろと混乱してきた。私自身振り返ってみて、例えばテスト勉強はそのテスト勉強しなきゃいけないなあいやでも自分の人生観とか教養とかが一切助けにならなかっただろうかとか考えていると余計に混乱してくる。対象とする分野によっても比重が変わってくるのかもしれないし一概には言えないだろう。この問題は答えを出すのが本当に難しいと思うので今のところの考えを記すことしかできないがまあその専門分野を極める努力をしつつ視野が狭くなりすぎないようにほかのことにも熱中しつつそれがうまい具合に専門分野と絡んでいくことを天に祈るとかだろうか。理論的に考えれば粛々とその分野に励むしかないのだろうというのはわかるのだが私が憧れる人が様々な物事を楽しもうという方が多いので悩んでいる。<br>
+<br>
+<br>
+<br>
+　さよならを言える幸せ<br>
+　幸せにもいくつかの種類があってそのうちの一つに別れるときにさよならを言える幸せというのがあるように思う。ちゃんと時間を作ってその人なりの別れの儀式を行う。意外と難しいのだ。<br>
+　イギリスに行ったときお土産屋さんのお兄さんがとてもよくしてくれた。今思えば客にものを買わせるためだったのかもしれないがそれにしても感動的なほど丁寧に接客してくれた。イギリス系の方ではなかったのできっと苦労も多いだろうとか邪な考えもあって余計に感動した。別に何かされたわけではないが自分自身もそういう感触を肌で感じたからだ。旅立つ前日にもう一度その店に行こうと思ったのだが時間がほんの少し足りないのと場所もうろ覚えだったもので結局行けなかった。本当にほんの少し時間が足りなかっただけなのに会えなかった。きっともうあの店であのお兄さんに会える確率はとても少ないだろう。辛いとまではいかないが異常なほど物寂しい。<br>
+　生きている人でさえ時間と場所の制約でこうなのだ。そのうえいつ永遠の別れが来るかわからないのだ。この感覚を常に持って人に接するのは不可能なので時々でも思い出して少しセンチメンタルに会話するようにしている。それでも別れるときには後悔するのだろうが。この間バイト先のケーキ屋にお世話になった不動産屋さんの方がいらっしゃった。最初は気づいておられなかったが挨拶したら自分のことを覚えてくださっていた。なんと悦ばしいことだろうか。また会って別れの時にまた会いましょうと言いたい。<br>
+<br>
+<br>
+<br>
+　嫌いな価値観<br>
+　世の中にはびこる悪しき価値観にいくつか物申したい。<br>
+　一つは体育会系の偽物の根性論だ。健全なる精神は健全なる肉体に宿る、という言葉を聞いたことがあるかもしれない。しかしこれは偽の言葉で本当は健全なる精神に宿かれし、というらしい。諸説ある中の一つに過ぎないのでまあこの説は話半分で聞いてほしいのだがこの言葉は願望系である。健全な肉体に健全な魂が宿ってほしいという願いだ。願うということは必ずしもそうじゃなかったからであろう。まあ体調が悪いと機嫌が悪くなるというのは正しいので完全にこの言葉は嘘だ！　というつもりはさらさらないがこれをどや顔でいう体育教師には反吐が出る。何故か彼らはスポーツを頑張ったやつこそ根性があって、清らかで、正々堂々としているなんてぬかす。馬鹿馬鹿しい。別にスポーツに励んでいる人でそのような人はたくさんいるけど別にスポーツしたからではないだろう？　その人はもともと根性があって清らかで正々堂々としていただけだ。馬鹿にするのも大概にしろ、根性つけたいなら勉強しろ、じっと座って何時間も根詰めて勉強したほうが根性つくぞ、運動会をやるために馬鹿みたいに練習させる小学校の教師ども、根性つくとか言うな、自己満足でやっていますってちゃんといえ！と小学生の時から思っていた。中学からは体育祭の練習なんてものがない自由な学校に入れたので実に清々しかった。まあ運動が苦手だった僻みも若干あることは認めるがこの想いは今でも変わらないし正しいと思う。<br>
+　もう一つの価値観には国語には正解がいくつもあるというものだった。たいていこの嘘は小学校で算数には正解が一つしかないというものと対比されてのべられる。確かに最初はまあいろんな意見もあるし僕の答えだけが正解じゃないなと騙されかけていたが、通っていた塾の、今でもその人の言ったことのいくつかは鮮明に覚えているが、国語の先生が言っていた言葉に国語には正解というのは本当は一つしかないんだよというものでハッとした。国語のあらゆる問題の解答には研ぎ澄まされた究極の完全な解答があってそれ以外は本当は不完全なものなのだと。意識が変わった。この究極の解答を追い求める姿勢を持つか否かでは国語という科目だけでなく全てにおいて差が出てくる。この文章を書いているときもそうだ。極限を言えば一言一言ベストなタイミングで使うべき言葉があるし、ベストな組み立て方があってベストな文章がある。でも現実的にそれを探っていると一生をかけても文章が一本もかけないのでその時その時ベストだと思う言葉をつなぎ合わせてベターな文章を作るのだ。この意識をもって作品を書いたり、国語を解いたり、人生を過ごすとベストではないかもしれないけどベターに生きられると思う。この意識がないから国語には複数解答があるとかいえてしまうのだろう。<br>
+<br>
+<br>
+<br>
+　思考のプロセスと文章の書き方<br>
+　最近とても良い言葉に出会った。考えを止めないために行動しないというものだ。あらゆる物事で思考→行動→結果というプロセスがとられるが、せっかちな私は早く結果が知りたくてすぐに行動を起こすことが多い。決断ばかりの人生で決して悪くはないのだろうが思考が足りなかったな、と反省することも多い。思考をするにはどうすればよいのかと思考してすぐ他の結果が出やすい行動に移ることを繰り返していたが単純に行動を起こさなければよいことに気づいた。例えば将棋だと要所で次の一手クイズを自分に課せばよいのだ。すごくすっとした。単純だけど納得がいく良い言葉だ。<br>
+　自分の場合は先ほどのベストベターの話ではベターを作るのが得意なのでその行為をやめて考えるとベストに近づくはずだ。けれども文章を書いている段階でそれは難しい。なぜなら忙しいからだ。ここでの忙しいというのは時間がないという意味ではなくやることが多いという意味だ。頭に思い浮かべた現時点でのベストな言葉を消えないうちにパソコンで打ち込む。すぐさま流れにそぐわない次の言葉を思い起こしまた消えないうちにパソコンで打ち込む。川の中にもぐって流れに逆らわないまま魚を捕まえ続けていく感じだ。このたとえ、なかなかベストだと思う。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>鈍行列車 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>文頭五十音順「秋の七草」</dt></a>
+					<a href= "02.html" ><dt>津波</dt></a>
+					<a href= "03.html" ><dt>六甲山登山紀行文</dt></a>
+					<a href= "04.html" ><dt>拝啓、五分後の貴方へ</dt></a>
+					<a href= "05.html" ><dt>鈍行列車</dt></a>
+					<a href= "06.html" ><dt>Palette</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十二号 (2024)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">鈍行列車</span>
+						<span slot="sub-title"> - 唐津　定</span>
+						<div slot="content">
+<h2>鈍行列車</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　唐津　定</h4>
+<p>
+　タトン、タトン……。<br>
+　静かに揺れる列車の音は相も変わらず規則的で、優しく機械的なリズムを刻んでいる。<br>
+　私はゆっくりと目を開き、もはや幾度目かも分からない覚醒に伸びをして無人の車内を見回す。<br>
+　誰も座っていない車両は嫌に広々としていて、吊革は電車の鳴らす音に合わせて細かく振動している。窓の外に流れる景色は変わらず海辺のままで、太陽は見えないが、きっと昼頃だ。これも、ずっと同じ。<br>
+　私がこの列車に閉じ込められてから、どれだけの時間が経過したのだろうか。変わらぬ景色に変わらぬ明るさ、いくら寝ても緩やかな眠気が消えないのは何故だろう。隣の車両に移動しようにも扉は開かない。退屈しのぎにすることもなく、私は目覚める毎に変わらない景色を眺め、また眠っていた。<br>
+　どれだけの時間が経過したのか。数日とも思えるし、ひょっとしたら数時間なのかもしれない。数百年と言われても、驚きはしないだろう。<br>
+　見えるのは変わらず海辺の景色。青い海に、細く細かく白波が立っている。人も船も、鳥も見当たらない。太陽を受けて緑に輝く木々だけは、海沿いに並び途切れ途切れに視界を横切っている。<br>
+　私に対する、一種の罰なのだろうか。この、時の止まったかのような世界に永遠に閉じ込められること。これこそが私に対する、罰となっているのだろうか。そんなことを、考える。<br>
+　ゆっくりと立ち上がり、伸びをする。私は車両の中を歩き回って、頭の奥に残る眠気を振り払う。<br>
+　もしも眠気が完全に維持されているのなら、私がこうやって目を覚ますのは何故だろうか。ずっと同じ眠気が維持されているのなら、ずっと同じように眠り続けるのではないだろうか。そもそも、私がこうやって動き、考えているのに空腹にもならず、汗もかいていないようなのは何故……。<br>
+　そこまで考えて、思考を止める。真実がどうであれ、今この自分がこうして存在しているのは事実で、その事実を疑ってこの現実が「白け」てしまうことが恐ろしい。気づかぬ内に水の上に立っている人が、その事実を指摘されて溺れてしまう昔の童話のように。気づかないままの方が幸せなこともあるのかもしれない。<br>
+　元の座っていた席に戻り、ゆっくりと腰を下ろす。ドアの真横の、端の席。手すりにもたれかかって、目を閉じる。静かに祈りながら。また目が覚めるように。いつかは解放されるように。この停滞が、壊されないように……。<br>
+<br>
+　タタトン、タタトン……。<br>
+　ふっと、目が覚める。その瞬間に目覚めるべく設定されていたかのように、目が開いた。音の、変化。列車の刻むリズムに小さな、しかし明らかな変化が表れていた。<br>
+　ぴたっと、体が固まる。目の前で怪物に睨まれているかのように硬直する。体は動かないままに、聴覚と触覚だけが研ぎ澄まされていく。ゆっくりと、非常にゆっくりと、列車の速度が落ちていくのを感じた。普通の列車ではあり得ないような、ゆったりとした減速。静かに、確実に静止へと向かっていく。<br>
+　これを吉兆と見るべきか、凶兆と見るべきか。停滞で満たされていたこの世界に、変化が訪れた。この事実は、何を意味するのか。解放の時が近いということなのだろうか。それとも、次なる停滞へと連れていかれるだけなのだろうか。私の心には期待も不安も無く、ただやってくる運命を受け入れるだけだった。<br>
+　タタ、タタン……タタ、タタン……。<br>
+　少しずつ、少しずつ列車が静止していく。穏やかに、緩やかに速度を落としていく。私がじっと張りつめていた緊張を解いて深呼吸したとき、小さく擦れる音とともに、列車が停止した。<br>
+　目の前の窓の外は変わらず海辺の景色。不思議に思って振り向くと、小さな駅に到着していたことが分かった。最小限の広さのホームに、小さな屋根がついている。そこに電車を待つ人は、誰もいない。<br>
+　プシュー……。<br>
+　空気の漏れる音と共に、扉が開く。同時に、世界から音が消え去った。当然のように、乗り込んでくる人はいない。では、降りる人は？　私は、降りるべきなのだろうか。閉じ込められ続けたこの列車から降りることは、何を意味するのだろうか。ここで降りないと、再び終わりの見えないまま、この列車に乗り続けることになるのだろうか。<br>
+　実のところ、私にはとっては真の意味でどちらでも良かった。降りるのが正解か、乗り続けるのが正解か、答えを見つけるのが不可能であるならば、それはコインの裏表を当てるようなものでしかないだろう。……ひょっとしたら、両面とも裏なんてこともあるかもしれない。<br>
+　要するに、私には選択肢が提示されているようでその本質は一択だった。それならば、どうせならば、環境を変えてみようかしら。そんなことを考えて、私は列車を降りることにした。<br>
+　プシュー……。<br>
+　私の両足がホームに着いた瞬間、私が降りるのを待っていたかのように背後で扉が閉まる。それと同時に列車が動き出し、振り返った私の顔に柔らかい風を残して去っていった。<br>
+　置いて行かれた、という気はしなかった。むしろ、ここまで運ばれてきたという感覚の方が近い。ここが終着点なのだろうか。<br>
+　……それを決めるのは私自身だ。そんな考えが浮かんでくる。待っていればいずれ新しい列車が来る。何故か、はっきりとそう感じる。<br>
+　横を見ると、すぐそこに改札口がある。当然のように人はなく、自由に通り抜けられるようになっている。改札の向こうには舗装のされていない小道があり、その先は良く見えない。<br>
+　私は一つの決断を下した。何かを決断したら、また何かを決めなければならない。先が見えないならば、目の前を一つずつ確定させていくしかない。<br>
+　私は決めた道を歩むために、改札を通り抜けた。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

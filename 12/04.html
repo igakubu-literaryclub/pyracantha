@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>拝啓、五分後の貴方へ - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>文頭五十音順「秋の七草」</dt></a>
+					<a href= "02.html" ><dt>津波</dt></a>
+					<a href= "03.html" ><dt>六甲山登山紀行文</dt></a>
+					<a href= "04.html" ><dt>拝啓、五分後の貴方へ</dt></a>
+					<a href= "05.html" ><dt>鈍行列車</dt></a>
+					<a href= "06.html" ><dt>Palette</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十二号 (2024)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">拝啓、五分後の貴方へ</span>
+						<span slot="sub-title"> - 浅縹</span>
+						<div slot="content">
+<h2>拝啓、五分後の貴方へ</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　浅縹</h4>
+<p>
+「世界五分前仮説って知ってる？」<br>
+　唐突に、まるで明日の天気を訊ねるかのような気軽さで以て落とされた言葉に、思わず数度、瞬きをした。全く脈絡のないその問いかけの内容を咀嚼して、今度はわざとゆっくり、深々と溜息を吐いてみせる。どうやらまたいつもの悪癖が始まったのだろうと気がついたからだ。<br>
+「なに？　突然。勉強に飽きたの」<br>
+「うーん、そんな感じ。ちょっと休憩がてら、何となく聞いてみたくなって」<br>
+　行儀悪く頬杖をついて、目を三日月に細めてみせたその姿に、いよいよ集中が切れたらしいと悟る。ちゃんと勉強しておかないと次の試験まずいんじゃない、なんて言いかけて、辛うじて飲み下した。どうせ言って聞かせたところで適当に流されて終わるだけだ。<br>
+　幸か不幸か、ワーキングスペースと銘打たれたこの場所は、上の階の自習室とは違って他のひとの迷惑にならない程度の私語ならば許可されている。それでもと念のため辺りを見回してみても、ちらほらと人はいるものの、会話が筒抜けになるほどの距離でもない。ここで多少「お喋り」に興じたところで明らかに彼らの邪魔になるということはなさそうだった。諦め半分、呆れ半分に肩を竦めて続きを促す。<br>
+「それで？　世界五分前仮説、だっけ」<br>
+「うん、聞いたことある？　昔の哲学者さんが提唱したって言われてる、思考実験のひとつなんだけどね。『もし私たち人間や動物、歴史に記憶、つまり世界の全てが、五分前に神様によって突然作られたものだったとしたら？』っていう」<br>
+「はあ。また小難しい話になってきたな。それって、テセウスの船とかスワンプマンとかそういう類の話？」<br>
+「そう！　話の理解が早くて助かるな、さすが秀才」<br>
+　茶化したような口調とわざとらしく添えられた小さな拍手は無視して、役目を放棄されて尚手の中に取り残されたままのシャーペンへと視線を落とした。つい五分前までは元気に文字を綴っていた筈のそれは、今はすっかり沈黙を保っている。<br>
+「これはね、証明もできないけど、絶対にありえないって否定することもできないらしいんだ。たとえば、五分以上前の……小さい頃の思い出とか、今日の朝ごはんの記憶とかがあったりしても、その記憶すら作られて、全部用意された状態で、世界が始まったって可能性があるから」<br>
+「は？　……つまり、何でもありってこと？」<br>
+「多分？　ちなみに私の今日の朝食はピザトーストとコーンスープだったんだけど、それを食べたって記憶も、何かのスターターキットとか初期設定とかみたいに神様があらかじめ作ったもので、実際は、私も世界も五分前にインストールされたばっかりってこと」<br>
+「……分かったような分かんないような。とりあえず、君が朝から随分重そうなものを食べてたんだなってことと、もしその仮説が本当だとすれば、その記憶とか世界の設定を事細かに決めてる神様とやらはよっぽど暇なんだろうなって思ったけど」<br>
+　確かに、なんて呑気に笑う声を右から左に流しながら、くるくるとシャーペンを回す。小学生の時に流行って、こっそり練習していつの間にかできるようになっていたペン回し。その記憶も、実際に自分自身で経験したのではなく、他の何者かによって作られたものだったとして────。<br>
+　関節にひっかかったのか、シャーペンが手から跳ねるようにして逃げる。途中まで文字や記号で埋め尽くされた汚いノートへころころと転がっていくのを、ぼんやりと目で追いかけた。出しっぱなしにしていた芯が折れたらしい、黒々とした跡だけが残って。<br>
+「それでさ、私、実は、五分後の世界から来たんだ」<br>
+　曇天を貫く稲光よりもはっきりと、それでいて水面に雫が落ちるよりも静かに響いたその声は、不気味なほどに透明だった。<br>
+　そっと視線を目の前に戻す。窓から差し込む光を映していつもより明るく見える瞳が、瞬きもせずまっすぐにこちらを見据えていた。何秒待っても、いつものように、冗談だよ、と綻ぶ気配はない。<br>
+「さっきまでの話は前置き。ここからが本題」<br>
+「何故かは分からないけど、私は偶然、この世界が五分前に生まれたんだってことを自覚して。それに気づいた神様が、世界が生まれてから今までの五分の間だったら、ひとつだけ、好きなことをしていいよって言ってくれたんだよね」<br>
+　ひとつ、小さく息を吐いて。<br>
+「だから会いに来ちゃった」<br>
+　五分前、まさしく世界が創られた直後の、何も知らない、生まれたばかりのまっさらな君に。<br>
+　そう告げて、叱られる直前の子どものように、首を竦めて口角を上げた。その歪に<ruby><rb>象</rb><rp>（</rp><rt>かたど</rt><rp>）</rp></ruby>られた笑顔を今度はこちらがじっと見つめる。どうしてか、泣いているのではないかと疑って、覗き込んだ瞳はけれどさらさらと乾いていた。ゆっくりと、どこか宥めるように視線を合わせたまま、脳内で暫し言葉を巡らせる。少しも経たないうちに面倒になって、まあいいやと口を開いた。どうせ語るべき言葉のための選択肢はいくつも持ち合わせていない。<br>
+「それを話して、どう反応してほしいのかは知らないけど」<br>
+　仮に本当に、世界が五分前に生み出されて、これまでの全ての記憶が、思い出が、別の誰かによって作られたものだったとして。<br>
+「知ってたよ」<br>
+　────何も、きっと何も、変わりはしないだろう。<br>
+「君が、世界が生まれてから五分後にそのことを自覚したように、世界が創られたその瞬間に気がついた。……タイミングで言うと、おそらく仮説が云々の話をするより少し前くらい」<br>
+　転がったシャーペンはそのままに、いっそ仰々しく、人差し指をぴんと立ててからそちらに向ける。<br>
+　生まれてからのたった五分だけが本物なのだと思い至って、その五分を確かなものにするために、他でもない自分自身のものだと言い張るために、会いに来たなんて言葉でコーティングしなくても。<br>
+「だから、待っていることにした」<br>
+　植え付けられた記憶が偽物であろうがなかろうが、これからの五分に、この先の未来に繋がるのであれば、それはきっと無意味でも無価値でもないから。<br>
+「……五分後の私が、君に会いに来るのを？」<br>
+「正確には、<ruby><rb>五</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>分</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>後</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>の</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>君</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>に</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>会</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>え</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>る</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby>のを」<br>
+　ぽかん、と口を開いて、信じられないとばかりにこちらを凝視する表情に、思わず喉奥で笑ってしまう。本気で言っているのか、と瞳が訴えているのを見てとって、その含意は一体どちらにかかっているのだろうと、我ながらおかしくなった。<br>
+　それがたとえ五分でも、十日でも、百年でも。<br>
+　会いに来ることを選んでも、選ばなくても。<br>
+「別にどっちでも一緒だから。もし来なかったとしても、勝手に待ってたよ。そうしたら、どっちにしろ会えるから」<br>
+　永続性も連続性も決して証明することはできないけれど、どちらであったとしても、選ぶ選択肢も、その結果も、きっと<ruby><rb>違</rb><rp>（</rp><rt>たが</rt><rp>）</rp></ruby>うことはないと、それだけは言い切れる。<br>
+　だから、大丈夫だ。<br>
+　本当でも嘘でも、真でも偽でも、何も変わらない。<br>
+「安心した？」<br>
+　何にとも、何故とも言わないままに、そそくさと机の上の勉強道具を片付ける。夕暮れには未だ遠く、帰宅には少しばかり早いような気もするが、ここにいてもどうせ今日はこれ以上進まないだろう。無意識のうちに肩に力が入っていたことに今更ながら気がついて、慣れないことはするものじゃないとひっそり嘆息する。<br>
+　もう帰るから、と声をかけようとした先で、漸く意識が引き戻されたのか、油を差したブリキのおもちゃのように緩慢に、どこかぎこちない動きでこちらへと顔を向けた。そのまま暫くの沈黙の後、今になってやっと思い至ったかのような、それでも尚どこか腑に落ちないとでもいうような、ひどく曖昧な表情で零された一言に、今度こそひどく、脱力した。<br>
+「もしかして、私、結構愛されてる？」
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>あなたの過去とアタシの未来 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>時間泥棒</dt></a>
+					<a href="#"><dt>あなたの過去とアタシの未来</dt></a>
+					<a href="03.html"><dt>無言の贈り物</dt></a>
+					<a href="04.html"><dt>ねこのゆめ</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第八号 (2019)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">あなたの過去とアタシの未来</span>
+						<span slot="sub-title"> - 天兎</span>
+						<div slot="content">
+<h2>あなたの過去とアタシの未来</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　天兎</h4>
+<p>
+　──夜の闇が怖かった。<br>
+　暗闇に潜む化生が怖かったのではない。一度眠ってしまったらもう二度と目が覚めないのではないか、などというおよそ子供らしくない恐怖。二度と目が覚めないかもしれないから眠りたくない、などと駄々をこねる娘に、両親がどれほど対応に困ったことか。まぁ、まだ幼いアタシに、昔心臓に孔が開いてたから手術して閉じたんだよ、なんて漏らした両親の自業自得な⾯が多分にあるとアタシは今でも思っている。術前術後に詳細な説明を聞いたであろう両親に何度も説明してもらい、なるべく簡単な本で調べたり、時には不確かな情報だと知りながらインターネットをあさったりもした。その病気が原因で別にこれから何か異変が起こることは基本的にないと納得して安心して眠れるようになった小学校高学年になるころには、友達に笑って話せるようにもなった。話した直後は運動しても大丈夫なのか、と少し的外れな心配をされたこともある。いや、知識のない小学生からしたらまともな反応か。<br>
+　卵円孔開存症。ネットで調べたところ、だいたい０・０７％くらいの確率で起こるらしい。まだ母の子宮にいる胎児特有の構造である卵円孔が産まれた後も閉じずに残り続けている状態だそうだ。手術後は通常の子供と同じように育っているし、結局大学に合格して無事入学するに至った今でも何か不都合が起こったことは無い。ただ、強いて言うなら進学先を医学部に決めた動機には僅かでも影響しているかもしれない。自分の病気のことを調べるうちに、なんとなくこの道に進んだこと。それは、自分のことだから別に良い。ただ、小さな頃のちょっとした話題のつもりで喋った身の上話が他人の人生に多大な影響を与えていたことにアタシはこの日まで気づいてはいなかった。<br>
+　<br>
+「よぉ、久しぶり」<br>
+　再会は突然だった。声をかけてきた青年は、顔を見ただけで誰だか判別できる程度には確かにあの頃の⾯影があった。もちろん、一瞬で、とはいかなかったけれど。<br>
+「……うん、久しぶり。アタシは引っ越したし同窓会もなかったから、小学校の卒業式以来だね」<br>
+　一瞬ナンパを疑ったことはおくびにもださず、なるべく自然に返事をすると、彼も微かに笑顔を浮かべた。<br>
+「覚えててくれて良かった、声かけてからナンパっぽく聞こえるって気づいてちょっと焦ってたんだ」<br>
+　そんなちょっと間の抜けたところも彼らしい。小さい頃も本当は引っ込み思案なのに強がって格好つけていた。きっとなんて声をかけようか悩みまくった挙句、さっきの一言を絞り出すに至ったのだろう。相変わらずさ加減に少しクスっと笑ってしまう。<br>
+　<br>
+　彼とは思い出話をして、その日は別れた。それ以来、一日に何度か話す程度の関係を続けていた。なんとなく、彼が声をかけてくる理由が偶々同じ大学に顔見知りがいて話しやすいから、だけじゃないことに薄々気づいていながら、だ。いや、最初はそうだったのかもしれないが。<br>
+　思えば、あの頃もそうだった。なんとなく、彼の想いを察していた。そもそもが小学校の高学年にもなって女子五人のグループと男子が一人で登下校する理由なんて、五人の中に意中の相手がいる、以外に思い浮かばなかった。しかも、視線やからかったときの反応からアタシのことだと駄々洩れだった。嬉しくてまんざらでもなかったけれど、からかう以上のことはしなかった。察したころには引っ越しも決まっていたから、すぐ離れ離れになることを考えると、アタシの方から何かをするなんてできなかった。バレンタインに一緒に登下校していた他の四人と一緒にチョコをあげたくらい。アタシは手作りを渡したから彼も気持ちを察してくれたとは思うけど、彼は彼で肝心なところでヘタレだから、大事なことは結局卒業式になっても言えなくて。その頃はお互いに携帯電話なんて持たせてもらえてなかったから連絡先も交換せずに、それで終わり。小さな頃の甘酸っぱい思い出話になるはずだった、幼い恋物語。<br>
+　<br>
+「……気づかれてるかもしれないけど、その……好きだ。付き合ってほしい」<br>
+　彼が不器用に告白してきたのは、アタシの予想よりは早い、夏休み前だった。ムードもへったくれもない大学の構内で。このご時世にＳＮＳではなく直接告白してきたのはヘタレな彼なりに勇気を振り絞った結果なのだろうと思う。<br>
+「……アタシも、好きな気持ちは、ある」<br>
+　彼は、アタシが返した答えの微妙なニュアンスを聞き取ってくれたらしく、勘違いして舞い上がるでもなく、続く言葉を待ってくれる。<br>
+「でも、アタシはそれが過去のアナタに対する気持ちがぶり返しているだけかもしれないっていう疑いをぬぐえないでいる。<ruby><rb>現在</rb><rp>（</rp><rt>いま</rt><rp>）</rp></ruby>のアナタを見ていない、<ruby><rb>未来</rb><rp>（</rp><rt>これから</rt><rp>）</rp></ruby>のアナタをちゃんと見られる保証もない、失礼極まりない気持ちだと思う。だから、ごめんなさい」<br>
+　少し、沈黙。<br>
+「……俺も、最初は、昔の気持ちがぶり返しているんだって思った。でも、そうじゃなかった。吹っ切ったつもりでも、結局忘れられなかった。ずっと後悔と一緒に引きずり続けてた、今の気持ちだ」<br>
+　アナタにとってはそうかもしれない、と反論する前に、彼は言葉を続ける。<br>
+「俺は過去に縛られてる。どうにも不器用だから、ずっと引きずる。でも、おまえは逆なんだな。未来を恐れ続けてる。小学生の時におまえ話してたよな、物心つく前に心臓の手術したって聞いてから夜眠るのが怖かったって。今もずっとおまえは<ruby><rb>未来</rb><rp>（</rp><rt>あした</rt><rp>）</rp></ruby>を怖がってるんじゃないのか」<br>
+　自覚なんてなかったけれど。彼の言う通りなのかもしれない。言われてみれば、何か起こるかもしれない未来が怖いから、何か起きたときのために心の備えを、対処の知識を、と生きていた。両親を問い詰め、本で調べ、インターネットをあさっていたあの頃からアタシも変わっていなかった。<br>
+「だから、ちょうどいいんじゃないか、俺たち。俺が過去に、おまえが未来に、お互いがお互いを引っ張り合えば、現在で噛み合えるだろ」<br>
+　後から思えば、お互いにとてつもなく恥ずかしいことを言い合っていた。しかも、こんなに格好よさげなことを言っていた本人がその台詞の痛々しさに途中で気付いて段々顔が赤く染まっていったのが余計に格好つかない。本人はヘタレが変な感じで吹っ切れて引っ込みがつかなくなったらあんな感じになる、と言っていた。<br>
+　これがきっかけではあるけれど、直接の理由ではない。それでも、アタシたちは<ruby><rb>現在</rb><rp>（</rp><rt>いま</rt><rp>）</rp></ruby>、恋人として大学生活をそれぞれ送っている。彼が趣味で釣ってきた魚を料理したり、アタシが趣味で書く小説の表現について一緒に頭を悩ませたり、幸せな時間を共に過ごしている。<br>
+「小説書くのにネタ思いつかないんだけど、何かの参考になるかもしれないから、なんで医者になろうと思ったのか、聞かせてよ」<br>
+「え、嫌」<br>
+　そう言えば彼の理由を知らないな、とその程度の興味だったのに、返ってきたのはそっけない拒絶。これは何かあるなとしつこく問い詰めてみると、耳まで真っ赤にしてそっぽを向きながら、少年時代のこっ恥ずかしい決意をボソボソと話し始めた。<br>
+「……その、昔さ、おまえの心臓に孔開いてて手術したんだって話を聞いたことがあるって言っただろ。で、知識のない俺は、じゃあ、医者になっておまえのこと治してやるんだ、なんて馬鹿なこと考えてたんだよ」<br>
+　笑いは堪えられなかった。あまりの恥ずかしさに両手で顔を覆ってしまった彼を見て、何の変哲もない幸せを噛み締める。<br>
+　──夜の闇が怖かった。<br>
+　ふと、そんなフレーズが思い浮かんだ。せっかく良い出だしが浮かんだだから、彼の黒歴史な決意を含めた、自分たちのあれこれをアレンジして小説にしてみようか。過去に縛られていた彼と未来を恐れ続けたアタシの、現在までの話を。これを読んだ人がどこまでこの話を真実だと思うかは、その人の自由だ。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

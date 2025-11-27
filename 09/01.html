@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>インヴァース - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="#"><dt>インヴァース</dt></a>
+					<a href="02.html"><dt>煙草と蟻</dt></a>
+					<a href="03.html"><dt>海の見える街</dt></a>
+					<a href="04.html"><dt>交差</dt></a>
+					<a href="05.html"><dt>ブリンクァスタの祝福</dt></a>
+					<a href="06.html"><dt>人間関係マニュアル</dt></a>
+					<a href="07.html"><dt>夜の女神、あるいは、</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第九号 (2021)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">インヴァース</span>
+						<span slot="sub-title"> - 鬼熊</span>
+						<div slot="content">
+<h2>インヴァース</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　鬼熊</h4>
+<p>
+　パチ、パチ、パチ。<br>
+　六畳程度の小さな部屋を満たしているのは、窓から入り込んだ夕焼けの光と駒を打つ音だけである。四月の新年度シーズンということもあってか運動部の掛け声がかすかに外から聞こえている。駒を打っている生徒は手元にある詰将棋の教本と見比べて駒を打っていた。<br>
+　<br>
+「理央くん。今、大丈夫かい」<br>
+　入口の引き戸をけたたましい音が鳴るほどに豪快に開けておきながら、穏やかな口調で銀髪をオールバックにした壮年の男性が入ってきた。理央とよばれた生徒は将棋盤から目を離し話しかけてきた男性に少し責めるような声色で応える。<br>
+「大江先生、いつも言っていますが、この部室の隣は華道部と茶道部が使っています。そんなにドアを激しく開けないよう、何度も注意していますよね」<br>
+　言われて思い出したのか、目をそらす為か、わずかに顔をそらした後、話題を変えたいのか慌てて口を開いた。<br>
+「そんなことより理央くん、朗報だよ。この囲碁将棋部に部活動見学者のご案内だ」<br>
+　先生の後ろから顔を出した子は先生の横に並んで自己紹介を始めた。<br>
+「一年四組の広瀬伊織です。将棋の方に興味があって今日は来ました。一応経験者です。よろしくお願いします」<br>
+　一礼した後、私も自己紹介をする。<br>
+「二年五組の名取理央です。将棋を指しています。もしよかったら、今日は二、三局ほど指しますか？」<br>
+　そう言うと、伊織くんの顔がぱっと明るくなったように見えた。私はその笑顔を見て嬉しくなって思わず笑みを浮かべてしまった。<br>
+　その後、私たち二人は将棋を指して過ごした。<br>
+　<br>
+　数日経って、伊織くんが正式に部活に加入した。はじめて彼と出会った日と同じ時間に部室を訪れると、そこには伊織くんしかいなかった。理央くんは私の方を見るとすぐに立ち上がり挨拶してくれた。<br>
+「こんにちは」<br>
+「えーと、君は確かこの前の入部希望者の子だよね？」<br>
+「はい！　そうです！」<br>
+　伊織くんは、元気よく返事をしたつもりだけど緊張していたのか、ちょっと大きな声になっていた。理央くんが恥ずかしさから俯いている間に私は今日の目的を伝えることにした。<br>
+「実は今日は君に話したいことがあったんだ。だからわざわざここまで来たんだよ」<br>
+「そうなんですか。何ですか？」<br>
+　伊織くんが下を向いていた顔を上げた瞬間、私は思い切って切り出してみた。<br>
+「よければなんだけど、今からまた何局か指さないかい？」<br>
+「はい！　是非お願いします！」<br>
+　伊織くんは嬉しそうに答えてくれた。<br>
+　それから私たちは将棋を指すことになった。昨日よりもっと楽しく会話をしながら対局することが出来たと思う。やはり同じ趣味を持つ人間同士だと話すことも弾むものなのだと思った。<br>
+　<br>
+　そして気がついた時には外が暗くなっていた。<br>
+「もうこんな時間か。そろそろ帰らないと親御さんたちが心配するんじゃないのかい？」<br>
+　時計を見ながら伊織くんに問いかけると、彼は少し残念そうな表情になった後、明るい声で言った。<br>
+「はい。そうですね。でも今日はもう少しだけここに残ろうと思います」<br>
+「どうしてだい？」<br>
+　不思議に思って聞いてみると、意外な言葉が返ってきた。<br>
+「今日はまだ詰将棋の問題集を解いてないので、それをやっていこうと思っています。あと少しで解けそうだから、できれば今日中に終わらせたいんですよね」<br>
+「なるほど。じゃあ私も一緒に手伝おうか？」<br>
+「いえ、そんな悪いですよ。それに先輩一人でやった方が早く終わりますし」<br>
+「別にそんなこと気にしなくていいのに。まぁ、でもどうしてもやりたいなら止めはしないけど」<br>
+「ありがとうございます！　ではお言葉に甘えて……」<br>
+　こうして二人で詰将棋を解くこととなった。私は伊織くんと一緒に将棋盤の前に座り、問題を読み始めたところで違和感を覚えた。<br>
+「あれ、この問題どこかで見たような気がするぞ」<br>
+「本当だ。私も見たことあるかも」<br>
+「どこだっけ？」<br>
+「うーん、どこで見たのか分からないな」<br>
+　私は詰将棋のページの下にある解答例を見た。するとそこにはこう書かれていた。<br>
+『この詰将棋は将棋連盟のＨＰにある詰将棋コーナーに掲載されているものです』<br>
+「なるほどね。これ将棋連盟のホームページにあったやつだ。ということは、この詰将棋を作った人は将棋のことをよく知っている人なんだろうな。そういえば、前に大江先生が詰将棋って意外と奥が深いんだよ、みたいなことを言っていたような気がする」<br>
+「そうなんですね。ちなみにこの詰将棋の作者って誰なんでしょうかね？　やっぱりプロとかなのかな？　それともこの学校にいる人とか？」<br>
+「さあね、それは私にも分からない。でも、もし作者がいるとしたらきっとその人も相当な実力者だと思うよ。だって、詰将棋って一見簡単そうに見えるけど、実際には相当難しいんだ。特に終盤なんかはなかなか突破できないように作ってあることが多いからね。だから、この詰将棋の作者はかなり強いんじゃないかな？」<br>
+「へぇ～、そうだったんですか。知らなかったです。教えてくれてありがとうございました！」<br>
+「うん、どういたしまして」<br>
+　私は自分の好きなジャンルの話ということもあり、つい熱く語ってしまった。しかし、伊織くんが楽しそうに話を聞いていたから嬉しかった。<br>
+　その後私たち二人は黙々と詰将棋を解き続けた。そして何局か指した後、伊織くんは私に話しかけた。<br>
+「今日はありがとうございました。僕一人だったら多分もっと時間がかかっていたと思います」<br>
+「そんなことないと思うよ。君の実力があればすぐに終わるよ」<br>
+　私がそう言うと、伊織くんはとても嬉しそうな表情になった。<br>
+「ありがとうございます！　そう言ってもらえると嬉しいです！」<br>
+「あはは、どういたしまして」<br>
+　私は照れ隠しのために頭を掻いてしまった。<br>
+「それじゃあそろそろ僕は帰ります。先輩また明日学校で会いましょう」<br>
+「うん。また明日ね」<br>
+　そう挨拶を交わした後、伊織くんは部室を出て行った。私は彼が出て行ってからもしばらくその場に残っていた。<br>
+　今日は本当に楽しい一日を過ごすことができたと思う。とても充実した日を送ることが出来た。これでまた明日から頑張れると思った。<br>
+　<br>
+　翌日、いつものように登校した私は、教室に入るとすぐ自分の席に座った。いつもなら教科書を見るはずが、今日は本を見ていた。昨日、後輩が見ていた詰将棋の本である。少し悩んだ後、心の中で伊織君のことを思い描いていることに気づいた。<br>
+　どうやら私は一目惚れしてしまったらしい。しかし、恋愛経験なんてほとんどない私がどうやってアプローチすればいいだろうか？　とりあえず今日も部活に来ると言っていたけど、積極的に話しかけてみることにしようかな。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

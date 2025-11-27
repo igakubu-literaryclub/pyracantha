@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>海の見える街 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>インヴァース</dt></a>
+					<a href="02.html"><dt>煙草と蟻</dt></a>
+					<a href="#"><dt>海の見える街</dt></a>
+					<a href="04.html"><dt>交差</dt></a>
+					<a href="05.html"><dt>ブリンクァスタの祝福</dt></a>
+					<a href="06.html"><dt>人間関係マニュアル</dt></a>
+					<a href="07.html"><dt>夜の女神、あるいは、</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第九号 (2021)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">海の見える街</span>
+						<span slot="sub-title"> - 蠟燭 田辺雄</span>
+						<div slot="content">
+<h2>海の見える街</h2>
+<h4>　　　　　　　　　　　　　　　　　　　蠟燭　田辺雄</h4>
+<p>
+　寝るのが好きで、暇さえあれば一日十五時間くらい軽く熟睡してしまう。電車の中でも巨大なぬいぐるみのように眠りこけてしまうし、なんなら吊革につかまって立ちながら寝ていた。床でもねれるし、待合室でも授業中でもいつでもどこでも寝られてしまう。けれども、睡眠時間を減らそうとか思ったことがない。全く根拠のない話で恐縮なのだが寝ている分寿命が延びているような気がしてしまうのだ。この考え方は水木しげるさんの　睡眠時間を削ったやつは早々とあの世に逝ってしまった　という言葉が強く響いているからだと思う。だから睡眠時間が少なくてすむ人のことをそこまで羨ましいとか思ったこともなく（受験生の時でさえ！）人生で一番の幸せをふかふかで適度にしっとりとしたマットと分かち合いながら安らかな心持ちで過ごしている。いや、やはり人生で一番の幸せといったら二度寝ではないだろうか。理由はもちろん一番眠たい時に寝られるからだ。いくら眠るのが好きといってもベッドに潜ってすぐ熟睡というわけにはいかない。眠れない時は人並みにあるつもりだし、やはり辛い。しかし二度寝は違う。ほんの少しだけ目は開いているかもしれないが脳は眠っている。だからこそああ、なんて私は今眠いのだろう、そう意識した次の瞬間には熟睡しているのだ。だからだろう、休みの日は二度寝にとどまらず三度寝四度寝、ひどい時には七度寝までしている。<br>
+　さて、ここまでなぜこんなにも睡眠について語っているかというと、私自身の奥底に流れる何か重要なものが垣間見えてくるからである。もう一つくらいそれにかかわることを記そう。<br>
+　夏が好きだ。もうこれを書いているときには大分秋が深まり、夜中に外に出ると肌寒いくらいでなんだか物寂しい。一番生命力あふれる季節、夏。その夏が過ぎ去ってしまったかと思うと心臓が縮んでしまったような感覚がする。夏の有無を言わさないあの圧力。夏が来たらよけることはできないし抵抗のしようがない。もちろんそこが苦手な人がいるのは理解できるのだが、その夏に身を委ねてしまうのも心地よいとも思う。よく人生を四季にたとえることがあるが夏は青年期にあたる。それは冬という概念を知ったうえで、冬から最も遠いところにあるという幸せを噛みしめることのできる夏。暑い日差しがクーラーで冷えた腕を癒してくれる夏。<br>
+　私もつい最近までこの二つの好きなものに共通点なんか見いだせなかった。だって生理現象と季節だ。それが好きなくらいなんだというのだろう。けれども春に友と話して、自分という海の中に初めてあるいはとても久しぶりに潜ってみて、金貨を一枚持ち帰ることができた。<br>
+　死にたくないのだ、私は。いや、この言い方だと語弊があるかもしれない。死ぬことが怖いといったほうがよいだろうか。人間だれしも本能というものがあって死が怖いものであるというそれもあると思う。でも私は人一倍それが強いと思う。寝るのが好きなのも死に対する恐怖を睡眠中は忘れることができるというのも少なからずあると思う。冬はひたすらに死のイメージが頭にまとわりつくからそこから逃れるように夏が好きなのかもしれない。ぼんやりと過ごしていても暑さが私を包んでくれる。死への感覚を暑さが鈍らせるのだ。その他のこまごまとした日常生活の所作にも表れていると思う。電車の前後二両には乗らないようにしたり車に乗るとき後部座席でも必ずシートベルトをしめたりする等。<br>
+　これに気づいたきっかけともいえる春の友人との対談ではこんなことを言われた。<br>
+「君は、君はいうなれば海の近くの砂浜でお城を作って遊んでいるにすぎないのだよ。なぜ海に入ろうとしないのだ」<br>
+　最初は何を言われているのかわからなかった。少し少し話しているうちにぽろぽろと脳の埃が払われていった。私も海に入って偉人たちがしてきたように金貨を拾いに行きたいのだ。考えて、思考して。けれどもその海に入ることが怖い。入ったところで金貨が手元に残るかわからないし、比喩なしで命を落としてしまうかもしれない。これは将棋を指している人には伝わるかもしれないが、手を読み進めていく作業に似ているものを感じる。深く広くそしてさらに深く最善手というものを手に入れるため八十一マスに潜り込んでいく。これを一般化したものが思考だ。だからこそ考えることは怖い。直感精読の精読をせずに手を指してしまう。<br>
+　こういったことを話しているうちに私の右手には金貨が握られていた。考えたからだ。人生であまり経験できる事のない興奮といって差し支えなかった。呼吸は落ち着いているのに血ははやく体中を、特に脳を駆け巡っている。忘れ難い経験を経て私は医学生となった。<br>
+　これからは海に入ってみようと思う。それができずとも海を見てみようと思う。それでさえ覚悟がいるだろう。砂の城を作るのも私にとってはたまらない作業だ。それをしながら、命綱を括ってでもいい一歩一歩潮風のふく懐かしいところへと……。<br>
+　<br>
+　今回の作品で「海の見える街」というタイトルを付けた由来は私がジブリで一番好きな名作「魔女の宅急便」からのものである。これといった大事件が起きることもなく爽やかにこの名作は終わる、ので初めて見たときは特に印象に残ることはなかったのだがしばらくするとじわじわと心が煮立ってきた。あの空間に私がいるような夢を強烈にゆっくりと訴えかけてきた。我慢できず映画の気になるところをもう一度見た。おこがましいことは重々承知なのだが、この作品とも似ているところがある。事件は起こってないのだ。ただ死ぬのが怖いということを述べただけである。そして願わくば後味の良い爽やかな作品とこれがなっていると感じてくれたら私は幸せに眠れるかもしれない。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

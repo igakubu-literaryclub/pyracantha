@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>エモーショナル・ミー - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>■■</dt></a>
+					<a href= "02.html" ><dt>灯籠</dt></a>
+					<a href= "03.html" ><dt>まずは床を綺麗にするところから</dt></a>
+					<a href= "04.html" ><dt>前奏曲・リプロローグ</dt></a>
+					<a href= "05.html" ><dt>脳みそのおかげよ</dt></a>
+					<a href= "06.html" ><dt>虎の咆哮</dt></a>
+					<a href= "07.html" ><dt>エモーショナル・ミー</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十号 (2022)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">エモーショナル・ミー</span>
+						<span slot="sub-title"> - 宇治丸</span>
+						<div slot="content">
+<h2>エモーショナル・ミー</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　宇治丸</h4>
+<p>
+　喜の章<br>
+　そもそも感情というのは喜怒哀楽で表すことができるほど単純なものではなくこれ以外の様々な要素がグラデーションのように移り変わっていくようなものなのだ。というよりこの世はグラデーションなのだ。白黒はっきりなんて幻想にすぎず白の中に少しずつ黒が混ざっていき、その濃さの違いで世の中は構成されている。使い古されたチープな表現だが当たり前のことを書くのは大切なことで人間気を抜くと忘れてしまうし、気づいてない人もいるだろうからだ。そのようなことに気づくのは何ともうれしいことだ。気づくことがシンプルで分かりやすいけれど見落としがちで基礎的なものであるほどうれしい。応用がきくからだ。<br>
+　喜びという感情はなにか素晴らしいものに出会ったときに湧き上がる感情かもしれない。素晴らしい作品に出会ったときは文字通り血沸き肉躍る。その作品に関連する作品について調べてみたりボケーっとしながらおんなじ所を何回も眺めてみたり。普段本を読むとき線を引かない私でも思わず蛍光ペンを握りしめかけた本もある。そしてなんといっても素晴らしい人に出会うときが一番悦ばしい。かけがえのない教えをくれる師やバランスの取れた親友、癖があるけどひたすらに面白い友人たち。この人のように生きたいと思える人たちに囲まれる幸せを享受できる喜び。その人たちが幸せならその幸せは当然うつる。時にアクセントとして嫉妬心が入ることはあるがそれでもやはり軸は喜びである。嬉しい、嬉しい。<br>
+<br>
+<br>
+<br>
+　怒の章<br>
+　最も悩まされる感情、怒り。私は怒りっぽいのだ。感情の対義語の一つとして理性があると思うが怒りの場面でよく出てくる。頭ではわかっているんだけどね、というやつだ。しょうもないことを思い出して腹を立ててエネルギーを浪費する、まさしく無駄だ。怒っているときというのはそれこそ理性的じゃないから建設的な話し合いなんて不可能に近いし、こちらが怒っているときというのは相手側も怒っていることが多いもんでそのうえ揉め事はどちらか一方が正しいなんてことはほぼない。要するに人間関係において怒りは役に立たないということだ。<br>
+　でも役に立つ怒りもあると思っていて、それは悔しさと混ぜ合わさった時だ。あることが現時点でできなくて己の不甲斐なさに苛立ちを感じたとする。その怒りと悔しさが丁度いい混ざり具合となった感情の時がチャンスだと思っている。その一時的な感情を昇華させて腐らずにバネにすれば大きく成長できるはずだ。まあ、うまく昇華させるのは難しいし自分の場合腐らないのが特に至難の業だ。コントロールの練習をするしかないのだが、うまくこの段階を踏めたときは心地よい。一見負の感情にも光の一面がある。これもグラデーションだ。一切怒らないのは無理だしそれはそれでつまらなそうなので捉え方を変えるのが現実的ではなかろうか。<br>
+<br>
+<br>
+<br>
+　哀の章<br>
+　怒りに続いて負のイメージが付きがちな悲しいという感情。小さい頃は悲しいと泣くイメージがあったが今は悲しくて泣く、というのが少なくなったように思う。その代わり映画なんか見ると泣くことが多くなった。泣かせに来るような映画ではなかったが。涙もろくなるというのを大人が言っているのをよく聞いていたがどうやら本当のようだ。少し嫌だ。<br>
+　それは置いておいて必ずしも泣ける作品＝良い作品ではないと思う。もちろん良い作品も多いが。涙には浄化作用がある。泣いた後はすっとするのだ。気が楽になる。沈んだ心を回復させているのだろう。<br>
+　絵に明るくない私でも知っているピカソの絵にゲルニカというものがある。絵の説明は野暮天なので割愛するが子供の亡骸を抱く母親は大きく口をあけ訳の分からない方向を見ている。涙も流さずに。ここまでくると浄化することすらできなくなっている。かなしい、つらい＝涙というものが安直であることに気づけた私にとって重要な作品である。この絵を見たとき小学生のころ辛くても泣くな、泣くと悔しさを忘れると母親から言われたことを思い出した。小学生相手に酷だなと思いつつも気合を入れるときに今でも大切に使う言葉である。ちなみに泣ける作品≠良い作品と思う理由はこの涙の浄化作用をあたえる隙があるのに他ならないし、泣くとほかの複雑に絡まった感情も浄化されてしまうからだ。まあでもすっとできる作品は我々に必要不可欠なもの、という意味で良い作品なのかもしれない。実際私が泣いた映画は文句なしに良い映画だった。私が泣きたかったから泣いただけだ。<br>
+<br>
+<br>
+<br>
+　楽の章<br>
+　享楽的な私が一番好きな感情かもしれない。楽しい、心地よいという感情を素直に受け入れられる才能に恵まれた私の勝ちである。別に何にというわけではないが。ここまで文章をそれこそ楽しく書いてきて思うことが、感情と向き合うには素直であることが鍵であると思う。だって自分の感情だ。嘘をついてもごちゃごちゃするだけのような気がする。素直に起こったことに何らかの感情が生まれて素直に向き合って素直に文章にする。アウトプットすると頭の整理にもなって心地よい。<br>
+　それにしても喜怒哀楽という四字熟語を考えたやつなかなかやる。偉そうな口調で申し訳ないが喜と楽を同一視してない点に感心した。最初の話に戻るが似たような感情の文字が二個含まれていることはきっとたくさんの人にグラデーションの気づきを与えてくれるトリガーになっただろう。似たような色の中に少しずつ濃淡や明暗があって急にそこに新しい色があらわれてくる。その色はその時見てもそうは思わないかもしれないけどきっと美しくてわくわくするような色だと思う。感情的というと暗いイメージだけどこう考えるとなかなか良いものだ。理性というキャンバスに感情で色塗りをしている。どちらもあってやっと絵が完成する。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

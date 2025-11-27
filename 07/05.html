@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>拝啓、一条の光へ - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>仁の道</dt></a>
+					<a href="02.html"><dt>陸に上がった魚たち</dt></a>
+					<a href="03.html"><dt>きっとあなたにはわからない</dt></a>
+					<a href="04.html"><dt>単位パン</dt></a>
+					<a href="#"><dt>拝啓、一条の光へ</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第七号 (2018)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">拝啓、一条の光へ</span>
+						<span slot="sub-title"> - 天兎</span>
+						<div slot="content">
+<h2>拝啓、一条の光へ</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　天兎</h4>
+<p>
+　夜空に一筋の光が走る。流星は少年の視界の右上から中央に向かって走り、消えた。夜空を見上げたまま、修斗は流れ去った輝きの余韻にひたる。ほう、と余韻を断ち切るために吐いた息は白く煙る。新たな星が降るのを期待するように呆と星空を眺めていると、とりとめのない思考がまるで流れ星のように浮かんでは消えてゆく。<br>
+「今回もダメだったかぁ……。次こそは、だな」<br>
+「その無謀なチャレンジ、まだ続けてたんだね。いい加減、諦めても良いころだと思うよ、僕は。──こんばんは、お兄ちゃん」<br>
+　返事を期待したわけではない独り言だったが、それに応える声が背中の方から聞こえた。お小遣いを貯めて買った天体観測用の灯かりが、ぼんやりと照らし出すのは少女の影だ。輪郭以外で判るのは薄光を反射する、少女の特徴的な白髪だけ。<br>
+「今日も来たのか。……これはな、男の意地なんだ。一旦始めたことを諦めるなんてダサいこと、できるかよ」<br>
+「言ってることだけはかっこいいんだけどね。現実を見ようよ。今日みたいに、そもそも見とれちゃって願い事の『ね』の字も言えないことの方が多いじゃないか。願い事を言い切ることができたのは今までわずか二度。そのどちらも、二回目を唱えるころには流れ星は消えちゃってたよ」<br>
+　呆れたように肩をすくめる、この少女との付き合いはそれなりの期間になるはずだが、いまだに名前さえも知らない。最初に名乗りそびれ、尋ねそびれて、お互いに名を知らないままに夜を重ねている。せめて帰りくらいは送って行ってやろう、その帰り道で名を尋ねてみようと考えはするのだが、気づけば彼女の姿が見えなくなっているのでどうしようもない。流れ星を探すのに躍起になっている自分も悪いが、一言くらい告げてくれれば、とも思う。<br>
+「良いんだよ。続ければいつか、できるかもしれないだろ」<br>
+　<br>
+「今夜は見えるかな？　流れ星」<br>
+　突然問いかけてくる少女にちらりと視線を向けて、修斗は答える。<br>
+「運次第だよ。毎晩言ってるんだし、いい加減にその質問やめてくれよ」<br>
+　一筋の光が走る。修斗が再び見上げた瞬間、彼の視界を横切った。<br>
+「あ……うむ、また次回だな」<br>
+　流星群の日でも何でもない日なので、一晩に一つ見ることができれば、とてつもなく幸運だろう。見かけてしまった以上、今晩はもう期待できないだろう。そうわかっていても、結局一晩をこの丘で明かしてしまうのが、天河修斗という人間なのだが。<br>
+　<br>
+　視界の右上、ちらりと光が瞬いた瞬間に少年は願いを唱え始める。<br>
+「──どうかいっ……」<br>
+　光が視界の中央で消える前に、少年は膝から崩れ落ちた。<br>
+「……どうしたの？　お兄ちゃん」<br>
+　しばらくして、今夜もやってきた少女は、訝しげに少年に声をかける。いつもなら呆と夜空を見上げているはずの修斗は、今日は少女の視線の先で下を向いて頭を抱え込んでいる。<br>
+「……噛んだ。一回目で噛んだ。穴掘って埋まりたい」<br>
+　いつでも願いを唱えられるように一時間に一回は早口言葉で準備をしている彼にとっては、願い事を唱えている最中に噛んでしまったのが、よほど恥ずかしかった様子だ。<br>
+「そんなに情けない顔してしょげるくらいなら、もう止めればいいのに」<br>
+「……いいや、やり遂げるまで止めるもんか」<br>
+　<br>
+「──てくださ……。……よう、今夜も来たのか」<br>
+　視界の中央で星が消えたあと少ししてから、振り返って少年は少女に声をかける。<br>
+「うん。こんばんは、お兄ちゃん。今夜も失敗？」<br>
+「……ああ、悲しいことに、一回も唱えきれなかった。──そういえば、最近来るのが遅くないか？　毎晩星が流れたあとに現れてるんじゃ、せっかく丘に通ってる意味ないぜ？」<br>
+「お兄ちゃんに、会いに来てるんだよ」<br>
+　少し<ruby><rb></rb>訝</rb><rp>（</rp><rt>いぶか</rt><rp>）</rp></ruby>しそうな少年の問いに少女は<ruby><rb></rb>悪戯</rb><rp>（</rp><rt>いたずら</rt><rp>）</rp></ruby>っぽい声音でそう答える。次いで、ぽかんとした顔で固まった修斗を見て肩を震わせる。<br>
+「冗談だよ、冗談。僕は昼間は寝てるから、つい寝坊しちゃって。お兄ちゃんは、昼間何をしてるの？」<br>
+「……何でもいいだろ」<br>
+　笑われたせいか、少年は不機嫌そうにそっぽを向く。<br>
+　<br>
+「ねぇ、今日は流れ星、見えるかな？」<br>
+　少女が、もはや日課となってしまった問いをなげかけてくる。こちらとしては、そんなことを問われても困ってしまう。毎日の天気ですら人類はまだ完璧な予想を行うことができないのだ。地球上のことですら、この有様なのだから、地球外の要因すら絡んでくる流れ星の予測なんてできようはずもない。<br>
+「毎度言っている通り、運次第なんだから俺に訊くなよ。夢のない答えで悪いけどな」<br>
+　お決まりの会話になってしまっただけに、修斗は少女に一瞥もくれずに答える。<br>
+「女の子に夢のない答えを返すわりに、自分は夢みたいな話を信じて毎晩流れ星を待ち続けるんだ？」<br>
+　からかうような声音の少女に、彼は答えない。それっきり会話もないまま、今夜はそろそろ帰るか、と柄にもなく彼が考え始めたその時。彼は視界の端に光の筋を捉えた。慌てて唱えるも、一回唱え終えるころには消えてしまっている。<br>
+　──今回もまた、一回しか唱えられなかった。<br>
+　通算三度目。ここまでくると少女の言う通り、こんな無謀なチャレンジは諦めたほうが良いのではないかという気さえしてくる。<br>
+「大丈夫、願いは叶うよ」<br>
+　毎日のように会っている少女だが、彼にここまで近寄ってくるのは初めてかもしれない。困惑が勝って何も言えないでいる彼に、少女は問う。<br>
+「毎晩、同じ時間に同じ場所から、同じように見える流れ星が、普通だと思う？」<br>
+　問われた彼が答える前に、再び少女が彼に告げる。<br>
+「普通じゃないに決まってる。良く聞いてね？　お兄ちゃんは自分の夢の中で、ずっと同じ夜だけを繰り返しているの。だからね？　どの流れ星も全部同じ星なんだよ。お兄ちゃんは、同じ星に三度願いを唱えた。だから、願いは叶うよ」<br>
+　きっと彼女は彼の目を見て話している。けれど、こんなに近くで、薄光とはいえ灯かりの下で向かい合っているのに、彼女の顔は見えない。<br>
+「……おまえは──」<br>
+「僕は『天河<ruby><rb></rb>流輝</rb><rp>（</rp><rt>るき</rt><rp>）</rp></ruby>』。お兄ちゃん、君の妹の形を借りた偽物だ」<br>
+　流れ星が降った夜に生まれたアルビノの少女。光の下で夜の暗闇を彼女が駆ければ、その白い髪がまるで流れ星のように見えるだろう。だから、二つの意味をかけて、流輝。けれど、生まれたばかりの妹は躰に重大な欠陥を抱えていて、数カ月の命だと宣告された。だから、修斗はたとえ迷信だろうとも、それに縋るしかなかったのだ。彼には何の力も知識もなかったから。<br>
+　──どうか、妹を助けてください。<br>
+「僕、いや、天河流輝の命が尽きる前にと君は必死に毎晩星を探したよね。そしてギリギリになって流れ星を見つけた。消える前に告げることができたのは一度だけ。それでも流れ星は夢という形で願いを叶えた。正確には『叶えることができてしまった』だけどね。僕という偽物と共に過ごす時間を与える形でしか、願いは叶わなかった。でも、そろそろ中途半端な奇跡はおしまいにしなきゃ」<br>
+　彼は彼女の顔をしっかり見たいと思って、もう一歩彼女の方へと踏み出そうとしたが、足はある場所から先へは進まなかった。<br>
+「流れ星が願いを叶えて見せる夢だからね、夢の主導権は僕にあるんだよ。残念だけど、お兄ちゃんはそこからこっちには入れないようにしてる。君はここまで成長した姿の天河流輝には会ったことがないから、僕には白髪であること以外の確たる容姿が存在しないんだ。のっぺらぼうみたいな姿は見て欲しくないから。ごめんね」<br>
+　少女は密やかに涙を流していた。きっと笑顔で、泣いていた。彼女の頬と思しき場所を伝う涙もまた、流れる星の煌めきのように見えた。<br>
+「何度も諦めろと告げたのは、俺に期待させないためだったのか？」<br>
+「……ううん。最初は確かにそうだったんだけどね。途中からは違ったよ。君と話す時間が楽しかった。もっとこの時間が続けばいいとさえ思った。夜空の僕を見つけても願いを言い終えないよう妨害し続けた。けれど、やはり君は君のいる場所に戻るべきだ」<br>
+　何かを言いたいけれど、何が言いたいのかわからなくて、結局何も言えなかった。もっと彼女と話していたかった。もっと彼女にかまってやれば良かった。これが流れ星の起こした奇跡、いつか覚める夢だと最初から知っていたら、きっと違う結末があったのだろうかと考えてしまう。<br>
+「……だから、それじゃあ、さようなら。僕から最後のプレゼントだ。──空を、見ていて」<br>
+　星が降る。星が降る。星が降る。夜空の黒は流星群の白に埋め尽くされてゆく。<br>
+「今夜の流れ星は、気に入ってもらえたかな？」<br>
+　──名残を惜しんだのだろうか、最後に聞こえた少女の声に「最高だったよ、ありがとう」と答えた声はもう一人の妹にちゃんと届いただろうか。<br>
+　視界が真っ白になった頃、彼の意識は一度途絶えた。<br>
+　<br>
+「おはよう、兄さん。母さんたちにちゃんと謝りなさいよ。ずっと心配していたんだから」<br>
+　意識が浮上して一番に目に飛び込んできたのはアルビノの少女の泣き笑いの顔だった。<br>
+「……」<br>
+　長らく使われていなかったらしい喉から出るのはかすれたうめき声だけだった。けれど、彼女は修斗の言いたいことがわかったらしかった。<br>
+「あぁ、そうだね。わからないよね。──初めまして。あなたの妹の、天河流輝です」<br>
+　そう告げた彼女の後ろに見える窓の外、横切った一条の光が消えぬうちに、修斗はただ一言だけ、感謝する、と三度繰り返し祈った。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

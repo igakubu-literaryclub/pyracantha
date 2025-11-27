@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>文頭五十音順「秋の七草」 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>文頭五十音順「秋の七草」</dt></a>
+					<a href= "02.html" ><dt>津波</dt></a>
+					<a href= "03.html" ><dt>六甲山登山紀行文</dt></a>
+					<a href= "04.html" ><dt>拝啓、五分後の貴方へ</dt></a>
+					<a href= "05.html" ><dt>鈍行列車</dt></a>
+					<a href= "06.html" ><dt>Palette</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第十二号 (2024)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">文頭五十音順「秋の七草」</span>
+						<span slot="sub-title"> - 唐津　定</span>
+						<div slot="content">
+<h2>文頭五十音順「秋の七草」</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　唐津　定</h4>
+<p>
+「秋の七草ってあるじゃん。言い挙げることってできるか？」<br>
+「うわ、秋の七草か。えっと、<ruby><rb>萩</rb><rp>（</rp><rt>はぎ</rt><rp>）</rp></ruby>、<ruby><rb>尾花</rb><rp>（</rp><rt>おばな</rt><rp>）</rp></ruby>、<ruby><rb>葛</rb><rp>（</rp><rt>くず</rt><rp>）</rp></ruby>、<ruby><rb>撫子</rb><rp>（</rp><rt>なでしこ</rt><rp>）</rp></ruby>。<ruby><rb>女郎花</rb><rp>（</rp><rt>おみなえし</rt><rp>）</rp></ruby>に<ruby><rb>藤袴</rb><rp>（</rp><rt>ふじばかま</rt><rp>）</rp></ruby>に<ruby><rb>桔梗</rb><rp>（</rp><rt>ききょう</rt><rp>）</rp></ruby>だっけか」<br>
+「感心感心、よく覚えていたな」<br>
+「急にどうしたのさ。クイズの大会に出るのだとしたら、お前が問題を出しても仕方ないんじゃないか」<br>
+「研究したいのはクイズというよりも植物だな。この秋の七草、春の七草に比べて影が薄いだろ。察するに、春の七草は七草粥として食べる機会があるのに対して秋の七草は観賞用でしかないからだと思うんだ。仕方ない、こいつらも七草粥にして食べてやるしかないんじゃあないか？」<br>
+「すごいことを言うな。せっかく見良いものとして選ばれたものを食べようとするだなんて。そんなにしてまで秋の七草達は知名度を上げたいとは思っていないんじゃないか。確かに秋の七草としては知名度が低いかも知らんが、各々は有名な草花だろ」<br>
+「注目される機会が増える分にはいいだろ。詰まらないじゃあないか、春の七草だけが七草粥になるんじゃない。てなわけで、どうだ」<br>
+「と、言われても。七草の中でも、例えば桔梗は薬用とされると同時に毒性があるし、他のも生薬とかに加工される程度には人体に影響のある成分が含まれていたりする。似た植物に猛毒があったりもするわけでさ。抜け目ない植物博士ならともかく、素人が下手に野草を食べようとするものじゃないよ」<br>
+「念が入るな、君は。のうのうと考えていたが、確かに危険だ。はあ、諦めるか」<br>
+「彼岸花も秋の七草に数えられることがあるけど、あれとかは本当に猛毒だからね。普通に見た目を楽しむのが吉だよ」<br>
+「変なことをしようとするものじゃあないな」<br>
+「本当だよ」<br>
+「紛いもなく食用のものを秋の七草粥に仕立て上げるしかないなっ」<br>
+「妙なことはやめたんじゃないのか……」<br>
+「無理を無理のまま押し通すことはしないということだよ。名君機に臨み変に応ず。もう無理だと諦めずに他の方法を考えるのさ。野菜だ野菜、秋の旬の野菜を考えよう」<br>
+「<ruby><rb>行</rb><rp>（</rp><rt>ゆ</rt><rp>）</rp></ruby>き当りばったりな秋の七草だな」<br>
+「よーし、まずはサツマイモ、クワイ、唐辛子に人参、ルッコラ、生姜と、うーん、秋ナスだな」<br>
+「羅列できたのは素直に感心するが。料理として粥にまとめられるのか、それは」<br>
+「類似するものにはできるんじゃないかね。冷静に考え直せば、春の七草粥に対応したものであると美しいものの、必ずしも粥という形式をとる必要はない。論理的にここから導かれる答えはなんだ？」<br>
+「分かったよ、今夜は秋の七草カレーだ」
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>
