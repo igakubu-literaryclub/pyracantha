@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>ときわさんざし - 宮崎大学医学部文芸部</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/site.webmanifest">
+<link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+			//<!--スマホ用メニュー-->
+				$(function(){
+				$(".menubtn").on("click", function(){
+					$(this).toggleClass('active');
+
+					if($(this).hasClass('active')){
+						$('.left').addClass('active');
+					}else{
+						$('.left').removeClass('active');
+					}
+				});
+			});
+
+			//<!-- スムーススクロール -->
+      $(function(){
+      var width =  $(window).width();
+      $('a[href*="#"]').click(function() {
+      var speed = 400;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+      });
+      });
+    </script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+		<!--コンテンツ-->
+		<main>
+			<h2>Infomation</h2><!--大見出し-->
+			<div class="smartphone">
+				<h3>［宮崎大学医学部文芸部］</h3>
+				<hr>
+				<p>○画面右上の「メニュー」から過去の部誌や著者別一覧にアクセスできます</p>
+				<hr>
+			</div>
+			<!--更新履歴-->
+			<section class="update">
+				<span class="label-double">UP DATE</span>
+				<ul class="update-list">
+					<li><time>2024/12/06</time><span>ときわさんざし第十二号を掲載</span></li>
+					<li><time>2024/03/10</time><span>ときわさんざし第十一号を掲載</span></li>
+					<li><time>2022/12/05</time><span>ときわさんざし第十号を掲載</span></li>
+					<li><time>2021/11/28</time><span>ときわさんざし第三号・第四号・第九号を掲載</span></li>
+					<li><time>2021/05/02</time><span>ときわさんざし創刊号・第二号・第七号・第八号を掲載</span></li>
+					<li><time>2021/05/01</time><span>ときわさんざし第五号を掲載</span></li>
+					<li><time>2021/04/30</time><span>ときわさんざし第六号を掲載</span></li>
+					<li><time>2021/04/29</time><span>ホームページ開設</span></li>
+				</ul>
+			</section>
+
+			<!--はじめの説明文など-->
+			<section>
+				<h3>Attention</h3>
+				<h4>掲載作品について</h4>
+				<p> </p>
+				<ol>
+					<li>本サイトの掲載作品の一部およびすべてについて、著作権者の許可なしに複製・転載することを禁止します。 </li>
+					<li>本サイトの掲載作品は全てフィクションです。登場する人物・団体・名称等は架空であり、実在のものとは関係ありません。 </li>
+				</ol>
+			</section>
+			<!--サイトの説明など-->
+			<section>
+				<h3>About This Site</h3>
+				<ul>
+					<li>宮崎大学医学部文芸部は2012年に結成し、宮崎大学大学祭「清花祭」で文芸部誌「ときわさんざし」を発行・配布しています。</li>
+					<li>本サイトでは過去に発行した文芸部誌を掲載しています。</li>
+					<li>掲載作品に対する感想・お問い合わせは、<em>igakubu.literaryclub@gmail.com</em>までお寄せください。</li>
+				</ul>
+			</section>
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>
