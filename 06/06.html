@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>又吉 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>マニュアル</dt></a>
+					<a href= "02.html" ><dt>夢花火</dt></a>
+					<a href= "03.html" ><dt>空から降るのは火の粉か猫か</dt></a>
+					<a href= "04.html" ><dt>いつか嘘が誠になるまで</dt></a>
+					<a href= "05.html" ><dt>少年たちは想い出を天秤に乗せ</dt></a>
+					<a href= "#" ><dt>又吉</dt></a>
+					<a href= "07.html" ><dt>balloon</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第六号 (2017)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">又吉</span>
+						<span slot="sub-title"> - 久住 誠</span>
+						<div slot="content">
+<h2>又吉</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　久住　誠</h4>
+<p>
+　霞のような空であった。遠くに浮かぶ青色に、雲が薄くかかる。風は穏やかで、やや弱く。海から陸へと優しく吹いていた。なんとも平穏で、眠くなるような春のひと時である。<br>
+　そんな春風の吹く田舎街に一軒の古屋敷があった。街の物知りに聞けば、その屋敷が建てられたのは江戸時代後期、安政三年だと教えてくれるだろう。その前の年に起きた大地震で庄屋の屋敷が倒れたために、山を一つ売って再建したものだそうだ。世に言う安政の大地震である。<br>
+　都の方では、やれ黒船が来ただの、<ruby><rb>内裏</rb><rp>（</rp><rt>だいり</rt><rp>）</rp></ruby>が燃えただのと慌ただしい様子であったから、当時の主は戦に備えて屋敷を建てたらしい。屋敷の周りは<ruby><rb>漆喰</rb><rp>（</rp><rt>しっくい</rt><rp>）</rp></ruby><ruby><rb>塗</rb><rp>（</rp><rt>ぬ</rt><rp>）</rp></ruby>りの塀が囲い、重厚な造りの門戸から広い砂利道が続いていた。重くのしかかった<ruby><rb>和瓦</rb><rp>（</rp><rt>わがわら</rt><rp>）</rp></ruby>には魔よけの鬼が飾られ、来たる幕末の暗雲を予見しているようである。砂利道の脇に大きめの蔵が二つ並び、当時は米や武具を蓄えていたが、今となっては役目を終え、ただの物置として使われているようだ。屋敷や蔵を覆うように竹林が出来ていて淡い緑が目に美しい。<br>
+　その屋敷に住んでいるのは一匹の猫と、一人の<ruby><rb>爺</rb><rp>（</rp><rt>じい</rt><rp>）</rp></ruby>である。<br>
+　<br>
+「ごめんください」<br>
+　うららかな春の昼下がり、屋敷を訪ねる人があった。遠慮がちに響く声が、薄暗い屋敷に吸い込まれ、どことも知らず消えていく。頼りない女の声は暗がりを払うに役不足のようである。<br>
+「誰かいらっしゃいませんか？」<br>
+　幾度か声が掛けられ、困り果てたような溜息に変わる。少し離れた縁側で昼寝をしていた<ruby><rb>老猫</rb><rp>（</rp><rt>ろうねこ</rt><rp>）</rp></ruby>は<ruby><rb>億劫</rb><rp>（</rp><rt>おっくう</rt><rp>）</rp></ruby>そうに重い<ruby><rb>瞼</rb><rp>（</rp><rt>まぶた</rt><rp>）</rp></ruby>を上げた。猫は名を<ruby><rb>又吉</rb><rp>（</rp><rt>またきち</rt><rp>）</rp></ruby>という。誰が名付けたとも知らぬが、いつの間にかそう呼ばれていた。ぼさぼさしたキジトラの雄猫である。<br>
+　昼寝の邪魔をされた又吉はいささか不満げにひげを揺らした。ついでに尻尾も揺れているが先の大戦で<ruby><rb>随分</rb><rp>（</rp><rt>ずいぶん</rt><rp>）</rp></ruby>と焼けてしまい、残りの尾がゆらゆらと動く程度である。<br>
+「ごめんください」<br>
+　又吉はのそりと立ち、庭へ降り立った。砂利道を過ぎると玄関に細身の女が立っている。長めの黒髪を後にまとめ、赤い洋服を着た女であった。<br>
+「あの……」<br>
+「えェ、へぇ、ただいま……」<br>
+　女の声に屋敷の暗がりから<ruby><rb>皺</rb><rp>（</rp><rt>しわ</rt><rp>）</rp></ruby><ruby><rb>枯</rb><rp>（</rp><rt>が</rt><rp>）</rp></ruby>れた声が聞こえた。静けさに人の気配が生まれ、徐々に玄関先へ近づく。柱の陰から出てきたのは深い藍色の<ruby><rb>作務衣</rb><rp>（</rp><rt>さむえ</rt><rp>）</rp></ruby>を着た小柄な爺であった。爺は女を見ると年を刻み付けたような顔で嬉しそうに微笑んだ。発音に抜けがあり<ruby><rb>随分</rb><rp>（</rp><rt>ずいぶん</rt><rp>）</rp></ruby>と聞き難い言葉だが、くしゃりとした笑顔は人好きのするものであった。<br>
+老爺に促され訳ありな顔で話し始めた女の足元で、又吉は女の持ち物をすんすん嗅いでいた。猫には人の言葉より匂いの方が何倍も分かりやすい。香りに浮かぶのは車と<ruby><rb>箪笥</rb><rp>（</rp><rt>たんす</rt><rp>）</rp></ruby>に仕舞う虫除けの匂い。この匂いは少々苦手だ。<br>
+　おや、と又吉は女に目を向けた。女からは小さな童と薬液の匂いがする。まるでやせ細った手が女の着物をそっと握っているようである。<br>
+「むすめ様……」<br>
+「えぇ。髪も用意しました」<br>
+「これは、これは」<br>
+　見上げる又吉の上で女は爺に頼みごとをしているようであった。鞄から取り出されたのは絹に包まれたひと房の髪である。髪とともに分厚い封筒を添え、女は爺に向かい丁寧に頭を下げていた。<br>
+　<br>
+　女が帰った後、爺も屋敷の奥へ下がった。爺は暗い廊下を摺り足で進み、又吉も老爺の後ろをとてとて付いてゆく。爺は屋敷の中央にある居間に行き、そこの箪笥に無造作に封筒を放り込んだ。そうして、絹で包まれた髪だけ大事に抱えて、さらに屋敷の北側へ歩く。日の当たらない北側は昼間だというのに真冬のような寒さである。部屋には火鉢と、棚と机があり、神棚には札と木が<ruby><rb>祀</rb><rp>（</rp><rt>まつ</rt><rp>）</rp></ruby>られていた。爺は手にしていた髪を丁寧に<ruby><rb>懐紙</rb><rp>（</rp><rt>かいし</rt><rp>）</rp></ruby>に包み、神棚に飾って手を合わせた。<br>
+　神棚には、その包みの他にも同じような包みがいくつか飾られ、一緒に小ぶりの十二神将が祀られている。爺は彫師であった。<br>
+　<br>
+　こん、こんと木を打つ音が響く。<br>
+　季節は春を過ぎ、蒸し暑い夏を迎えていた。うだるような暑さに<ruby><rb>辟易</rb><rp>（</rp><rt>へきえき</rt><rp>）</rp></ruby>した又吉は、涼しい北側の庭先で一日中ごろ寝をしている。竹ばかりの庭ではあるが、中には松や梅、柿、<ruby><rb>銀木犀</rb><rp>（</rp><rt>ぎんもくせい</rt><rp>）</rp></ruby>などの小木があった。青く茂る葉の陰は日も届かず、実に良い寝床である。<br>
+　まどろむ耳に、こん、こんと木を打つ音が響く。<br>
+　あの春の日以降にも屋敷には時折人が訪れていた。来る人来る人、皆一様に爺に分厚い封筒とひと房の髪を渡して去っていく。女と同じような匂いの者もいれば、全く違う匂いをした者もいた。爺は木に向かい、こつこつと神仏を彫っている。<br>
+　又吉にとって不思議なことは爺が何の印もなしに木の中から人を掘り出すことであった。その姿は一様なようでどこか異なっており、よく見ると頼んできた人の姿にも似ている。近くか遠くかを見る目には慈愛に似た温かさがあり、ほうとした微笑みを浮かべているのであった。嗅ぐと確かに木の香りがするのに、見ていると何故だか柔らかそうにも思う。<br>
+　出来上がった木彫りの人を眺めつつ、これで爪を研げば気分が良いだろうかと又吉は思案していた。<br>
+　<br>
+　又吉は屋敷で飼われている猫ではない。勝手に住みついた猫である。生まれは雪の降る寒い冬で、温もりを求めたどり着いたのがこの屋敷であった。そんな又吉に爺は白飯と二、三匹の煮干しを与えてくれる。毎朝神棚に置かれる白飯と煮干しを又吉は楽しみにしていたが、それ以外にも楽しみにしているものがあった。<br>
+　一つは小皿に薄く注がれた清酒である。月に数度、爺はそれを神棚に祭っていた。そろりと近づくと香木に似た芳しい香りで、舌先で舐めれば何とも言えぬ風味がある。なかなかに高い酒らしく、又吉の顔ほどの小さな皿に薄く注がれるだけで、舐めるとすぐに無くなってしまうのが口惜しい。爺に見つからぬようこっそりと舐めているが、その背徳感も堪らないものだ。<br>
+　二つは、秋が始まる長月であった。痩せた月が次第に太り、美しい満月となる夜のことである。その夜が迫ると爺は丹念に<ruby><rb>禊</rb><rp>（</rp><rt>みそぎ</rt><rp>）</rp></ruby>をし、何かを待つように空を見上げるようになる。いつもは枯れ木のような翁だが、この時だけは清酒に浮かぶ金に似て、澄んだ高揚を見せていた。翁の高ぶりは又吉にも伝染して発情期の若猫のように、意味もなく遠鳴きをしたい気分にさせる。十五夜の夜をこれほど心待ちにしている猫は又吉を置いて他にないであろう。そのうえ満月の夜は晴れていなくてはならないのであるから、又吉は雲が出るたびに雨よ降るな、晴れてくれろと天に祈るのであった。<br>
+　又吉の祈りが届いたのか、今年の十五夜は雲一つない見事な月夜であった。爺はこの日も禊をして白装束を左に<ruby><rb>纏</rb><rp>（</rp><rt>まと</rt><rp>）</rp></ruby>い、普段は閉ざされている屋敷の西の奥へ向かう。ぎしり、ぎしりと響く足音が、老爺の白い背に絡み蛇のように這っていた。<br>
+　爺の手にあるのは春から作り続けてきた木彫りの人型である。人型の躰には綺麗に編まれた髪が結わえられており、髪の先には一寸の半分にも満たない小さな朱色の硝子が二つ、目のように光っていた。<br>
+　ぎしり、ぎしりと老爺は暗い屋敷を進む。<br>
+　<br>
+　西の奥座敷は爺が幼少の頃より、長く過ごした部屋であった。座敷と呼びはするものの、頑丈な<ruby><rb>格子</rb><rp>（</rp><rt>こうし</rt><rp>）</rp></ruby>が壁や入口を埋め尽くしており、鍵を開けなければ決して中に入ることのできない部屋である。<br>
+　明かりがなければ何一つ見ることもできない。<br>
+　張り巡らされた格子には子どもが爪で掻いた痕があり、赤黒い色がついている。成長する背に合わせ、傷もまた、上へ上へと伸びていた。又吉も屋敷の戸で爪を研ぐが、爺の研ぎ方は猫を唸らせるものである。<br>
+　<br>
+　何も見えぬというのに、爺は摺り足のまま壁際に蹲り、慣れた調子で部屋の南にある木戸を外した。<br>
+　指の形が残る<ruby><rb>掌大</rb><rp>（</rp><rt>てのひらだい</rt><rp>）</rp></ruby>の窓からじわりと月明かりが差し込む。<br>
+　青い光が牢に満ち、部屋の形がぼんやりと浮かび上がるようであった。<br>
+　<br><br>
+　<br>壁中に彫られた無数の女の貌であった。<br>
+<br>
+　格子の隙間を埋めるように<ruby><rb>夥</rb><rp>（</rp><rt>おびただ</rt><rp>）</rp></ruby>しい数の女の<ruby><rb>貌</rb><rp>（</rp><rt>かお</rt><rp>）</rp></ruby>が浮き彫りにされている。微かに残る指の痕は、それが人の指で彫られたものであると伝えていた。壁の漆喰を爪で剥がし背後の土を剝き出しにして、血と唾で形を整えながら長い時をかけ彫られたものだ。一つ一つに表情があり、喜、怒、哀、楽が様々に描かれていた。その無数の貌たちの周りに花が茂っていた。百合に似た大きな花である。<br>
+　いまだ花は開かず、月明かりに白い蕾が浮かぶ。花は竹と共に床下から畳を破り、部屋を埋め、天井へ向けて格子に絡みつくように茂っていた。巨大な蕾を百も二百も付け開花の時を待ちわびている。<br>
+　<br>
+　美しい満月が窓からそっと顔をのぞかせ、いよいよ強さを増した月明かりが部屋中の女と花に降り注いだ。<br>
+　その光を待っていたかのように、ぽんと音がして花が開き始める。<br>
+　一つ開くごとに濃密な<ruby><rb>芳香</rb><rp>（</rp><rt>ほうこう</rt><rp>）</rp></ruby>が部屋に満ちた。<br>
+　<br><br>
+　<br>んと花が咲く。花が咲いたところで爺は<ruby><rb>燐寸</rb><rp>（</rp><rt>まっち</rt><rp>）</rp></ruby>を擦り花の中に置かれた<ruby><rb>蝋燭</rb><rp>（</rp><rt>ろうそく</rt><rp>）</rp></ruby>へ火をともした。じんわりした熱により、また花が咲く。咲き乱れた花はざわざわと花粉を飛ばした。熱に煽られ花が咲き、花粉が飛び部屋に満ちる。芳香が溢れ、花が咲き、花粉が飛び、花が咲く。芳香が降れ、月が満ち、花粉が舞い、花が咲き、花粉が溢れ、芳香に呑まれ。<br>
+<br>
+　今や部屋は<ruby><rb>霞</rb><rp>（</rp><rt>かすみ</rt><rp>）</rp></ruby>のようであった。<br>
+　舞い上がったもやが月光にゆらめき、部屋をぼうと照らしている。葉にも、爺にも、女にも。みな、等しくもやに覆われていた。爺は<ruby><rb>胡坐</rb><rp>（</rp><rt>あぐら</rt><rp>）</rp></ruby>をかき、<ruby><rb>唄</rb><rp>（</rp><rt>うた</rt><rp>）</rp></ruby>を詠み始める。発音の抜けた<ruby><rb>楽</rb><rp>（</rp><rt>がく</rt><rp>）</rp></ruby>が牢に満ちた。そして葉の陰から出てきたのは無数の<ruby><rb>蟲</rb><rp>（</rp><rt>むし</rt><rp>）</rp></ruby>である。どこに潜んでいたのか、千を越え、万を超えるような蟲がわさわさと花粉に群がっていた。葉の上を、爺の体を、女の上を、畳の上を。かさかさがさがさと群がる蟲達に、又吉が飛び掛かった。<br>
+　この時ばかりは又吉も普段のだらけきった猫ではない。爪を尖らせ、唸り声をあげ数万の蟲を片端から喰らっていく。その味は清酒に勝るほどの美味で、何とも言えぬ芳香があった。<br>
+　途中、なにやら目の赤い蟲がいた気がしたが、珍味に夢中な猫にとっては実に<ruby><rb>些細</rb><rp>（</rp><rt>ささい</rt><rp>）</rp></ruby>な事であった。<br>
+　<br>
+　冬のある日。玄関先で膝をつく爺に向かって丁寧に礼をするのは、いつぞやの美しい女であった。その脇には七つ程の女児がいて、女の洋服をそっと<ruby><rb>掴</rb><rp>（</rp><rt>つか</rt><rp>）</rp></ruby>んでいる。女は爺と何やら話しているが、女児には大人の事情が良く分からないようだ。<br>
+　退屈そうに古い家を眺めていた女児は、ふと廊下の隅でこちらを見る薄緑の<ruby><rb>双眸</rb><rp>（</rp><rt>そうぼう</rt><rp>）</rp></ruby>に気付いた。ゆらりと短い尾を振る様は実に子供心をくすぐる姿である。じっとそちらを見ていた女児は「帰るよ」と女に促され残念そうに振り返った。<br>
+「ねこさん、ばいばい」<br>
+「え？」<br>
+　女が女児の見る方へ目を凝らしても、そこには暗がりが広がるだけである。困惑する女に、爺はそっと笑みを漏らした。<br>
+　<br>
+　又吉は屋敷で飼われている猫ではない。勝手に住み憑いた猫である。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>Objects - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>After the balloon</dt></a>
+					<a href="02.html"><dt>いつか目を閉じて世界を思うときには</dt></a>
+					<a href="03.html"><dt>「実習が始まって」</dt></a>
+					<a href="04.html"><dt>「群れ」</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="05.html"><dt>同じ間違いを繰り返さないように気を付けることはできるが取り返しはつかない</dt></a>
+					<a href="06.html"><dt>心の在り処</dt></a>
+					<a href="07.html"><dt>深夜の独り言</dt></a>
+					<a href="08.html"><dt>真夜中の友達</dt></a>
+					<a href="09.html"><dt>長靴をはいた根っこ</dt></a>
+					<a href="10.html"><dt>ルーツ</dt></a>
+					<a href="#"><dt>Objects</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第三号 (2014)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">Objects</span>
+						<span slot="sub-title"> - かんきつ類</span>
+						<div slot="content">
+<h2>Objects</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　かんきつ類</h4>
+<p>
+「おいちょっと、あれを見てみなよ」<br>
+　体の大きな男が話しかけた。<br>
+「どれだい」<br>
+　先の男ほどは大きくはないが、それでもやはり中々の体を持つ男が返事をした。<br>
+　彼らは大層仲が良く普段から一緒に居ることが多い。話しかけた方の男を仮にＲ、返事をした方の男を仮にＫと呼ぶことにしよう。ＲとＫはいつもこの場所から外を歩いてゆく人々を眺めては、話に花を咲かせていた。つまりは人間観察が趣味なのである。もっとも、彼らは人間観察をしているという意識は無いだろうが。そして今日も、いつもと同じように人間観察をしているのだった。<br>
+「ほら、あいつさ。さっきからこっちをジロジロと見ている。こちらが気づいていないとでも思ってるんだろうか」<br>
+　Ｒの視線の先には一人の青年が立っていた。大学生くらいであろうか、特に特徴も無いどこにでもいそうな普通の青年だ。そんな青年がじーっとＲとＫの方へと目を向けていた。<br>
+「あー、あいつねぇ。確かにずっとこっちを見ているね。でも、なんというか、僕達を見ているという感じはしないのだけれど」<br>
+　確かにＫの言う通り、青年はどこかぼーっとしており、Ｒ達を眺めているというよりは、たまたま顔を向けている方向がそっちだったという感じだ。<br>
+「一体どうしたんだろうね」<br>
+「さあね、メスと待ち合わせでもしてるんじゃないのかい？　まぁ見ていれば分かるさ」<br>
+「それもそうだ」<br>
+　そう応えたＫの視界に一つの影が映った。<br>
+「ん？　どうやらキミが正しかったみたいだよ」<br>
+　なるほど青年の後ろから両手いっぱいに荷物を抱えた女性が満足気な表情で歩いてくる。この様子から見るに、青年は待ち合わせと言うよりは女性の買い物が終わるのを待っていたようだ。<br>
+「あっはっは、なんだいあいつ、今までのつまらなそうな顔が一気に吹っ飛んで笑顔になったじゃないか」<br>
+　大笑いするＲの横で、Ｋはまた他のものにも気付いたようだった。<br>
+「あれ？　向こうから別のが来てるよ」<br>
+　Ｒが、Ｋの見る方に目を向けると、唖然とした顔の女性がゆっくりと青年たちに近づいてきていた。近づくにつれ女性の顔は赤く、怒りが満ち、鬼のような形相へと変わっていった。<br>
+「これは……なんだかよろしくない雰囲気だね」<br>
+「あぁ、ほんとに、ふふっ」<br>
+　これから始まるであろう光景に不安そうな表情を浮かべるＫとは対照的に、Ｒはますます面白そうなことが始まりそうだという期待でいっぱいの、それはそれは楽しそうな表情をしていた。<br>
+　青年はというと、近づいてくる女性にようやく気付いたようで、顔色がみるみる青くなっていく最中だった。その色の変わり様は見事なもので、青年の焦りがこれでもかという程に伝わってくる。<br>
+　次の瞬間、女性が叫んだ。その凄まじい咆哮にＲとＫも思わず怯む。青年の横にいた女性は目をパチクリさせている。何が起きたのか理解が追いついていないらしい。<br>
+「す、すごい声だね。びっくりしたよ」<br>
+「確かに、少し仰け反ってしまった。ここまでなるとは思ってなかったな」<br>
+　見たところ青年は必死に謝っているようで、さっきからしきりに頭を下げている。そんな彼の様子を見ていて隣の女性もようやく状況を理解したのか、こちらも青年を怒鳴りつけ始めた。まさに修羅場である。<br>
+「おーおー、こりゃすごい。これまで似たようなのは何度か見たけども、これほどひどいのは初めてだね」<br>
+「そう言われるとそうかも。どうしてこんなことになってしまうんだろうね」<br>
+「そりゃーキミ、あれだよ、オスがはっきりしないのがいけないのさ。もっと僕らみたいに白黒はっきりつけるべきなんだよ」<br>
+「う、うーん？　うーん、そういうことなのかなぁ？」<br>
+　そんなことを無関係なＲとＫが無責任に話している向こうでは、青年が女性二人から両頬に赤い手跡をプレゼントされて、修羅場は終結を迎えていた。あとに残されたのは青年一人、嵐が過ぎ去り再び静かな空気が戻ってきた。<br>
+「いやー、今回のは本当にすごかった！　これまででも一位二位を争う面白い出来事だったね」<br>
+「そんな、面白いなんて言ったら可哀相だよ。でも確かにエキサイティングではあったね。僕はもっと穏やかな出来事のほうが好きなのだけれども」<br>
+「まぁまぁ、ここから外を眺めているだけで日々いろんな出来事を見ることが出来る。全部楽しむのが一番さ。本当に良い所だよここは」<br>
+「そうだねぇ、最初ここに来た時はどうなることかと思ったけれども、不自由なことは無いし良い所だよね」<br>
+「おっ、また新しいのが来たみたいだよ。今度のはえらくちっこいな」<br>
+「なんかすごい勢いで手を振ってきてるね。こっちも振っとく？」<br>
+「たまには、いいかもな」<br>
+　<br>
+　<br>
+「ぱぱ！　まま！　見て見て！」<br>
+　幼い少女が興奮しながら呼びかける。<br>
+「あら、どうしたの」<br>
+　母親が笑顔で答える。<br>
+「あのね！　手を振ったら振り返してくれたんだよ！」<br>
+　娘のその言葉にまさかといった顔をする母親の後ろから、父親が遅れてやってきた。<br>
+「おや、どうしたんだい。おおこれは、なになに名前はリンリンとカンカンか」<br>
+　父親が看板に書かれている名前を読み上げた。<br>
+「ジャアントパンダね。お母さんは、小さい頃にも見に行ったことあるのよ」<br>
+「ははは、可愛くて昔から人気だからな。それにしても、こいつらも日中一方的に見られてばっかりで疲れそうだ。見られるってのは、あんまり気持ちのいいものでもないしなぁ」<br>
+　そんな父親の呟きを知ってか知らずか、二匹のパンダはいつも通り仲よさげに並んで座っていた。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

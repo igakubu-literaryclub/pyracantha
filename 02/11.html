@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>秋恋日和 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>金星</dt></a>
+					<a href="02.html"><dt>ばたばたほりでい～とある一年生の週末～</dt></a>
+					<a href="03.html"><dt>ある診療所での一日</dt></a>
+					<a href="04.html"><dt>忘れていた志</dt></a>
+					<a href="05.html"><dt>後悔</dt></a>
+					<a href="06.html"><dt>亡霊</dt></a>
+					<a href="07.html"><dt>過去からの手紙</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="08.html"><dt>意味を捉える</dt></a>
+					<a href="09.html"><dt>くり返し思い出すことで記憶は定着するらしい</dt></a>
+					<a href="10.html"><dt>ウロボロス論議</dt></a>
+					<a href="#"><dt>秋恋日和</dt></a>
+					<a href="12.html"><dt>第二次イナバ計画</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第二号 (2013)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">秋恋日和</span>
+						<span slot="sub-title"> - 茶渋</span>
+						<div slot="content">
+<h2>秋恋日和</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　茶渋</h4>
+<p>
+　夏の喧騒は嘘だったかのように過ぎ去り、透きとおった風はノスタルジックな虫の旋律をのせて、世界を<ruby><rb>彩</rb><rp>（</rp><rt>いろ</rt><rp>）</rp></ruby>に染め上げる。季節は秋。秋は人によって色々な季節に変わる。無難に安定の読書の秋、ちょっと気取って芸術の秋、ダイエットのきっかけにスポーツの秋、ダイエットの言い訳に食欲の秋、そして恋愛の秋。しかし私はこの「恋愛の秋」に異を唱えたい。なぜなら出会いの季節、恋人の季節など理屈を並べて、結局人は春夏秋冬一年中恋愛に<ruby><rb>勤</rb><rp>（</rp><rt>いそ</rt><rp>）</rp></ruby>しんでいるのだから、わざわざ恋愛の季節なんて定めたところで無意味だと思う。つまり、私が言いたいことは、<br>
+「文乃文乃ー！　『恋愛成就の赤本』一緒に探そうよー！」<br>
+　……友達の恋バナに<ruby><rb>飽</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>き</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>飽</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby><ruby><rb>き</rb><rp>（</rp><rt>・</rt><rp>）</rp></ruby>しているということである。<br>
+「もうその本のことはいいから…。その話するの何回目？」<br>
+「何回目なの？」<br>
+「知らないよ。数えてるわけないじゃん。最近沙耶香その本の話しかしないし、流石にしつこい」<br>
+「じゃあ、一緒に探そうよ～。見つかればそれでいいんだからさ～」<br>
+　今話しているのが、私の友達の沙耶香。性格は私と違って明るくて社交的。沙耶香のことだから、「恋のおまじない」か「学校の七不思議」あたりが今のマイブームなのだろう。<br>
+「いや。めんどくさい」<br>
+「頑固だなぁ、文乃は」<br>
+「どっちがよ……。大体、名前からして嘘っぽいでしょ。『恋愛成就の赤本』なんて」<br>
+「本当なんだってば。その本のおかげで恋が叶った人がいるんだって。例えば、とあるさえない男子生徒はその本のおかげで高嶺の花と言われていたすごい美人な先輩と付き合えたって言うし、とある普通の女子生徒は教師との禁断の愛を乗り越えてついに結婚までしたって噂だよ」<br>
+「噂じゃん……」<br>
+という感じで、沙耶香は一度決めたら諦めないでやり遂げるタイプ。あとは人さえ巻き込まなければ素晴らしい長所だと私は思う。そして、一度思い立った沙耶香はなんというか、とても、<br>
+「信じるか信じないかは、あなたの自由！」<br>
+「じゃあ信じない」<br>
+「なんでそこで信じないんだよぉっ！」<br>
+「信じるか信じないかは私の自由じゃないの！？」<br>
+　理不尽だ……。<br>
+　<br>
+「うぇー……。見つからないー……」<br>
+「噂なんてそんなものだよ」<br>
+　結局、私は沙耶香に強引に付き合わされて一週間、本探しの手伝いをした。<br>
+「本だから絶対図書室にあると思ったんだけどなー『恋愛成就の赤本』」<br>
+「その噂有名なんでしょ？　そんな単純な発想で見つかるならもうみんな見つけてるよ」<br>
+「赤本だから『赤本』の置いてある本棚にあるって<ruby><rb>閃</rb><rp>（</rp><rt>ひらめ</rt><rp>）</rp></ruby>きには自信あったのに……」<br>
+「単純そのものじゃん……」<br>
+　勉強嫌いの沙耶香が赤本の置いてある本棚をじっと見つめる様子はなかなかシュールで貴重だった。<br>
+「でもなんだかんだで、文乃も真剣に探してたよね～。やっぱり文乃も叶えたい恋とかあるの？」<br>
+「私は別に…恋愛とか……」<br>
+「やっぱり<ruby><rb>駿</rb><rp>（</rp><rt>しゅん</rt><rp>）</rp></ruby>くん？　駿くんかっこいいもんねぇ。<ruby><rb>羨</rb><rp>（</rp><rt>うらや</rt><rp>）</rp></ruby>ましいな～幼なじみなんて」<br>
+「あいつは関係ないでしょ！　もう！」<br>
+　駿は私の幼なじみで、今でもよく話したりするから仲はいい、と思う。確かに駿はかっこいいし、性格も悪くないし、まあ……いいやつだと思う。<br>
+「あんなに仲がいいなら付き合っちゃえばいいのに。でも、文乃は奥手だからなぁ。やっぱり『恋愛成就の赤本』に望みをかけて、みたいな？」<br>
+「さーやーかー？」<br>
+「ごめんごめん。と、いうわけで文乃の恋のためにも『本』を見つけないとね」<br>
+「えっ……だから私は」<br>
+「はい決定～。じゃあ、明日からは二手に分かれて探そう。抜けがけ禁止、見つけたらちゃんと教えてね。じゃあまた明日～！」<br>
+「ちょっと沙耶香！」<br>
+　そう言うと、沙耶香はダッシュで帰ってしまった。そういえば、今日沙耶香は塾だっけ。時間を忘れるほど熱中するなんて、流石沙耶香だ。……その集中力を勉強にいかせばいいのに。<br>
+　<br>
+　沙耶香が帰ったあと、私は図書室に行くことにした。別に『本』を探しに来たわけじゃない。読書の秋派の私は、普通に読書用の本を探しに来たのである。たまには読んだことがないジャンルを読んでみようと探していると、いつの間にか下校時間になっていた。急いで帰ろうとしたとき、ふと目の端に一冊の本が映った。その本は背表紙が<ruby><rb>煤</rb><rp>（</rp><rt>すす</rt><rp>）</rp></ruby>けていて、見るからに古本という感じだった。たまにはこういう古い本を借りて読んでみるのもいいかもしれないとその本を手に取ったとき不意に声をかけられた。<br>
+「あなたが、それを次に借りる人ね」<br>
+「ふぇっ！」<br>
+　驚いて振り向くと司書の先生らしい女の人が立っていた。<br>
+「すみません。すぐ帰りますから」<br>
+「いえ、帰ってもらっては困るわ。その本借りるんでしょ。確か今は『恋愛成就の赤本』って呼ばれているんだったかしら」<br>
+「えっ！　この本が……ですか？」<br>
+　本を改めて見ると、夕日に照らされて気づかなかったけど、本は赤く表紙には『ネガイノ緋本』と書かれていた。<br>
+「『ネガイノ緋本』、それが本当の名前。噂の数だけ異名があるけどね。噂の通り願い事を叶える本よ。ただし、恋の願い事だけ」<br>
+　女の人は二十代前半くらいにも見えるけど、まるで何百年も生きているような、ミステリアス、そんな不思議な雰囲気をまとっていた。<br>
+「あなたは、司書の先生……ですか？」<br>
+「私はね、『ネガイノ緋本』の管理をしているの。それからこの本を手にとった人に、今みたいに説明をしたりしているわ。この本には色々な噂があるし、知らずに手に取る人もいるから。あと、図書室から勝手に持ち出されないようにするためにね」<br>
+　あと私のことはシオリでいいわ、と女の人は付け加えた。<br>
+「ほかに聞きたいことは……ありそうね」<br>
+　シオリさんは、全てを見通したように微笑んで言った。<br>
+「シオリさん、あの、なんで私が見つけてしまったんですかね。……いえ、自虐ではなくて、図書室なんて皆が普通探すはずなのに、周りに見つけた人が一人もいないなんて不思議で」<br>
+「なるほどね。ちなみに私は何もしていないわ。ただ本棚に適当に置いておく、それだけ。要するに運なの。気づく人は気づく、気づかない人は気づかない。それだけよ。噂よっては、呪文とか儀式みたいなのがあるみたいね。挙句の果てには、心の綺麗な人に　しか見つけられないとか。おかしいわよね。恋愛なんて綺麗事ばかりじゃないのにね。でもその想いが純粋なものであろうが、歪んでいようが、『ネガイノ緋本』は手にした人の願いを叶えるわ。……運命なんてそんなに都合のいいものじゃないから」<br>
+　一息ついて、シオリさんはまた話し始めた。<br>
+「改めて説明をするわね。『ネガイノ緋本』は借りた人の恋を叶えるための本で、ほかの願い事は叶えられないわ。別の人に譲渡することもできる。ただし一回の貸出で叶えられる恋は一つだけ。貸出期間は普通の本と同じ一週間よ」<br>
+　絶対下校のチャイムが鳴る。<br>
+「本を開いて自分と相手の名前を書けば恋は叶うわ。一週間あるからどうするかじっくり考えるといいわ」<br>
+　シオリさんはそう言うと、くるりと背を向けそのまま立ち去ろうとした。しかし何かを思い出したようにまた戻ってきた。<br>
+「ごめんなさい。一つ言い忘れていたわ。この本で恋を叶えたとき、叶えた人は『代償』を払わなければならないの」<br>
+　チャイムが止んだ。<br>
+「それは────」<br>
+　<br>
+「文乃文乃ー！　『やり返したらやられる。返り討ちだ！』どう、似てる？」<br>
+「あー、うん、おもしろいおもしろい」<br>
+「えーん、文乃がいじめるー」<br>
+　あれから一年か……。登校中、今はモノマネがマイブームらしい沙耶香をいじりながらふと思い出した。あの日私はあまりに非日常の出来事に混乱してしまい、まともに思考ができるようになったのは次の日の朝になってからだった。それから一週間、私は初めて恋愛について真剣に悩んだ。駿のことを本当に好きなのか。本当にこの本で叶えるべきなのか。<br>
+「そんな愛想よくないから彼氏ができないんだよ」<br>
+「モテなくて結構」<br>
+　結局、私は本を使えなかった。<br>
+「彼氏っていいよー。かっこいいし、優しいし、駿くんサイコー！」<br>
+　そして今、沙耶香は駿と付き合っている。あの沙耶香が夜にいきなり私の家にやってきて、「ごめんなさい……ごめんなさい文乃」と、泣きついてきたときは驚いたものだ。でも沙耶香が駿のことを好きなことはなんとなくわかっていた。だから、駿と付き合い始めたことを聞いたとき、「やっぱりか」と思うと同時に安心感を覚えた。そして今も、私たちは相も変わらずこうして下らないことを話す仲のままだ。<br>
+「ねえ、沙耶香」<br>
+「何？　改まっちゃって」<br>
+「『恋愛成就の赤本』ってあったでしょ。それを私が見つけたことがある、って聞いたら信じる？」<br>
+　本当は約束どおり沙耶香にも見せようと思った。でも、見せなかった。見せたらきっと沙耶香は本を使ってしまうと思ったから。<br>
+「そうだなぁ、……信じるよ。でももしそうなら見せてくれても良かったのになー」<br>
+　でも、と沙耶香は笑顔で続けた。<br>
+「別にいいよ。見せなかったのには、何か理由があったからかもしれないし。文乃は優しいから、きっとすごく悩んで決めたと思うから、私は気にしない」<br>
+　……やっぱり沙耶香はすごいな。私は沙耶香と親友になれて本当に良かったと思えた。<br>
+　<br><br>
+　<br>恋を手放したとき、あなたは二度と恋をすることはないわ。その恋があなたにとって『最後の恋』になる」<br>
+<br>
+　それが『ネガイノ緋本』の代償だった。<br>
+　シオリさんは、私の行動をどう思っているのだろう。もしかしたら、最初からこうなることを予測していたかもしれない。私がせっかくの運命を無駄にしてしまうことを。<br>
+「えっ、本当に見つけたの？　どこにあるの教えて教えて！」<br>
+「そんなのあるわけないじゃん。ちょっとした<ruby><rb>譬</rb><rp>（</rp><rt>たと</rt><rp>）</rp></ruby>え話よ。ほら、早く学校に行くよ」<br>
+「やっぱり文乃がいじめるー」<br>
+　でも、私に後悔はない。私にはいつもと変わらない日常があるから。素晴らしい親友が隣で笑わせてくれるから。私はきっとまた恋をするから。<br>
+「じゃあ、駿くんがもう教室にいるかもしれないから。さらばだー！」<br>
+「全く、靴箱についた途端にあんなに浮かれちゃって。靴下がかたかたになっていることは後で教えてあげるとするか。……ん？」<br>
+　運命なんてそんなに都合のいいものじゃないかもしれないけれど、<br>
+「何か入ってる……。手紙？」<br>
+　悪くない。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

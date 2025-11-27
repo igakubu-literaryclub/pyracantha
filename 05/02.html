@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>直接民主主義社会 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>その姿が変わったとしても</dt></a>
+					<a href="#.html"><dt>直接民主主義社会</dt></a>
+					<a href="03.html"><dt>その日になったら</dt></a>
+					<a href="04.html"><dt>思い出のメロディー</dt></a>
+					<a href="05.html"><dt>MADE OF ……</dt></a>
+					<a href="06.html"><dt>家守子</dt></a>
+					<a href="07.html"><dt>ピアノを弾く日</dt></a>
+					<a href="08.html"><dt>鳶と鷹</dt></a>
+					<a href="09.html"><dt>宇宙船と星の交点</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第五号 (2016)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">直接民主主義社会</span>
+						<span slot="sub-title"> - かんきつ類</span>
+						<div slot="content">
+<h2>直接民主主義社会</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　かんきつ類</h4>
+<p>
+「──お店の床も汚れているし、店員さんの愛想もあまり良くありません。正直もう一度行きたいとはあまり思いませんでした。残念ですが低評価です、と。今日はこのくらいで良いかな」<br>
+　日課を終え、ベッドに横になる。ショップやレストランのレビューを書くのは俺の唯一の楽しみだ。明日はどの店を評価してやろうか、いつもの様にわくわくしながら俺は眠りについた。<br>
+　朝になり眠気で味もわからない朝食を口に押し込みながら、耳だけでテレビのニュースを聞く。さして興味の湧かないつまらないニュースばかりが延々と流れ続ける。<br>
+「〇〇市でのコンビニ強盗事件はこれで今月三件目となります。近隣住民の皆様はご注意ください。さて、次のニュースです。評価法の適用範囲拡大に関する法律が可決されました。これにより現在の適用範囲である、販売店・飲食店・書籍全般に加え、美術品や──」<br>
+　〇〇市って隣じゃん、物騒だなと思いながらふとテレビに表示されたデジタル時計を見ると、遅刻の時刻が迫っていることに気づき、慌てて家を出た。<br>
+　教室で自分の席に座り今日一日の授業をどうやって乗り切ろうかと考えていると、近くで喋っている女子達の会話が耳に入ってきた。<br>
+「ねえ見た？　駅前のカフェ」<br>
+「あー見た見た。とうとう閉まってたね。いつか閉まるとは思ってたけど、相当早かったね」<br>
+「あんまり美味しくなかったしね。そのくせ値段は高かったし」<br>
+「さっき調べたらレビューも最悪だったよ。平均評価が星二つなかったもん」<br>
+「それも納得だわ。私も星二つ付けたし」<br>
+　駅前、駅前か。少し考えて思い出した。二週間くらい前に評価した店だ。あの日は宿題忘れて叱られて、ただでさえイライラしていたのに出された料理の味が薄かったから家に帰ってから酷評してやったんだ。星一つを叩き付けてやって、ようやく少し気分が良くなったんだよな。せっかくだし今日の帰りに寄って見てみるか。きっと今日はいつもより気持ちよく眠れるようになるはずだ。<br>
+　放課後、件のカフェを訪れると内部は灯りもついておらず薄暗くなっており、いかにも営業をやめた店といった様子だ。閉まっている扉には紙切れが一枚貼ってあり、そこには俺の期待していた言葉が書いてあった。<br>
+『営業停止命令：この店舗は非常に多くの人々より低い評価を受けており、この地域の住民を著しく不快にさせているため、評価法第三条第一項の規定に基づき営業権を剥奪いたします。これにより店主及び店員の店舗からの強制退去が直ちに行われます。なお、この命令に対する抵抗は一切認められません。』<br>
+　思った通り、ほんとこいつを見るのは最高だ。これを見るために俺は毎日毎日飽きもせずレビューを繰り返しているし、もはや俺の生き甲斐と言っても過言ではないと思う。だって俺が低評価を付けた店が潰れる、俺が価値が無いと言った本が出版禁止になる、これほど気持ちの良い事が他にあるだろうか。もちろん俺一人のせいでそうなったわけじゃないのはわかっているし、自分にはそれほどの影響力なんて無いことも重々承知している。それでも、俺が要らないと言ってやった物がこの世から無くなったこの瞬間は、まるで自分が神にでもなったかのような気持ちになれる。今日は飯を腹いっぱい食べて、ゆっくり風呂に入って、そして早めに寝よう。でも日課は忘れずにやらなきゃな。まあ、いつもより星が多くなってしまうかもしれないが、今日は特別だ。<br>
+　それからも変わらず俺はレビューをし続けた。ストレスが溜まった日や傷ついた日はひたすら自分の怒りをぶつけてやった。元々評価の低いものを選んでレビューしたり、匿名掲示板で悪評を流したり、人と話すときにさらっと悪口を混ぜたり、やれることは少しでもやった。それもこれも精神の安定のためだ仕方ない。<br>
+「おい、おいって。お前ちゃんと話聞いてるのか」<br>
+「あぁすまん。なんだっけ」<br>
+「だから、今日の帰りさ、この前話したクレープ屋寄って帰ろうぜ、結局行く機会無くてさ、俺気になって気になって」<br>
+「あそこかー、あの店使ってる材料があんまり良くないらしいぞ。なんか果物とかめっちゃ安物使ってるらしいってどっかで見た」<br>
+　しまった、いつもの癖で口からでまかせを言ってしまった。そもそもこの店はまだレビューしていないから印象を悪くする意味が無い。どうにか誤魔化した方がいいだろうか。と、思考を巡らせていると。<br>
+「お前さー、なんか最近文句ばっか言ってるよな。正直そういうのどうかと思うわ」<br>
+　ん、なんだ、どうした。<br>
+「飯食いに誘ったら不味いだの汚れてるだの、服を買いに行ったら店員の態度がどーのこーの、あげくに本の話しても設定が浅いとかさ。聞いててこっちも嫌になってくるっつーか、話したくなくなるっつーか」<br>
+　こいつ今までそんなこと思ってやがったのか。酷い奴だな。<br>
+「そんなことばっか言ってるとさ、お前自身の評価が下がっちまうぞ。結構前のニュースで言ってただろ」<br>
+「あ、ああ、分かった今度から気をつけるよ」<br>
+　うるせえな、黙れよ。お前の評価も下げてやろうか。くそ、一気に気分が悪くなった。イライラする。こんな日はさっさと帰って大量にレビューしてやる。<br>
+　やっと学校が終わった。早足で家に帰り、自分の部屋に飛び込む。電気をつけるのも忘れ、殴りつけるようにパソコンの電源をいれてレビューサイトにログインする。まずはどの店から星一つを付けてやろうかとサイトを見回していると、俺のアカウントに一通のメールが届いた。<br>
+「誰からだ、フレンド登録は誰もしていないはずだが……あれ、運営からじゃん、一体なんだ」<br>
+　タイトルにお知らせとだけ書かれたそのメールを不思議に思いながら開く。目に飛び込んできた本文に俺は絶句し、固まった。いやそんな馬鹿な、何言ってんだ。思考はまとまらず、冷や汗は止まらない。とりあえず問合わせの電話を。<br>
+　そこで俺の意識は途切れた。<br>
+　<br>
+　ドンドンドンドン、部屋の扉が叩かれている。<br>
+「こら！　さっきからご飯だって言ってるでしょ！　早く食べに来なさい！」<br>
+　しかし返事はない。誰も居なくなった暗い部屋の中で、ひときわ明るく光るパソコンの画面に、一通のメールが表示されている。<br>
+『生存停止命令：貴方は非常に多くの人々より著しく低い評価を受けており経営者・著者・その他関係者を著しく不快にさせているため、評価法第三条第九項の規定に基づき生存権及び生命権を剥奪いたします。これにより貴方の社会からの強制退去が直ちに行われます。なお、この命令への抵抗は一切認められません。』
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>河童の恋淵 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>あこがれる白には遠くても</dt></a>
+					<a href="02.html"><dt>六年間を振り返って</dt></a>
+					<a href="03.html"><dt>アネモネ</dt></a>
+					<a href="04.html"><dt>とある巴里の一日</dt></a>
+					<a href="05.html"><dt>水咲さん</dt></a>
+					<a href="06.html"><dt>蜘蛛の行先</dt></a>
+					<a href="07.html"><dt>「魚」</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="08.html"><dt>前車の覆るは後車の戒め</dt></a>
+					<a href="09.html"><dt>幸せな学食</dt></a>
+					<a href="10.html"><dt>トマトのモノローグ</dt></a>
+					<a href="11.html"><dt>幻日</dt></a>
+					<a href="#"><dt>河童の恋淵</dt></a>
+					<a href="13.html"><dt>いつまでも夢を見続けられる現実世界であって欲しい</dt></a>
+					<a href="14.html"><dt>”寿司食べたい！”</dt></a>
+					<a href="15.html"><dt>RPG</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第四号 (2015)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">河童の恋淵</span>
+						<span slot="sub-title"> - 澪つくし</span>
+						<div slot="content">
+<h2>河童の恋淵</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　澪つくし</h4>
+<p>
+「うわあ、ざあざあ……」<br>
+　午後十時。ようやく仕事を終え窓から外を見ると、朝の天気予報通りに雨が降っていた。もちろん傘は持ってきたから濡れる心配はないのだけれど。<br>
+「よし、そろそろ帰ろうかな」<br>
+　私が働く、この町唯一の博物館では間もなく大きな展覧会を開くことになっている。そのための準備で、今日はいつもより遅くなってしまった。外はもう真っ暗だ。仕方ないか。明日は休館日だから、家でゆっくり休むことにしよう。<br>
+　そう思いながら重たい鞄を肩にかけ、持ってきていたお気に入りの水色の傘を掴み、職員用の出入口から出ようとした時だった。<br>
+「ん？」<br>
+　ドアが開かない。隙間から外を見ると、どうやら何か大きなものがドアの向こうにあり邪魔をしているようだった。<br>
+（うーん、どうしよう……ここ以外カギ閉めてきちゃったからなぁ）<br>
+　他の出入口は館内の見回りも兼ねて、しっかりとカギをかけてきた。そのカギはさっきまで仕事をしていた部屋にある棚の中に置いてきている。また部屋までカギを取りに戻るのは少し面倒だな、と考えていた時だった。<br>
+　ぬっ、と隙間からのびる、緑色の手。<br>
+（……っ！？）<br>
+　明らかに、人のものではない、それ。緑色でよく見ると水かきまであるそれは、突然ガッと扉を掴み、目の前にある入り口をこじ開けようとしてきたのだ。驚き過ぎて声も出ない。いったいこれはどういうことなのか。<br>
+　わけもわからないまま扉だけは絶対に開けてはならないと、必死にドアノブを引っ張り続ける。しかし、緑色の手の方は決して緩まない。<br>
+（ど、どうしよう……！？）<br>
+　私が慌てている間にも外からの訪問者は目の前の扉をじりじりと開いていく。<br>
+　抵抗しようにも頭の中は真っ白でどうしたらいいのかわからない。心臓はぱくぱくと鳴り、身に迫る危険を察知してくれているが、もうどうしようもない。<br>
+　あまりの恐怖に見開いていた目から涙が零れ、ついに私の手からドアノブが引き離されてしまった。<br>
+（ああ、もう、だめ……！）<br>
+　<br>
+　ひやりとしたものが頭にあてられ、その冷たさに目が覚めた。<br>
+「……ぅ、……」<br>
+「あ！　起きた？　君、大丈夫かい？」<br>
+　ゆっくりと目を開け、周りを見渡すと、そこは私がいつも仕事をしている部屋のソファの上だった。<br>
+「頭は痛くないかい？　少し腫れているようだから、これをあてておきなさい」<br>
+　そう言って男は、氷水の入ったビニール袋を私に渡してきた。さっき感じた冷たさはこれだろうか。ぼおっとしたまま手渡された氷嚢を頭にあてる。まだ夢の中にいるように、考えがまとまらない。何だろう、思い出しそうで思い出せない。<br>
+「驚いたよ。廊下に倒れていたからね。とりあえず一番近くにあったこの部屋に運んだんだけど」<br>
+　心配そうに私を覗き込んでいた男と目が合う。そこにいたのは肩につきそうな少し長めの黒髪に、猫のような釣り目をした男だった。年は私と同じかそれより少し下のように見える。とても端正な顔立ちだと思った。<br>
+「あの、氷、ありがとうございます。助かりました」<br>
+「うん、大丈夫そうで安心したよ。目が覚めなかったらどうしようかと思っていたんだ」<br>
+　男はほっとしたように目元を緩める。とても心配されていたようだ。はい、と手渡されたコップに入った水がカラカラだった喉を潤してくれる。なんて優しい人だろう。お水おいしいなぁ。<br>
+「あの、私は若狭みおといいます」<br>
+「ん？　ああ、俺は<ruby><rb>小鳥瀬</rb><rp>（</rp><rt>こがらせ</rt><rp>）</rp></ruby>涼太というよ」<br>
+　小鳥瀬は少し申し訳なさそうにしながら、まだあいさつもしていなかったねと頭をかいた。私もつられて笑い、部屋の空気が和やかになる。<br>
+　そして小鳥瀬は、隠し事をこっそり教えてくれるような楽しそうな声で、実はね、と言った。<br>
+「ここには、俺の仲間を探しに来たんだ」<br>
+「仲間……？」<br>
+「仲間というか兄弟かな。末の弟なんだけどね。まったく、昔からドジばかりするやつだったけれど、まさかこんなところにいるなんて……」<br>
+　そういって小鳥瀬は一つ溜息をこぼし、懐かしむように苦笑した。なぜだろう。小鳥瀬の優しそうな雰囲気は何も変わっていないのに、私をじわりと不安が襲ってくる。　<br>
+「……あなたは、いったい？」<br>
+「あれ？　覚えてないのかな。うーん、そうだね。あれに戻ると君、また泣いちゃうかもしれないからなぁ。……仕方ないから手だけ、ね」<br>
+　その言葉をきっかけに小鳥瀬の右手が、変わった。まるで陶器のように白かった肌が墨を落としたような深い緑色に。そして、その指と指の間にはカエルのように薄く水かきまで出来始める。<br>
+　見覚えのある、その緑色の手。急激によみがえる記憶。「……」<br>
+「ああああ、ほら、やっぱり泣いちゃったよ！　怖がらせてごめん！」<br>
+　もう戻したからね、と目元を優しく拭われる。その手は、いつのまにかもう元の白い人間の手に戻っていたが、私の肩は触れられたことにびくりとはねた。<br>
+　それを見て小鳥瀬は、もう見るからにしょんぼりとうなだれながらぽつりと呟いた。<br>
+「……河童って、そんなに怖いかなぁ」<br>
+　<br>
+　私の働く博物館で間もなく開かれるのが『妖怪の展覧会～みんなで学ぼう日本の妖怪?』である。日本各地から様々な妖怪にまつわる巻物や絵画などを集めて展示する事になっている。そして、それらの中には数点「妖怪のミイラ」も含まれていたのだ。<br>
+「……え？　つまり、小鳥瀬さんの弟が、ミイラとしてここにあるんですか？」<br>
+「うん。そういう事だね」<br>
+　そして小鳥瀬さんじゃなくて涼太でいいよ、と付け加えた。先ほどまで小鳥瀬は、必死に河童の安全性を私に熱弁してくれていたのだが、「最近の河童はむやみに人を襲わない！」とか「女性を無理矢理攫ったりもしないよ！　好きになってもらえるように努力する！」とか言っていた気がする。最初に私が起きてからもう一時間が経ち、間もなく日付が変わろうとしていた。初めは気絶したり泣いたり、怖がりまくりだった私もようやくこのフレンドリーな河童に慣れてきたと思ったら、この発言である。弟がミイラだなんて、何てことを言うのだ。<br>
+（うう……また頭がくらくらしてきた）<br>
+「それで、弟さんを迎えに来たんですか？」<br>
+「いやいや、急に連れ帰ったりはしないよ。今日は弟がどこにいるかの確認に来ただけなんだ」<br>
+　それにどうやら弟の晴れ舞台みたいだし、と誇らしげに小鳥瀬は笑った。晴れ舞台とは展覧会のことだろうか？　それはどこか違う気もするのだが、その言葉にひとまずほっとする。<br>
+「まあ、もし弟が嫌がっていれば、俺がしっかり代わりを務めるから心配はいらないよ！」<br>
+「ミ、ミイラのですか……？」<br>
+「ああ、もちろんそうだ！　さあ、俺をいくらでもミイラにしてくれて構わない！」<br>
+「目を輝かせないでください！　怖い！」<br>
+　結局どうなったかというと、小鳥瀬と弟さんとの再会は実にあっさりと終わったのだった。どうやら、妖怪の皆さんにとってこの展覧会は合コンのようなものだったらしい。彼らはあっさりミイラから元に戻ったり、巻物から抜け出したりしながら、展示室の中で楽しそうに恋の相手を探していた。まるで百鬼夜行絵巻の中に迷い込んだような光景である。ちなみに弟さんは、屏風に棲んでいる雪女さんにアタックしていたが、雪女さんもまんざらではなさそうだったので、結ばれるまであと少しだろう。<br>
+「いや～、弟の未来のお嫁さんにも会えてラッキーだったなぁ」<br>
+　弟と別れた小鳥瀬と一緒に建物を出て帰り道を歩いていると、彼はしみじみと言った。<br>
+「あの、どこまで付いてくるんですか？」<br>
+　小鳥瀬はここまでずっと私の後ろを付いて来ている。<br>
+「なんだか俺もお嫁さんが欲しくなってきたよ」<br>
+「いや、話聞いてます？」<br>
+「聞いてる聞いてる。という事で、俺を君の家に住まわせて下さい！」<br>
+「どうしてそうなるんですか！？」<br>
+「だって俺も結婚したい！」<br>
+「さっきの合コンに行く気ですか！？　それならもう博物館に住めばいいでしょう！」<br>
+「……え？　俺をミイラにする気？」<br>
+「なんで展示される気満々なの！？」<br>
+　<br>
+（かわいいなぁ……）<br>
+　無茶な要求にきっとまた涙目になっているだろう若狭の後ろを歩きながら、ポケットに手を入れ、中に入っていたモノを取り出す。それは、白く輝く三粒の真珠だった。　<br>
+（本当にばれてないと思ってるんだろうな）<br>
+　零した涙が真珠に変わる。そんな生き物、この世界にただ一つしかいないだろうに。<br>
+（さて、あの怖がりで泣き虫な人魚はいったい何のために人のフリをしているんだろうねぇ……）<br>
+　まぁ、そんな些細な事はこれから知っていけばいい。恋しい相手の事を知っていくのは、この上ないほど幸せな事なのだから。しかし、<br>
+（いきなり、お嫁さんにおいで！　と言ったらやっぱり驚くかな……？）<br>
+　そんな事を思いながら恋愛主義の河童は、彼が一目ぼれした愛しい人魚の後を追いかけたのだった。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

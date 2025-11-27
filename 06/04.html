@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>いつか嘘が誠になるまで - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>マニュアル</dt></a>
+					<a href= "02.html" ><dt>夢花火</dt></a>
+					<a href= "03.html" ><dt>空から降るのは火の粉か猫か</dt></a>
+					<a href= "#" ><dt>いつか嘘が誠になるまで</dt></a>
+					<a href= "05.html" ><dt>少年たちは想い出を天秤に乗せ</dt></a>
+					<a href= "06.html" ><dt>又吉</dt></a>
+					<a href= "07.html" ><dt>balloon</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第六号 (2017)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">いつか嘘が誠になるまで</span>
+						<span slot="sub-title"> - 天兎</span>
+						<div slot="content">
+<h2>いつか嘘が誠になるまで</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　天兎</h4>
+<p>
+「あなたのことが好きです。ずっとお慕いしていました。お付き合いしていただけませんか？」<br>
+　そう告げた女の前で、告げられた男は困ったように頭をかく。<br>
+　──あぁ。一体何が気に食わないのだろう。一体何が足りないのだろう。一目見たあの瞬間から、あなたのことだけをずっと長い間、こんなにも想っているのに。<br>
+「僕は今、別の女性とお付き合いしています。だから、申し訳ないですが先輩のお気持ちには応えられません」<br>
+　──また、あなたはそうやって噓をつく。そう、あの時と同じように。<br>
+　──あなたがいつからか、女性と積極的に関わろうとしなくなったことだって知っている。ようやく、私のことだけを見つめてくれるのだと、とても嬉しかった。だからこそ余計に、あなたが私をも避ける理由がわからない。<br>
+「そう、ですか。彼女さんがいらっしゃったんですね。変なことを言ってすみませんでした。まして、あなたはもう明日には外国に行ってしまいますものね。今、こんなことを言われても困りますよね。……新生活が落ち着いたら、一度でいいので連絡をくださいね。向こうでも、お元気で」<br>
+　内心を押し殺し、女は男に告げた。<br>
+「いえ、嬉しかったです。ありがとうございます。……落ち着いたら、必ず連絡しますね。先輩もお元気で」<br>
+　──ほら、あの時と同じ。何度も見たから知っている。あなたの作り笑顔も、あなたが嘘をつくときの癖も。<br>
+　──きっとあなたは連絡なんてくれない。向こうに行ったら私のことなんて忘れてしまうのでしょう。だから、だから私は……<br>
+　<br>
+「あなたのことが好きです。ずっとお慕いしていました。お付き合いしていただけませんか？」<br>
+　そう告げられた男は、告げた女の前で、困り果てて頭をかいた。<br>
+　何の因果か、男の容姿はとても整っていた。好きです、と告白された回数は両手でも足りないほどになってしまっている。<br>
+　──あぁ。一体何をそんなに気に入っているのだろう。一体何が女性をこんなにも引き付けるのか。もう、放っておいてほしいのに。<br>
+「僕は今、別の女性とお付き合いしています。だから、申し訳ないですが先輩のお気持ちには応えられません」<br>
+　──また、僕はこうして嘘をつく。そう、あの時と同じように。<br>
+　──いつからだろう。女性のことがこんなに怖くなったのは。もう関わり合いになりたくないと思うようになったのは。女性との会話は必要最低限、事務的な内容のみに留めてきた。だからこそ余計に、あなたが僕を慕う理由がわからない。<br>
+「そう、ですか。彼女さんがいらっしゃったんですね。変なことを言ってすみませんでした。まして、あなたはもう明日には外国に行ってしまいますものね。今、こんなことを言われても困りますよね。……新生活が落ち着いたら、一度でいいので連絡をくださいね。向こうでも、お元気で」<br>
+　物分かりの良い女の回答にほっとしながら、男は答える。<br>
+「いえ、嬉しかったです。ありがとうございます。……落ち着いたら、必ず連絡しますね。先輩もお元気で」<br>
+　──もう一生関わり合いになることもない人だ。ただ一度、思い出したときに電子メールでも送れば最低限の礼儀は果たしたことになるだろう。<br>
+　<br>
+　その夜、男の住む家は燃えていた。部屋の主たる男は縄で縛られて、リビングに転がっている。<br>
+　どうして、と男は泣く。愛しているから、と女は嗤う。<br>
+　このような女と関わり合いになりたくないから、男は女性全般を遠ざけてきたつもりだった。<br>
+「今回はあなたより年上になってみましたが、これもあなたの好みではなかったのですね？　では来世こそ、あなたがお好みになる女に生まれ変わってみせましょう。残念ですが、今世はここまでです。ともに来世に旅立ちましょう。来世では、きっと結ばれましょうね」<br>
+　恍惚とした顔で女が告げた言葉を聞いて、男は気づく。この女こそ、男が関わり合いになりたくない人物の筆頭ではなかったか。この女こそが、男に女という生き物の恐怖を知らしめた原因ではなかったか。<br>
+「先輩、いや、違う。おまえは……」<br>
+　男の顔は徐々にひきつってゆく。脳裏に蘇るのは、ただ逃げ続けたこと。何も見えない闇の中が、とてつもなく熱かったこと。そして、何度となく殺されたこと。<br>
+「あの時とも、今までとも、顔立ちがまるで違いますもの。お気づきになりませんでしたか。あぁ、それはそれで悲しいです。あなた様なら、どれほど顔立ちが、体つきが違っても、私だとお気づきになると信じておりましたのに」<br>
+　男は手足を縛る縄を外そうともがいていたが、やがて抵抗をやめた。この女に出会ってしまった以上、今回はもう逃げられないことを、理解していたからだ。この女の執念深さは一番始めに己の死をもって痛感している。たとえこの場から運良く逃げ延びられたとしても、この女は地の果てまでも追ってくるだろう。あの時と同じように、なりふり構わず。なにせ、ただ男を捕まえるためだけに己が身を蛇に変じさせるような女なのだから。<br>
+　<br>
+　そうして男の今世での意識は途絶えた。次に目を覚ますときにはお互いに新しい姿での逃走劇が幕を開けていることだろう。<br>
+『昨夜○県△市のマンションで火災が発生し、男性の焼死体が発見されました。警察は放火された疑いが強いとして捜査しています』<br>
+『次のニュースです。○県△市の□川で女性の水死体が発見されました。自殺の疑いが強いとして、警察は身元の確認を進めています』<br>
+　<br>
+　現代から千年の昔。参拝に向かう途中であった一人の僧が、とある家に一夜の宿を借りた。その家の娘は僧に一目惚れし、女の身で僧に夜這いをかけて迫ったが、僧は参拝が終われば帰りにきっとまた立ち寄るからと嘘をついて退けた。もちろん僧が帰りに立ち寄ることはなく、騙されたと知った少女は素足のまま執念で僧を追いかけたそうだ。少女は僧に追いついたが、少女の執念に恐れをなした僧は、あろうことか人違いだと嘘を重ねてしまった。少女の怒りと嘆きは天を衝き、遂に少女はその身を蛇へと変じさせた。道成寺と呼ばれる場所で、鐘の中に逃げ込んだ僧を、蛇と成り果てた少女はその胃の腑の奥より吐き出す炎で焼き殺した。そして、人に戻ることなく、蛇の姿のまま入水して姿を消したという。<br>
+　そう、これは今なお続く昔話。報われず、救われぬまま輪廻転生を繰り返す、終わることのない御伽話。<br>
+　──ただ、あなたに愛されたいだけだった。<br>
+　少女の恋は叶わなかった。その執念は彼女の身を蛇へとやつした。<br>
+　──始めは、幼い君を傷つけたくないだけだった。<br>
+　男の優しい嘘は意味を無くした。小さな偽りは彼の魂を永久の恐怖へと誘った。<br>
+　──此度もまた、叶わなかった。ならば来世でまた会おう。今度こそ、あなたに愛される私に生まれ変わる。<br>
+　少女は来世に再会を求める。その恋が、その想いが成就されるまで、何度も、何度も。恋に狂った少女は、男が自身を避ける理由など考えもせずに。今や男が少女におびえてしまっているという事実を都合良く忘れて。<br>
+　──此度もまた、殺された。ならば来世こそは女に関わらずに生きていこう。執念の塊である、この怪物に今度こそ見つからないように。<br>
+　男は来世に孤独を求める。傷ついた魂が癒やされるまで、ずっと、永遠に。愛におびえる男は、少女に真実を告げて謝罪するという選択肢すら忘れて。少女が男を決して諦めない執念深い性格だという事実から無意識に目をそらして。<br>
+　いつか、一番初めの嘘が誠になるその日まで、無限とも思える回数の輪廻転生を繰り返しながら、すれ違い続ける二人。その男女の名を安珍と清姫という。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

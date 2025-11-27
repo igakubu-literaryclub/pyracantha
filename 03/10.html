@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>ルーツ - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>After the balloon</dt></a>
+					<a href="02.html"><dt>いつか目を閉じて世界を思うときには</dt></a>
+					<a href="03.html"><dt>「実習が始まって」</dt></a>
+					<a href="04.html"><dt>「群れ」</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="05.html"><dt>同じ間違いを繰り返さないように気を付けることはできるが取り返しはつかない</dt></a>
+					<a href="06.html"><dt>心の在り処</dt></a>
+					<a href="07.html"><dt>深夜の独り言</dt></a>
+					<a href="08.html"><dt>真夜中の友達</dt></a>
+					<a href="09.html"><dt>長靴をはいた根っこ</dt></a>
+					<a href="#"><dt>ルーツ</dt></a>
+					<a href="11.html"><dt>Objects</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第三号 (2014)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">ルーツ</span>
+						<span slot="sub-title"> - 木村陛下</span>
+						<div slot="content">
+<h2>ルーツ</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　木村陛下</h4>
+<p>
+　人をルーツで分類するとどのように分類されるのか。生物学的に言うと猿だろうが、日本の教科書的に分類する方法に狩猟民族と農耕民族というのがある。日本では農耕民族の傾向が強く、欧米では逆である。この違いは肉体的変化ももたらしたが、性格にも変化をもたらした。<br>
+　農耕民族は天気を相手にする民族であるので、問題に直面した時、こんな事もあるよねと受け入れる傾向が強い。対する狩猟民族は問題に対し積極的に挑んでいく傾向が強いそうだ。小さい頃から畑を耕し、米を育て、山に枝打ちに出かけていた私は問題に対して積極的に挑むことはない。もしかしたら私の性格のルーツはここにもあるのかもしれない。<br>
+　この性格を医学生という観点から分析すると、これはなかなかマズイ自体だ。病気ぐらいなるよねでは、患者はたまったものではない。<br>
+　では、小説のルーツとは何なのか。目的からルーツを探ると、自分で読むためのものと、他人が読むためのものがあるだろう。私の小説はどちらともの意味を持っている。部誌であるので他人に読んでもらうために書くの当然として、自分で読むためとは将来の自分である。<br>
+　私は今年二十二歳になるが思うのである。思ったより大した人間にはなっていないなと。この調子ではさらに年をとっても大した成長は認められないだろう。きっと戸惑い途方に暮れる時があるだろう。<br>
+　そんな時に自分のルーツというのはきっと頼りになる。この冊子を手に取るたびに。この冊子を通して文芸部の活動を思い出すたびに。<br>
+　この小説は今の私のルーツであり、未来の私のルーツとなる。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>思い出のメロディー - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>その姿が変わったとしても</dt></a>
+					<a href="02.html"><dt>直接民主主義社会</dt></a>
+					<a href="03.html"><dt>その日になったら</dt></a>
+					<a href="#.html"><dt>思い出のメロディー</dt></a>
+					<a href="05.html"><dt>MADE OF ……</dt></a>
+					<a href="06.html"><dt>家守子</dt></a>
+					<a href="07.html"><dt>ピアノを弾く日</dt></a>
+					<a href="08.html"><dt>鳶と鷹</dt></a>
+					<a href="09.html"><dt>宇宙船と星の交点</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第五号 (2016)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">思い出のメロディー</span>
+						<span slot="sub-title"> - 紅音さくら</span>
+						<div slot="content">
+<h2>思い出のメロディー</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　紅音さくら</h4>
+<p>
+　この町は星が綺麗だ。大学に上がって間もない頃に同級生が教えてくれたとある山へ、俺は一人で星を眺めにいくことにした。こんな夜更けに山奥でのんびりできるのは、きっと大学生の特権なんだろう。どこまでも広がる星空は、不思議と俺の気持ちを落ち着けてくれる。<br>
+　ここにいると、時々笛の音色が聞こえてくることがある。展望スペースの近くに淡い色の軽自動車が停まっている時はだいたいそうだ。今日も色まではわからないが、白っぽい軽自動車のシルエットが見えている。あまり近くに車をつけても怪しいだろうから、俺は少し離れた位置に車を停めた。<br>
+　なるべく物音を立てないように、そっと車から降りる。流星群が見れる日には人であふれる開けたスペースに、今日は誰もいない。<br>
+　草むらに寝転がると、ほどなくして綺麗な音色が聞こえてきた。どこで演奏しているのかはわからないし、音の出処もよくわからない。もっといえば聞こえてくるメロディーは俺の知らないものだ。孤独に澄んだ音が、満天の星空に溶けていく。ぐるりと見渡した限り、人影は見当たらない。だとすれば少し離れた展望台で吹いているのだろうか。聴きながら眠ってしまいそうな穏やかな旋律が、星空と相まってとても幻想的だ。聞こえてくるメロディーは何パターンかあって、今聞こえている穏やかなものや軽やかに跳ねるもの、またあるときは物憂げなフレーズに寂しさを覚えることもある。笛の音は決して華やかではないが、夜の雰囲気を包み込む素朴さが沁み入りそうに美しかった。<br>
+　同じ楽器の音色がもう一つ、心地よい和音を奏で始めた。今日はどうやら二人で演奏しに来ているらしい。いつの間にやってきたのか、もう一人はここからでも視認できた。顔までは分からないが、見た感じ小学生くらいの少年だ。華奢なシルエットの彼は黒色の縦笛を吹いていた。<br>
+　俺の記憶が正しければクラリネットとかいうやつだったか。少年が持つと楽器が大きく見える。彼は姿の見えない誰かと遜色ない演奏をしていた。ここから彼の表情はうかがい知れないが、とても楽しそうな雰囲気が漂っている。<br>
+　ふっと笛の音が途切れた。どうやら一曲終わったらしい。せっかくだからもう少し居候しようかと思ってその場から動かずにいたが、次の曲が始まる気配はない。少年もいつの間にかいなくなっていた。<br>
+　今日はここまで、か。<br>
+　腕時計を確認するともう陽が昇りそうな時間だ。俺は急いで車に戻った。帰りに通る道は朝方に混むので、車通りの少ない今のうちに帰ろう。<br>
+　<br>
+　半月後、また俺はあの山でごろ寝をしていた。今日も白っぽい軽自動車が定位置に停まっている。そして笛の音だが、今日はもうずいぶん長く続いている。しかも今日ははじめからずっと二重奏だ。<br>
+　もうすぐ演奏会でもあるのだろうか。その割には焦りや緊張感があるような雰囲気ではないし、聞こえてくるフレーズがコロコロ変わる。毎回一つでも同じ曲を聴いていれば流石にその一曲くらいは覚えられるのに、いつも知らないメロディーばかり聞こえてくるのはなぜだろう。<br>
+　いつになく激しい旋律が途切れたあと、あどけない少年の声がした。<br>
+「ねえねえ、おにいさん」<br>
+　驚いて体を起こすと、少し距離を置いたところにあの少年がいた。楽器を持ったまま、楽しそうにニコニコ笑っている。<br>
+「いつも聴いてくれてありがとう」<br>
+　少年はこちらに近づくでもなく、同じ位置でただ微笑んでいる。<br>
+「こちらこそ、綺麗な曲をありがとう」<br>
+　そう返すと、少年の顔がぱっと明るくなった。<br>
+「えへへ、うれしい！　また聴きに来てね」<br>
+　そう言うと少年は足早に走り去っていった。遅い時間だから気をつけて帰れよ、と言おうとしたその先に、人影はもうない。あんなに綺麗だった星空は、明るくなってきた空の色に隠れつつある。壮大な朝焼けにうっとりしていると、展望台から駆け足でこちらに近づいてくる人影があった。<br>
+「あれ？　ヒロさんじゃない。なにしてるの」<br>
+　声の主は同級生の女の子だった。名前は確か、小倉さん。四角い皮のケースを抱え、驚いた様子でこちらを見ている。<br>
+「星を見に来てたんだ。そしたら綺麗な笛の音が聞こえてきて、ずっと聴いてたらこんな時間に」<br>
+　特に隠すことでもなかったからそのまま話すと、彼女の頬が一気に紅潮した。<br>
+「え、まじ、聞かれてたんだ。わー、すごい下手なのになんかごめん」<br>
+「一緒に吹いてた男の子もすごいうまかったね。一緒に帰らないの」<br>
+「へ？　男の子？　あたしずっと一人で吹いてたよ」<br>
+　恥ずかしがっていた彼女が一瞬で真顔に戻る。<br>
+「え？　だってほら、ハーモニーすごい綺麗だったじゃん。もしかして同時に二つ以上の音が出せるの」<br>
+「ないない。ずっと一人で吹いてたよ。どしたの、寝ぼけてる？　あははっ」<br>
+　ひとしきり笑うと、彼女は一瞬とても寂しそうな目をした。<br>
+「どんな子だった？」<br>
+「小学生っぽかったかな。上目に見積もっても中一くらい。華奢な子だったよ。楽器を吹くのが楽しくてしょうがないって感じだった」<br>
+「──そっかぁ。会いたかったな」<br>
+「え？」<br>
+「そんな弟がいたんだ」<br>
+「弟さん」<br>
+「うん。なによりも音楽の好きな子だったの。クラリネット吹いてるときが、一番楽しそうだった」<br>
+　遠くを見つめる穏やかな横顔に、涙が一筋零れ落ちていった。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

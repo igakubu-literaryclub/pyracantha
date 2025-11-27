@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>MADE OF …… - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>その姿が変わったとしても</dt></a>
+					<a href="02.html"><dt>直接民主主義社会</dt></a>
+					<a href="03.html"><dt>その日になったら</dt></a>
+					<a href="04.html"><dt>思い出のメロディー</dt></a>
+					<a href="#.html"><dt>MADE OF ……</dt></a>
+					<a href="06.html"><dt>家守子</dt></a>
+					<a href="07.html"><dt>ピアノを弾く日</dt></a>
+					<a href="08.html"><dt>鳶と鷹</dt></a>
+					<a href="09.html"><dt>宇宙船と星の交点</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第五号 (2016)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">MADE OF ……</span>
+						<span slot="sub-title"> - 泥団子</span>
+						<div slot="content">
+<h2>ＭＡＤＥ ＯＦ ……</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　泥団子</h4>
+<p>
+　人間と同じレベルのロボットが出始めたのは、今から二百年以上も前のことだ。当時は猫も杓子も人間型ロボット、いわゆるアンドロイドを開発し、一大ブームとなっていた。ロボットの脳として働く人工知能も同時に進化し、そこから先の数十年はアンドロイド黎明期と呼ばれている。<br>
+　どんなに栄華を誇ったものでもいつかは滅び、どれほど進化してもいずれは古くなる。僕がらしくもない感傷にひたっているのは、丁度こんなニュースを見かけたからだ。<br>
+<br>
+　<br>『生産・出荷とうとう中止へ。メンテナンス費の高騰が原因。サポートも打ち切り』<br>
+<br>
+　脳裏に浮かぶのは、僕が子供の頃に一ヶ月だけ家にいた旧式家政婦「ＨＡＬ（ハル）」。彼女が今どこでなにをしているのか僕は知らない。どこかの家で働いているかもしれないし、既に廃棄処分されているかもしれない。<br>
+　それでも、彼女と過ごした一ヶ月は、今も僕の中で息づいている。<br>
+　<br>
+　ＨＡＬが我が家に来たのは、母が交通事故による大怪我で入院していた時のことだ。父も僕も家事のことは母に任せっきりだったので、旧式家政婦を買うことになった。なぜ旧式だったのかというと、普通に家政婦を雇うより旧式を買った方が最終的に安上がりだったからだ。<br>
+　そうしてやってきたのがＨＡＬだった。一人っ子だった僕は、まるで姉ができたような気がして、ただただ嬉しかったのを憶えている。<br>
+　ＨＡＬの仕事ぶりは優秀だった。もしかしたら母以上に家事が上手だったかもしれない。おまけに僕の面倒もよく見てくれたから、僕はすぐＨＡＬに懐いた。<br>
+　当時不思議だったのは、ＨＡＬに表情というものがまったくなかったことだった。笑ったり、泣いたり、喜んだり、怒ったりもせず、ただ黙々とＨＡＬは働く。何故なのか父に聞くと、「そういうものなんだよ」とだけしか言わなかった。納得いかなかった僕はＨＡＬに直接尋ねてみた。するとＨＡＬも大体同じような事を言った。<br>
+「そういうものなんです。そう決められてるんですよ」<br>
+　僕はそれから何度も質問したが、結局明確な答えは得られなかった。ロボットと人間の判別なんて一見しただけでは分からない。しかし、両者の間には決定的な違いがあるのだと、僕は子供心で感じた。<br>
+　<br>
+　最初の頃は家族のように接していた父も、次第にＨＡＬを怒鳴り散らすようになった。どれだけ自分たちと同じ外見でも、結局旧式家政婦は「道具」に過ぎない。道具はその機能を果たすことが当たり前だ。だからＨＡＬも一度の失敗で怒られこそすれ、いくら仕事をこなしても褒められることは決してない。<br>
+　ある時学校から帰ると、その日もＨＡＬは父に怒鳴られていた。<br>
+「在庫少ない中苦心して取り寄せたのに、こんなに役立たずとは──」<br>
+　ＨＡＬは「申し訳ありません」とひたすら頭を下げていた。父の声が怖かったから、僕はそっとその場を後にした。<br>
+　『在庫』とはどういうことか分からなかった僕は、その後床掃除をしていたＨＡＬに尋ねてみた。ＨＡＬはその手を止めることなく答えた。<br>
+「私たちも、もうそんなに沢山はいないんですよ」<br>
+　そんなＨＡＬを見ながら、僕はその日先生に言われたことを思い出した。<br>
+「先生が、キレイな心を持っていないと悪いことがおこるって言ってたけど、どうなの？　ＨＡＬは持っていないから父さんに怒られてばかりいるの？」<br>
+　ＨＡＬは無表情のまま答えた。<br>
+「ええ。きっとそうなんでしょうね」<br>
+　そう言うＨＡＬの背中が悲しくて、僕は黙って部屋に戻った。<br>
+　<br>
+　僕が最後までＨＡＬを親しく思っていたのは、ＨＡＬが誰よりも優しかったからだろう。僕が父に怒られて泣いている時はいつもＨＡＬが慰めてくれた。<br>
+　ＨＡＬの言葉は論理的で、そして子供にも分かりやすいものだったから、僕はいつも無理やり納得させられていた。<br>
+　僕が宿題を忘れ、先生に叱られて帰ってきた時も、ＨＡＬは部屋に来て僕の話を親身に聞いてくれた。本来ならＨＡＬは庭掃除をしている時間で、後で絶対父に怒られると分かっていたはずだった。<br>
+「ＨＡＬは本当に優しいね」<br>
+　と僕が言うと、ＨＡＬは決まって首を横に振り、<br>
+「これも仕事です」<br>
+　とだけ答える。その仕草が格好良くて、とても輝いて見えた。僕はそんなＨＡＬが憧れだった。<br>
+「やっぱりＨＡＬの心はキレイなんだよ。いったい何でできてるんだろうね。ぼくのとはちがうんだろうね」<br>
+「私の心のことは分かりませんが」<br>
+　そう言ってＨＡＬは僕の手を優しく握った。<br>
+「貴方の心が綺麗なのは、私にも分かりますよ」<br>
+　その手の温かさに、僕は思わず固まってしまった。泣き止んだ僕を見たＨＡＬは部屋から出て行ったが、その後もずっと僕は握られた手を見ていた。<br>
+　<br>
+　ＨＡＬが来てから一ヶ月経とうかという時、とうとう母の退院が決まった。そして、それで父の気持ちも決まったようだった。道具が不要になった場合、選択肢は二つある。売るか、捨てるかだ。<br>
+　その二つの選択肢を父の口から聞いたとき、僕は我を忘れてＨＡＬの元へと走った。<br>
+　突然現れて抱きついてきた僕を見てもＨＡＬは驚かなかった。僕の嗚咽混じりの言葉を黙って聞きながら、ＨＡＬの優しく頭を撫でてくれた。<br>
+　ＨＡＬを失うのが怖くて、そして悲しかった。きっと僕の心が汚いからＨＡＬはいなくなるのだと、泣きながら自分を責めた。そんな僕を見てＨＡＬは首を横に振った。<br>
+「私のために泣いてくれるのですから、貴方はやはり綺麗な心をお持ちなんですよ」<br>
+「ＨＡＬの方がずっとキレイに決まってるよ」<br>
+「そう、でしたら……」<br>
+　そう言って、ＨＡＬは初めて笑った。<br>
+「私たちの心は、きっと同じものでできているのでしょうね」<br>
+　<br>
+　翌日の朝起きたとき、ＨＡＬはもう家にはいなかった。それ以来今日まで一度もＨＡＬを見ていない。<br>
+　皆、旧式を奴隷として扱ってきた。彼らは旧式の思考はどうせ電気信号だから、などと言うが、それなら僕らも同じだ。彼らは知らないだろう。ＨＡＬの手の温かさを、そしてその笑顔を。<br>
+　だから僕だけは決して忘れない。彼女のような人間だけが持つ、僕らロボットにはない確かな温もりを。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

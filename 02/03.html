@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>ある診療所での一日 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>金星</dt></a>
+					<a href="02.html"><dt>ばたばたほりでい～とある一年生の週末～</dt></a>
+					<a href="#"><dt>ある診療所での一日</dt></a>
+					<a href="04.html"><dt>忘れていた志</dt></a>
+					<a href="05.html"><dt>後悔</dt></a>
+					<a href="06.html"><dt>亡霊</dt></a>
+					<a href="07.html"><dt>過去からの手紙</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="08.html"><dt>意味を捉える</dt></a>
+					<a href="09.html"><dt>くり返し思い出すことで記憶は定着するらしい</dt></a>
+					<a href="10.html"><dt>ウロボロス論議</dt></a>
+					<a href="11.html"><dt>秋恋日和</dt></a>
+					<a href="12.html"><dt>第二次イナバ計画</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第二号 (2013)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">ある診療所での一日</span>
+						<span slot="sub-title"> - 柑橘</span>
+						<div slot="content">
+<h2>ある診療所での一日</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　　　柑橘</h4>
+<p>
+　まったく、今日はツイていない。本来ならば今日は私の貴重な休みとなるはずだったのだが、Ｍ診療所で私と共に働いているＮ医師が学会に行くことになり私が休みを一日繰り下げることになったのだ。<br>
+　元々受診に来る人も少ない田舎だし一人でも一日くらいならどうにかなるだろう。<br>
+「そうだ、一日の辛抱だ」<br>
+　自分を励ますようにそう呟いて職場へと車を走らせた。<br>
+　いつもの時間にいつもの道を通って、見慣れた景色を眺めながらいつもと同じ職場へと向かう。今日は一緒に働いている同僚がいないという違いはあれど、昨日までと大した違いのない退屈な一日が待っているのだろう。<br>
+　<br>
+　一時間ほどで診療所に着き、入り口へと向かう。おかしい。そこには一枚の張り紙が出されていた。<br>
+『本日、院長不在のため休診と致します』<br>
+「なんだこれは、私が来ることを忘れていたのだろうか。困るなぁ。とにかく、これは剥がしておかなければ」<br>
+　私はその張り紙を少し乱暴に引き剥がし、ドアに手を掛けた。もしやとは思っていたが、鍵がかかっている。<br>
+「参ったな、私は鍵を持っていない」<br>
+　普段はＭが先に来て鍵を開けているからだ。<br>
+　しかし、田舎の築何年かもわからない木造のボロい診療所である。ドアの鍵も大したものではない。衝撃を与えればすぐに壊れてしまいそうなものだった。<br>
+「悪いのは私じゃない」<br>
+　誰に言うでもない言い訳を口にしながら足元に落ちていた木の棒で何度か叩くとドアは開いた。<br>
+　中に入り待合室と診察室を過ぎて奥のロッカールームへと向かう。<br>
+　そこにはロッカーが二つあり、私はその一つから白衣を取り出す。もう一つは今日は来ていない看護師のものだろう。<br>
+　なんだろう、何か違和感を感じる。この部屋での今の一連の流れに、ふと小さな違和感を感じた。上手く言い表すことができないが何かがおかしかった。<br>
+　頭を悩ませながらロッカー室をグルグルと眺めていると、入り口の開く音がした。<br>
+「せんせーい？　あれ、おらんのー？」<br>
+　どうやら患者さんが来たらしい。声から察するにお婆さんのようだ。<br>
+　慌てて待合室へと走って行くと、見覚えのない小柄なお婆さんが立っていた。私が診たことの無い人なのだろう。そんなことはさておき、彼女は患者なのだ診察をしなければ。<br>
+「おばあちゃん、今日はどうなされました」<br>
+　私がそう聞くと彼女は怪訝そうな顔で聞き返してきた。<br>
+「え、あんた誰？　先生はどうしたの？」<br>
+「誰って……」<br>
+　いくら私が診察したことがないとは言え、いつもここで働いている私を全く知らないなんて。と少しムッとしつつ言葉を続ける。<br>
+「Ｎは、今日は所用で出ておりまして」<br>
+「あー、そうなの。てことは今日はにいちゃんが先生の代わりなのね」<br>
+「いや、代わりっていうか……まぁそうです……」<br>
+　訂正するのも億劫なのでそう言って流す。ダメだ、このお婆さんは微塵も私のことを覚えていないらしい。ここによく来るなら見かけたことがないはずはないのだが。ひょっとすると少し痴呆気味なのかもしれない。Ｎが帰ってきたら伝えておこう。<br>
+「それじゃあ診察室に行きましょうか」<br>
+　そう言って診察室に二人で座る。<br>
+「改めて、本日はどうなさいましたか」<br>
+「特にどうしたってことはないんだけど、血圧でも測ってもらおうかと思って」<br>
+「なるほど、血圧ね。えーっと……」<br>
+　しまった。血圧計の場所をど忘れしてしまった。「ちょっと待っててね」と声をかけながらいくつか棚や引き戸を引っ掻き回していると、ようやく血圧計が見つかった。<br>
+「……１４５の８２ですね。下が少し高い気がしますが大丈夫でしょう」<br>
+「そりゃあ良かった。これで今晩も安心して眠れるよ。ありがとう」<br>
+　それを聞いてから私はカルテを書こうと手を伸ばしかけて手を止めた。<br>
+　大変だ。カルテがどこにあるのか分からない。これはどういうことだろう。疲れているせいだろうか。<br>
+　とりあえず今回は血圧を測っただけだから慌てることはないだろうと後で書くことにする。<br>
+　その後お婆さんには「特別ですよ」と言って診察代も頂かずに帰した。<br>
+　結局それからは他に患者も来ず、夕方頃になって外から自動車音が聞こえＮが歩いてくるのが見えた。<br>
+「あれ、なんでドアが開いてるんだ？」<br>
+　そんなことを言いながらＮが入ってくる。<br>
+「おやＳさんこんなところで何しているんです？　入り口に張り紙をしていたはずですが」<br>
+　入ってきて私を見るなりそんなことを言うＮに、私は我慢の限界だった。<br>
+「何とはなんだ！　君が学会だというから私が今日も患者を診ているんじゃないか！」<br>
+「え？　……あぁそうだったね。ごめんごめん忘れてたよ。お詫びにコーヒー入れるから待ってて」<br>
+　コーヒーか、そうだな、コーヒーでも飲んで一旦落ち着いた方がいいのかもしれない。<br>
+「はい。熱いから気をつけてね」<br>
+　コトンとコーヒーの入ったカップが置かれる。<br>
+「ありがとう。怒鳴ったりしてすまなかった」<br>
+　熱々のコーヒーを飲みながら明日の休日は目一杯休もうと思っていると瞼が重たくなってきた。このままここで寝てしまうのもいいかもしれない。そんなことを考えながら私の意識はゆっくりと薄れていった。<br>
+　<br>
+　<br>
+「すまないね、今日は休みだって言ったのに今頃呼び出しちゃって」<br>
+　僕は目の前であからさまに眠そうにしている看護師に笑いながら謝った。<br>
+「いえ、それは大丈夫ですが、それよりＳさんがなぜここに？」<br>
+「君も知っているとは思うけど、Ｓさんには極度の思い込み、妄想の症状がある。それでどうやら今日は医師のつもりでここにいたらしい。昨日症状を抑える薬を出しておいたはずなんだけど、飲んでいなかったのかな……」<br>
+「それで、今は？」<br>
+「コーヒーに睡眠剤を入れて少し眠ってもらったよ。どうせ説得しても聞いてくれなかっただろうし。一緒に薬も入れたから目が覚めたら落ち着いてるとは思う」<br>
+「そうですか、では先生は今日はここに泊まるんですね」<br>
+「そうだね。だから部屋まで運ぶの手伝ってくれないかな」<br>
+　あの後調べた限り特に大きな問題は起こしていなかったようだが、Ｓさんを運ぶ僕の頭の中はドアの修理のことでいっぱいだった──
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

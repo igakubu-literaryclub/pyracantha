@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>前車の覆るは後車の戒め - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>あこがれる白には遠くても</dt></a>
+					<a href="02.html"><dt>六年間を振り返って</dt></a>
+					<a href="03.html"><dt>アネモネ</dt></a>
+					<a href="04.html"><dt>とある巴里の一日</dt></a>
+					<a href="05.html"><dt>水咲さん</dt></a>
+					<a href="06.html"><dt>蜘蛛の行先</dt></a>
+					<a href="07.html"><dt>「魚」</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="#"><dt>前車の覆るは後車の戒め</dt></a>
+					<a href="09.html"><dt>幸せな学食</dt></a>
+					<a href="10.html"><dt>トマトのモノローグ</dt></a>
+					<a href="11.html"><dt>幻日</dt></a>
+					<a href="12.html"><dt>河童の恋淵</dt></a>
+					<a href="13.html"><dt>いつまでも夢を見続けられる現実世界であって欲しい</dt></a>
+					<a href="14.html"><dt>”寿司食べたい！”</dt></a>
+					<a href="15.html"><dt>RPG</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第四号 (2015)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">前車の覆るは後車の戒め</span>
+						<span slot="sub-title"> - かんきつ類</span>
+						<div slot="content">
+<h2>前車の覆るは後車の戒め</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　かんきつ類</h4>
+<p>
+　日曜の朝、金欠の俺はゼミの教授が持ち掛けてきたバイトをするために教授の研究室に来ていた。部屋の中はあまり日差しが入ってこないようで、ただでさえ薄暗い室内が高い棚とそこにぎっしり並べられた分厚い本によって更に暗くなっていた。<br>
+「さてと」<br>
+　そう言いながら眠そうな目をした教授が棚の影からのっそり現れた。<br>
+「それじゃあ、早速だけど仕事の説明を始めようか。今回きみにはこの部屋の片付けを頼みたい」<br>
+「片付けですか」<br>
+　見回すと確かに資料と思われる本やらファイルやらが床に散らばっている。足の踏み場もないというほどではないが、楽には終わりそうには思えなかった。その惨状を見て一気に削がれた俺のやる気は、教授の「一万円くらいでどうかな」という一言ですぐさま回復し、俺は作業に取り掛かったのだった。<br>
+　この教授の研究分野はいわゆる考古学系で、研究室ではこの大学の近くで見つかった遺跡や出土品を研究している。俺の取っているゼミでも数多くのそれらの話を聞かされたり写真を見せられたりした。実際この教授の授業は面白く、正直俺も元々は考古学やら歴史やらにはほとんど興味がなかったが、教授の授業が面白かったからゼミも取った。結果として、その選択は間違ってなかったと思っている。<br>
+　片付けもだいぶ進み、そろそろ休憩を挟もうかと思っていた頃、隣の保管室から教授の呼ぶ声が聞こえた。行ってるみると土偶のような土人形の前で教授が手招きしていた。<br>
+「少し休憩も兼ねてこれを見てくれ。つい昨日新しく見つかったものなんだが、こいつ中々可愛い顔してると思わないか？」<br>
+　楽しそうに話す教授に促されて見てみると、なるほど確かに愛嬌のある顔をしている。猫のような犬のような、どちらともつかないぼんやりとした顔がどこかのゆるキャラにでも居そうに思えた。しっかりと服らしきものまで着ている。よく見ると服の模様も結構複雑で面白く、特にこの肩の……あれ？<br>
+「教授、この左肩のところって、ただの模様じゃなくて文字っぽいですけどどうなんですか？」<br>
+「え？　本当に？」<br>
+「気付いてなかったんですか」<br>
+「いやいや、気付くも何も昨日見つかったばかりだって言ったろう。まだ詳しくは見てないよ。それより早く私にも見せてくれ」<br>
+　そう言うなり教授は俺を押しのけて、土人形をまじまじと観察しながら写真を撮ったりメモに文字を書き写したりしていた。やはりこういう文字は解読とかするのだろうか。<br>
+「よし、では私はちょっとばかり何と書いてあるのか調べてくるので、きみはそのままこっちの部屋の片付けを頑張ってくれ」<br>
+「早速とりかかるなんて流石ですね。やっぱ結構時間かかるんですか？」<br>
+「そんなことはないよ。この種類の文字はほとんど分かっているからね、時間はほとんどかからないと思う。きみが片付けを終わらせるまでにこっちも終わらせてみせるさ」　<br>
+　そう言うなり教授は自分の机に向かってしまった。俺はというと、もしかしたら他にも何か書いてあるんじゃないかと気になってついつい少し持ち上げてしまった。その時だった。<br>
+　……ペキッ。<br>
+　いやーな音に冷や汗が吹き出る。恐る恐る手をどけてみると、案の定左腕が折れて取れていた。頭の中をまずいという三文字が駆け巡る。幸い驚くほど綺麗に折れていたため、細かい破片などはなく、再びくっつけておけば見た目には分からない……ように思えた。<br>
+「確か瞬間接着剤が隣の部屋にあったよな……」<br>
+　そっと教授の居る隣の部屋に入る。幸い教授はさっきの文字とにらめっこだった。チャンスとばかりに棚に置いてあった接着剤を手に取った時。<br>
+「片付けは終わったかい？」<br>
+　後ろから声をかけられ飛び上がった。<br>
+「あーはい、いえ、もう少しなんですけど……。あっ、そういえば教授ってどうしてこの分野やってんですか？」<br>
+　とっさに話を逸らした。<br>
+「ん？　急だね。きみは前車の覆るは後車の戒めって言葉知ってる？」<br>
+「いえ、聞いたことないです」<br>
+「まぁ簡単に言えば前の人の失敗を後の人は戒めとしましょうってこと。長い人の歴史で過去の人達がたくさん失敗してきたわけで、そういう失敗って調べると面白かったりするんだよ。そうして調べた過去の出来事をただ楽しむだけじゃなくて今に活かせたら素晴らしいじゃない。そう思ったんだ」<br>
+「へえ、そういうきっかけだったんですか。えーと、それじゃあ僕はそろそろ」<br>
+「ところで、その手の接着剤は何に使うの？」<br>
+「ええっ！？　これはその……あの……」<br>
+「もしや、さっきの人形がどこか取れた、とか？」<br>
+「い、いえいえ。まさかそんな」<br>
+「そうかい？　私は左手部分を一旦取ってしっかりと付け直さなければと思っていたところなんだが」<br>
+「……へ？」<br>
+「今言ったじゃないか、過去の失敗は今に活かさないとって」<br>
+　そう言って教授は何か書かれたメモを手渡してきた。どうやらさっきの文字の解読がもう終わっていたらしい。その文章を読んだ俺は苦笑するしかなかった。<br>
+<br>
+『あちゃあ、触ってたら取れちまった。とりあえず簡単にくっつけとくから触る時は注意してくれ』<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

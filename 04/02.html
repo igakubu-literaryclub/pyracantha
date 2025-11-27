@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>六年間を振り返って - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<dt class="novel-theme">第一部<br>「医学・医学生」</dt>
+					<a href="01.html"><dt>あこがれる白には遠くても</dt></a>
+					<a href="#"><dt>六年間を振り返って</dt></a>
+					<a href="03.html"><dt>アネモネ</dt></a>
+					<a href="04.html"><dt>とある巴里の一日</dt></a>
+					<a href="05.html"><dt>水咲さん</dt></a>
+					<a href="06.html"><dt>蜘蛛の行先</dt></a>
+					<a href="07.html"><dt>「魚」</dt></a>
+					<dt class="novel-theme">第二部<br>「自由課題」</dt>
+					<a href="08.html"><dt>前車の覆るは後車の戒め</dt></a>
+					<a href="09.html"><dt>幸せな学食</dt></a>
+					<a href="10.html"><dt>トマトのモノローグ</dt></a>
+					<a href="11.html"><dt>幻日</dt></a>
+					<a href="12.html"><dt>河童の恋淵</dt></a>
+					<a href="13.html"><dt>いつまでも夢を見続けられる現実世界であって欲しい</dt></a>
+					<a href="14.html"><dt>”寿司食べたい！”</dt></a>
+					<a href="15.html"><dt>RPG</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第四号 (2015)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">六年間を振り返って</span>
+						<span slot="sub-title"> - 匿名希望</span>
+						<div slot="content">
+<h2>六年間を振り返って</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　匿名希望</h4>
+<p>
+　今年の四月に晴れて六年生に進級し、早いもので学生生活も残すところ四ヶ月あまりとなってしまった。私はほかの部員のように文才も創造力も持ちあわせていないため、毎年学祭の文集では自分の学生生活についてあたりさわりのないことを書いてきた。今年も特にいいアイデアが思いつくわけでもなかったので、これまでの六年間をなんとなく振り返ってみようと思う。<br>
+　まず宮崎について。そもそも、私は生まれてからずっと本州で生活をしており、九州には旅行ですら行ったことがなかった。そのため、まさか自分が宮崎に住むことになろうとは、高校生の時は夢にも思わなかった。紆余曲折の末宮崎大学を受験することになったが、もともと地理はあまり得意ではなかったこともあり「宮崎？　なんか聞いたことはあるけど……東国原がよくテレビに出ているなあ」くらいの認識しか持っていなかった。<br>
+　初めて宮崎に降り立った時の感想は「町中にヤシの木みたいなものがいっぱい生えていてなんだか南国っぽい」である。しかし南国なのに意外と寒いのが印象的で、コートを持ってきて良かったと思いながら試験会場からバス停まで歩いたのを覚えている。<br>
+　晴れて宮崎大学に合格が決まり、初めての一人暮らしが始まった。宮崎の田舎っぷりは想像を絶するものであり、大学の周りに高い建物は存在せず、青々とした田んぼが広がっている。朝の通勤時間帯ですら最寄りのバス停にはバスが一時間に一本の頻度でしか来ず、テレビのチャンネルはＮＨＫと教育テレビを除けば二つしかない。月九ドラマという概念が存在せず、月曜日の二十二時からＳＭＡＰ×ＳＭＡＰが放送されてないことを知ったときは本当に驚いた。学生が多く住む清武町は電灯が点々と存在するのみで夜は真っ暗であり、一年生の前期までは夜中に自転車をこいで帰るのが少し怖かった。<br>
+　ただ、視界が開けている分遠くには山が見え、地元では考えられない光景に興奮したのを覚えている。特に山に霧がかかっている時は、なかなかに神秘的な景色ではないかと思う。宮交バスの運転手さんは優しいし、バス通学の時に満員バスで苦しい思いをしなくていいのもありがたい。夜は明かりがない分星空が本当に綺麗で、よく夜空を見上げながら自転車をこいだものである。通学手段が自動車になってしまってから、星空を見上げる機会が減ってしまったのは少し残念だ。なにより、真冬の新月に青島や堀切峠で見る星の美しさには本当に感動した。あの時以上に感動した光景はいまだお目にかかったことがない。<br>
+　二十四時間営業のスーパーが作られ、コンビニも多く存在するために生活する分には全く困らないし、主な買い物場所がイオンモールといっても、ほとんどはネットショッピングで済ませてしまうためそこまで不便も感じない。宮崎に住むようになってから地元の人の多さにうんざりすることも多くなり、宮崎ののどかな雰囲気の方が性に合っている気はする。<br>
+　食べ物もとても美味しくて海の幸も山の幸も同時に味わうことができるし、地元に帰ってしまったら、宮崎の定食屋さんにはかならずといっていいほど存在するチキン南蛮定食が食べれなくなると思うと、寂しくてしょうがない。<br>
+　初めての一人暮らしは、私に母親の偉大さを教えてくれた。毎日自分で食事を作り、掃除、洗濯、風呂掃除……実家で暮らしていた時はほとんどやってこなかった諸々の家事を毎日続けることがいかに大変かを、思い知ったものだ。母の苦労も全く知らずのうのうと暮らしていた自分を振り返り、その時本当に母に感謝した。来年から働き出してからは、おそらく父親の偉大さを痛感することであろう。<br>
+　次は勉学についてである。医学部に入ったからには一生懸命勉強しなければ……と思ってはいたものの、毎回テスト前にあせって勉強にとりくみ始め、次こそは真面目にコツコツと勉強しようと反省し六年が過ぎてしまった。専門科目が始まればまじめに勉強するようになるかも、と考えていた時期もあったが、全くそんなことはなく趣味やバイト、部活に身を投じる日々を過ごしていた。<br>
+　四年生まではそれでなんとか切り抜けてこられたが、五年生から病棟実習が始まり、自身の不勉強さを猛烈に反省した。特に一年生から二年生のうちに学ぶ基礎科目がいかに大事かを思い知らされ、病気に関するいわゆる〝臨床科目〟は基礎科目の上に成り立っていることを痛感した。同時に授業のありがたさも身に染みた。もうこの先一生あんなに丁寧に授業をうけることもないであろうし、何よりも先生方は本当にお忙しい中、合間をぬって講義をしてくださっていることがわかったからである。<br>
+　また、実習を通して勉強した知識は、教科書を読んで得た知識よりもはるかに定着しやすいものだ。実際に自分の目で見て、触れることで病気のイメージがわきやすくなり、まさに「患者さん達に学ばせていただく」状態だ。卒業試験や模試でも、試験中に病棟実習で学んだことを思い出したおかげで解答できたことが何回かあった。机に向かって勉強することも大事だが、今病棟実習を行っている五年生たちは、実習中に少しでも多くのことを吸収し、先生から知識をひきずりだすと、実習がより有意義なものになると思う。<br>
+　ただ、勉学はもちろん大切だが、学生の身分ながら患者さんとお話をさせていただけたり、外来や手術を見学させていただけるのは本当にありがたかったし、班員とのコミュニケーションの難しさや大切さを学ぶことができるのも実習ならではと、今は思う。先生方にもお忙しい中とてもお世話になったし、同じ班にならなければ話す機会もなかったであろう人達と友達になれたのはとても嬉しいことである。<br>
+　来年から私は実家に帰り二年間の初期研修医期間を過ごすことになるが、この二年間はこの先一生続く医師人生の基礎として、とても大事なものだと思う。研修医期間を通して得たものは間違いなく自身の財産になるとは思うが、あまりにも自分の不勉強さをさらして先生方を呆れさせてしまうのではと思うと、正直今から怖くてしょうがない。せめて二月の国家試験までは、つめこめるだけの知識を詰め込んで、自分の引き出しを増やしておきたいと考える。<br>
+　旅行や趣味などの娯楽も、学生のうちに思いっきり楽しんでおくべきだと思う。特に旅行や読書、映画などは、私にとって今までの価値観を変えてくれたり、新しい知識を与えてくれたり、視野を広げてくれたりするきっかけとなる、とても大事な要素だ。それだけでなく、趣味は多いほど話題の幅が広がるし、「趣味を持つことは大事だよ」といろんな先生方に言われることからもわかるように、仕事の合間の息抜きには欠かせないものになってくるのだろう。<br>
+　しかし部活ばかりやっていたこともありバイトはあまり長続きせず、旅行もそれほど多く行けていたわけではない。かなり学生生活を自由に過ごしたとは思うが、もっとお金を貯めて色んなものを見に行くべきだったと今は後悔している。<br>
+　部活は特に私の学生生活を充実したものにしてくれた。一年生の時などは部活に行くのが楽しくて毎日部室に遊びに行っていたし、優しくて頼りになる先輩方と、部活に打ち込んでくれるかわいい後輩にも恵まれたと思う。高校の時には経験ができなかった幹部の大変さを経験させてもらえたおかげで、人を動かすことの大変さも学び、わずかながら責任感も身に着けられていたらいいなと思う。<br>
+　新しいことを始める楽しさと、それを続けることの難しさも教えてもらった。でも続ければ必ず結果はついてくると思うし、それが自分の自信につながるものだと思う。部活を通して他大学の人達と交流する機会も多く、自分の世界も少し広がったような気がする。当時は大変な思いをしたこともあったが、思い返してみると「あの頃は精一杯だったんだろうけど、今となっては大したことじゃないな」ということも多い。気づかないうちに色々な人に迷惑をかけていただろうけれども、その時その時を必死にあがけば、大抵のことは何とかなるんじゃないかと思えるようにもなってきた。<br>
+　入学した時は「六年間か……先は長いな」と思っていたが、振り返るとあっという間に過ぎて行った六年だった。同じ学年の子達は就職先は皆バラバラではあるが、やはり地元に帰る人が多い気がする。私も本州にある実家に帰るため、働き出してからは宮崎に遊びに来ることは難しくなるであろう。<br>
+　同期に会えなくなるのは仕方がないことだと思うが、宮崎大学にいる先輩方や後輩達に会えなくなると思うと、今から寂しくてしようがない。ただ、一方でようやく自分も社会人としての一歩を踏み出せるのだという期待もある。気楽な学生時代とは違い責任もかなり大きくのしかかってくるだろうし、辛いこともあるだろうという不安もあるが、とりあえずは目の前にある課題に全力で取り組んでいけるような研修医を目指したいと思っている。<br>
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

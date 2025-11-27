@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>夢花火 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href= "01.html" ><dt>マニュアル</dt></a>
+					<a href= "#" ><dt>夢花火</dt></a>
+					<a href= "03.html" ><dt>空から降るのは火の粉か猫か</dt></a>
+					<a href= "04.html" ><dt>いつか嘘が誠になるまで</dt></a>
+					<a href= "05.html" ><dt>少年たちは想い出を天秤に乗せ</dt></a>
+					<a href= "06.html" ><dt>又吉</dt></a>
+					<a href= "07.html" ><dt>balloon</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第六号 (2017)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">夢花火</span>
+						<span slot="sub-title"> - 浅見カガリ</span>
+						<div slot="content">
+<h2>夢花火</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　浅見カガリ</h4>
+<p>
+　何気なく付けたラジオの天気予報で、県内全域が強風域に入ったことを知った。天井付近の通気口からは音楽の授業に退屈した子どもが吹き鳴らす笛のような音が聞こえ、窓に打ち付けられる雨粒が小太鼓の音を添えている。勉強は一行にはかどらなかった。「浮」と「沈」を書き間違えたところで、腐れ縁となったシャープペンを投げ出して、残り少ないアイスコーヒーを飲み干した。ピコン。ふいにスマートフォンが電子音を立てた。渋々手を伸ばして内容を確認し、今夜の夏祭りが中止になったことを知った。どうでもいいことだ。外では一際強い風が吹いたようで、笛の音に猛獣の唸り声が混じった。このまま座っていても埒があかないと思い、空にしてしまったグラスを手に部屋を出た。<br>
+　<br>
+　リビングには父さん母さんがいた。<br>
+「どう、勉強ははかどってる？」<br>
+　いつもの質問に「あんまり」と素っ気なく答えて、台所に向かおうとすると、「ちょっと」と呼び止められた。<br>
+「明日、お盆なんだけど」<br>
+　すっかり忘れていた。父さんが提灯を掲げるが、ただでさえ時間がないのにこの上墓参りだなんてとんでもない。<br>
+「無理ってあんた、まさか手伝わないつもり？　ばあちゃんにあれだけ可愛がってもらったくせに」<br>
+　母は少し声を荒らげた。<br>
+「忙しいのは分かるけどな、今日はおばあさんの初盆だ。巡がちゃんと迎えてあげないと、おばあさんも悲しむぞ」<br>
+「私はお盆に霊が帰ってくるなんて信じてないから」<br>
+　おどけていた父さんが顔をしかめた。<br>
+「巡、いい加減にしなさい。受験生だからって」<br>
+「うるさい！　私は絶対やらないからね！」<br>
+　二人が苛立っているのが分かると、私はカッとなってしまった。逆に怒鳴りつけて、グラスを叩きつけるように置いてリビングを出た。<br>
+　<br>
+　部屋に鍵をかけてしまうと、急に静かになった気がした。しかし雨風はさっきよりも酷くなっているようで、猛獣は唸り声を上げながら、雨戸を繰り返し殴りつけていた。机にも戻る気にもなれずに敷きっぱなしの布団の上に寝転んだ。全身が急に冷たくなったようだった。今更ながら、短気を起こしてしまったことを後悔した。本格的に受験勉強を始めた頃、同じような理由でおばあちゃんに怒鳴ったことがあった。梅雨の季節。おばあちゃんが脳卒中で倒れる少し前。<br>
+「おばあちゃんは受験の何たるかを全く分かってないよ！」<br>
+　その時のことを思い出して目を閉じると、おばあちゃんはまぶたの裏で悲しげに微笑んだ。あの時、私はどうして怒鳴ったんだっけ。どうしても思い出せずに、荒涼とした記憶の中を歩き回る。目的のものを見つける前に、足を踏み外して深いまどろみの中に落ちた。ゆっくりゆっくり沈んでゆく自分が見えた。<br>
+　<br>
+　幽体離脱でも起こしたかと思うほど、すっと目が覚めた。自室のベッドの上で、橙色の光を受けてぼやける床や壁を眺めていた。辺りはしんと静まり返っていた。軽い耳鳴りがちょうどいい具合に空白を埋めて、心を落ち着かせた。立ち上がって部屋を出て、誰もいないリビングを通り過ぎた。玄関先にはおばあちゃんが、きちんと浴衣を着こなして待っていた。<br>
+「巡。一緒に祭りにでも行かんか？」<br>
+「うん、行く」<br>
+　サンダルを履いて外に出た。おばあちゃんはそのまま家の前の緩やかな坂道を歩き始めた。<br>
+「おばあちゃん、歩いていくの？」<br>
+「そうだよ」<br>
+　私はおばあちゃんの後を歩き始めた。ちょっと遠いと思ったが、何とかなると思った。見上げると、それは見事な夕焼けの空が広がっていた。私たちはその空に向かって歩いているような気がした。歩いて歩いて、ふと周囲を仰いだとき、テントの群れとたくさんの人が見えていた。空は依然として赤く燃えていた。あっという間に、私たちは人ごみの一部となった。<br>
+「巡。何が欲しい？」<br>
+　取り立てて食べたいものはなかった。折角だから夏祭りらしいものを、と思った。<br>
+「欲しいものがあれば、勝手に持ってき。私はあの小高い丘の上に行くから。花火がよく見えそうだ」<br>
+「おばあちゃん。私、お金持ってない」<br>
+「大丈夫、何とかなる」<br>
+　私も何とかなると思った。だからおばあちゃんに背を向けて、一番近くの屋台のイカを焼いている人に声をかけた。<br>
+「リンゴアメ、二つください」<br>
+　その人は、さも当然のようにリンゴアメを取り出して、「あいよ」と私に手渡した。<br>
+おばあちゃんは、丘の上で待っていた。<br>
+「どうや、何とかなったろう」<br>
+　私の差し出すリンゴアメを受け取って、おばあちゃんは言った。<br>
+「うん」<br>
+　私はおばあちゃんに言いたいことがあった。言うべきか言わないべきか、リンゴアメを舐めながら迷った。リンゴアメはいやに甘ったるくて、ちょっと気分が悪くなった。<br>
+「そうやろう、そうやろう。大抵のことは何とかなるようにできてるからね」<br>
+　おばあちゃんは一人で頷いて続けた。<br>
+「だからきっと、巡の……」<br>
+　目の前がちらついて、軽い目眩に襲われる。この先は言ってほしくないと思った。声だけが迷いから脱したように、おばあちゃんの言葉を遮った。<br>
+「何とかなったけど！」<br>
+「うん？」<br>
+　大声で言ってしまうと、おばあちゃんから六月灯に行こうと誘われた日のことが思い出されて、後頭部がキリキリと傷んだ。私は一度大きく息を吸って吐き出した。<br>
+「これは夢でしょ？　夢だからどんなことでも何とかなってるだけで！」<br>
+「うん」<br>
+「だけど、現実はもっと厳しいから！」<br>
+「何とかなるとは限らないって？」<br>
+　おばあちゃんは私の目を覗き込むように見つめた。肩で息をする私と、穏やかな表情のおばあちゃん。そんな私たちを、唐突にまばゆい光が照らした。おばあちゃんが空を仰いで何事か呟いたが、澄んだ爆音にかき消された。簡単な物理の知識が、無意識のうちに打ち上げ場所からの距離を割り出した。ここは最高のビューポイントだ。<br>
+「綺麗だねぇ」<br>
+　暗い地の底から放たれた花火玉たちは一つ残らずまっすぐに尾を引いて天高く昇り、ふっと消えたかと思うと、一瞬のちには思い思いの場所に見事な大輪を咲かせていた。目が乾くのも忘れて見上げていると、おばあちゃんに肩を叩かれた。ついつい不機嫌な声を出してしまった私の前に、黄色い果実が差し出された。<br>
+「今のあんたには、こっちの方がいいかもしれん」<br>
+　桃の実のような、やわらかな形をしていた。<br>
+「杏の実だよ。食べてごらん」<br>
+　すすめられるままに一口かじってみると、こみ上げるような強い酸味に涙が滲んだ。<br>
+「何これ、酸っぱい」<br>
+　急に、光が弱くなった。花火の様子が変わっていた。放たれた花火たちは、加速したり止まったり曲がったりしながら大空を目指して進み、一部は諦めたように消え失せ、また一部は満足したかのように小さな輪を開いて消えた。あるものは素晴らしい極大輪をつくったかと思うと、その刹那崩れて消えた。破れかぶれの花火たちの中で、不思議と心ひかれる花火があった。それは冴えない花火だった。空に溶け込むような薄い赤色で、目立たなくて、他の花火よりもゆっくりゆっくり進んだ。しかし、その花火はまっすぐだった。他の花火たちがバラバラに動き回る中で、けして曲がろうとはしなかった。その花火は着実に雲の上を目指した。少しずつ、少しずつ。いつの間にか私の目には、渇きを潤すのに十分なほどの涙が溢れていた。<br>
+「どうや、何とかなりそうでしょう」<br>
+　降ってきたおばあちゃんの声に、今度はうなずくことができた。ふと意識が遠のいて、ああ、目が覚めるんだな、と思った。最後に残った杏の後味は意外にも優しい甘味で、バラバラでもやっぱり綺麗な花火の光と一緒に今日の素晴らしい夢を印象づけた。<br>
+　<br>
+　底なしの沼に沈むような、長い眠りが終わった。辺りは静かだった。台風はどうなったのだろう。昨晩のうちに去ってしまったのだろうか。<br>
+「巡、私たちはお墓に行ってくるからね！」<br>
+　リビングの方で母さんの声が聞こえる。机の上では愛用のシャープペンが待ちくたびれたように転がっている。するべきことはたくさんあるが、もう心は急かなかった。<br>
+「待って待って！　私も行く！」<br>
+　あら、と意外そうな声が返ってきた。さあ、大急ぎで支度をしなくては。雨戸を思い切り押し上げると、ブワッと心地よい風が流れ込んできて、滞った空気を完全に吹き飛ばしてくれた。あちらこちらから跳ねるような鳥のさえずりが聞こえる。台風一過、景色の全てが雲一つない空を映して、透き通った青色をしていた。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

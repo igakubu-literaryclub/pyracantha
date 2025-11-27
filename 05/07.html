@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>ピアノを弾く日 - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>その姿が変わったとしても</dt></a>
+					<a href="02.html"><dt>直接民主主義社会</dt></a>
+					<a href="03.html"><dt>その日になったら</dt></a>
+					<a href="04.html"><dt>思い出のメロディー</dt></a>
+					<a href="05.html"><dt>MADE OF ……</dt></a>
+					<a href="06.html"><dt>家守子</dt></a>
+					<a href="#.html"><dt>ピアノを弾く日</dt></a>
+					<a href="08.html"><dt>鳶と鷹</dt></a>
+					<a href="09.html"><dt>宇宙船と星の交点</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>第五号 (2016)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">ピアノを弾く日</span>
+						<span slot="sub-title"> - くしみたま</span>
+						<div slot="content">
+<h2>ピアノを弾く日</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　くしみたま</h4>
+<p>
+　日々の世俗的な関わりの中で、雑多な感情や思考が脳内に溢れかえって、押し潰されそうになることがある。私は、そういう時は真っ暗な部屋にひとり閉じ籠って、ピアノを弾くことにしている。<br>
+　<br>
+　一日中煙るような雨が降り続けた、九月末日の今日も「その日」だった。思えば、朝から調子が悪かった。夏風邪の名残の咳と鼻水を無理やり止めるため──受験間近の生徒たちに不安を撒き散らす訳にはいかない──強力な薬と、副作用の眠気を抑えるためにカフェインドリンクを飲んだ。しかし薬はあまり効かず、要らない部分だけがよく効いて、喉を腫らして倦怠感と戦いながら、やっとのことで午前と午後の授業を終えた。朦朧としながらも事務的な処理をきっちりこなし、質問に来た生徒にもいつも通りにこやかに対応できた。<br>
+　辛い一日だった。それでも、私はやりきったのだ。今日も自分の芯を崩さずに、理想の教師として振る舞えた……。<br>
+　そう思っていた。少なくともその時までは、確かにそうだったのだと思う。<br>
+　職員室から出たとき、出口側に二人の男子生徒がたむろしていた。向井と田島。私がホームルームを担当する六組の生徒。嫌なやつらに出会ってしまったと思った。普段はそんなことはないはずなのに、楽天家でお調子者の二人が、この時の私には気にくわなかったのだ。さようなら、と言ってさっさと通り過ぎようとした私に、よしてくれればいいのに、二人は声を掛けてきた。<br>
+「先生、絶対体調ヤバいでしょ」<br>
+と田島。<br>
+「絶対休んだ方がいいですよぉ」<br>
+と向井。<br>
+「そんな声で授業されても、よく聞き取れねえしわかんねえし、そもそも移るかもしれねえから」<br>
+「なあ、むしろ迷惑というか、なんつうか」<br>
+　顔を見合わせて、二人の横顔が曖昧に笑う。<br>
+　このときの二人に悪意があったとは考えがたい。そうではなく、二人なりの優しさの現れだと受け取るのが自然だろう。いや、受け取るべきだ。全うな教師なら。<br>
+　ところでそのときの私はといえば、ここでキレた。<br>
+　何を言ったかを正確には思い出せないほど、激しくキレた。「もう一度言ってみなさい」や「信じられない」を何度か繰り返したと思う。薄暗い廊下に響き渡った私のしゃがれた叫び声はどれほど醜かったことだろう。唇を尖らせて黙った二人を一睨みして、私は足早にその場を去った。背後から突き刺さる、無数の視線からの逃走だった。<br>
+　<br>
+　駐車場に出て、車に乗り込んで、エンジンを入れて、乱暴に発進させた。霧雨を拭うワイパーが曇る速さに負けていた。車のライトは白い闇を照らすばかりで、ほんの数メートル先がやっと見える程度だった。<br>
+　冷めやらぬ興奮の中にいて、私は何故か泣かなかった。勿論、不本意な行動を取ってしまった後に特有の、悔しさとも情けなさとも怒りともつかないあの感情は確かに感じていた。明日どうやってフォローしようか、なんて保身的な思考も脳裏をかすめた。<br>
+　鼻を啜りすぎたせいで頭はガンガンと痛んで、雨に濡れた髪が気持ち悪い。帰り着いたら再び濡れながら玄関に向かって、寝る前に明日のプリントを作らなければならない。明日の飲み会が億劫だ。私はいつまで独り身なのだろう。ところで、この当て付けめいて目に耳に叩きつける雨はいつ止むのだろう。梅雨前線ならぬ秋雨前線というやつだろうか。私は教師であって、同様に人間なのだ。風邪をひくこともあれば、よくわからない文脈でキレることだってある。<br>
+　<br>
+　思考と感情が混ざり合うとしたら、その重ね合わせは色の三原則に基づくのだろう。<br>
+　怒りの赤と、悲しみの青、保身の緑に、怠惰の茶色。不安は鼠色、自棄は臙脂、気掛かりな山吹色に、後悔の青緑。全部混ぜ合わせると、全てを吸い込んでしまう真っ黒な憎しみが生まれるのだ。<br>
+　雑多な思考が、感情が、自分では押さえきれないほどに膨れ上がってしまったとき、世の中の全てのことが憎くなる。<br>
+　ほんのささいなこと──たとえば、しつこく電話してくる心配性の母のことや、傘を持ってきていないのに雨に降られてしまったこと、普段なら軽く受け流せてしまえるようなことが憎らしくてどうしようもなったとき、私は思う。ああ、きっと、また限界がやってきたのだ。<br>
+　<br><br>
+　<br>軽自動車を乱雑に止めて、私は荷物も持たずに玄関へ駆ける。今の私はものすごい表情をしていることだろう。近所の人が見たらどう思うだろうか。あの家で一人で暮らしている女は山姥だと噂するだろうか。<br>
+<br>
+　日々の世俗的な関わりの中で、雑多な感情や思考が脳内に溢れかえって、押し潰されそうになることがある。私は、そういう時は真っ暗な部屋にひとり閉じ籠って、ピアノを弾くことにしている。<br>
+　雷鳴の轟きのような激しい曲ではなく、悲哀に満ちたメロディの嘆きの曲ではなく、ただ淡々と流れる水のような、愛も憎も苦も楽もない、そんな透明な曲がいい。自分の周りだけが蒸れるような暑さで、むせかえるように埃っぽくて、黒だけに染まった私とピアノだけの空間を稲妻が時折真白に照らすといい。<br>
+　<br>
+　年老いた黒猫が俯くように塗装の剥げた椅子に腰掛ける。右脚は真っ直ぐに伸びてペダルを押さえ込み、左脚は椅子の足に沿ってだらりと垂れ下がる。<br>
+　目の前に横たわる白と黒の世界に、二本の腕を伸ばす。<br>
+　<br>
+　どす黒く澱んだ私の指先から、始まりの一音が放たれた。<br>
+　果てしなく澄んだ音色。幼い頃に見た、空気の張りつめた初冬の朝の空のような。厚い雨雲の上に広がっているらしい、宇宙と地球の狭間の大気の薄い世界のような。<br>
+　不可思議なパッセージ。奇妙な響きの和音。<br>
+　<br>
+　跳ねて滑って流れて行く水の印象。<br>
+　私は清冽な音の奔流に、身も心も委ねてしまう。<br>
+　そう、私は水の精になる。<br>
+　超自然的な存在であるそれは、どこまでも澄んで、純粋で、ちょっと目を逸らしたその瞬間に忽ち見失ってしまうほど透明なのだ……。<br>
+　<br>
+　ふと気が付くと、私は何か熱いものが目から頬へ、顎へ、そして首へ伝ってゆくのを感じている。私は微かに思う。ああ、この泣いているのを止めなければ。顔がぐしゃぐしゃになってしまう。服が濡れてふやけてしまう。<br>
+　でも、涙は止まらない。なぜ泣いているのかも分からない。今日の出来事が悲しいから泣くのではない。惨めな今の自分が腹立たしいから泣くのでもない。<br>
+　私には分からない。私が今、こうして止めどなく涙を落としている理由が分からない。<br>
+　でも、なんとなく分かる。<br>
+　そこには感情は無いのだと思う。<br>
+　それは多分、パレットに幾重にも色を重ねた後の、後片付けのようなものなのだ。<br>
+　<br>
+　部屋の暗がりに吸い込まれるようにして、いつしかピアノ曲が終わる。さんざんに熱い涙を流して冷めてしまった私の頭は、大抵もう次のことを考えている。きっと全てはその程度のことなのだ。<br>
+　さあ、お風呂に入って夕御飯の支度をしなくっちゃ。八つ当たりしてしまった田島と向井にはちゃんと謝っておかないといけないな。<br>
+　勢いよく窓を開けると、涼やかな風が涙のあとをひやりと撫でた。<br>
+　世界は私らしい透明な色彩を取り戻しつつあった。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

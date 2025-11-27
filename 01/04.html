@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>私がメガネをかけるようになったわけ - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>夜風の通り道</dt></a>
+					<a href="02.html"><dt>私が医学に興味を持ったきっかけ</dt></a>
+					<a href="03.html"><dt>大学に入学して</dt></a>
+					<a href="#"><dt>私がメガネをかけるようになったわけ</dt></a>
+					<a href="05.html"><dt>幼き日のふわふわとした思い出</dt></a>
+					<a href="06.html"><dt>選択にせまられても逃げないようにしたい</dt></a>
+					<a href="07.html"><dt>部活動選びについての短編小説</dt></a>
+					<a href="08.html"><dt>スタイル</dt></a>
+					<a href="09.html"><dt>手紙</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>創刊号 (2012)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">私がメガネをかけるようになったわけ</span>
+						<span slot="sub-title"> - 愛音 つぐみ</span>
+						<div slot="content">
+<h2>私がメガネをかけるようになったわけ</h2>
+<h4>　　　　　　　　　　　　　　　　　　　愛音　つぐみ</h4>
+<p>
+　あれは高校二年の夏のことでした。部活の大会を５日後にひかえた三連休の初日、私は部活の練習へと向かっていました。いつもは学校で練習しているのに、その連休は学校が試験会場になっていて立ち入り禁止のため、少し遠くの公民館で練習することになっていて、その場所がよくわからなかった私は友達と待ち合わせをして一緒にいく約束をしていました。家を出るのが約束に間に合わなさそうな時間になってしまい、あせった私は猛スピードで自転車をこいで、高くむすんだツインテールに風を感じて、やたら気持ちがよかったことを覚えています。<br>
+　本当は、急いでも間に合いそうになかったんだけど、それでも急がないわけにはいかず、車道と歩道の間、路側帯をとばして走っていました。すると、前方にタクシーが歩道側に寄せて停車しているのが見え、このまま路側帯を走ることは無理だと思った私は、歩道に上がることにしました。しかし、その道は今でこそ綺麗に整備されたものの、当時は高い段差が多く、なかなか上がれそうなところが見つからず、やっと高い段差が終わって平らなところがあったため、そこから歩道に上がろうとしました。強い衝撃をうけ、次の瞬間には私の体は宙を舞っていました。飛んでいる間はスローモーションで、その前日に見た某映画の影響か、「もしかして……タイムリープしちゃうのかな……」なんて考えていました。そして着地。顔から。思いっきり顔面をコンクリートにぶつけて痛いのに、まだ「あれ……？　タイムリープできなかった……」とか考えちゃっている私。そして現実を受け入れられなくて「いやいや何かの間違いだ、これは現実じゃない、顔からふっとんだのは私じゃない」なんていう謎の思考まではじまりました。なんといっても大会の五日前なのです。私の学校は吹奏楽部員が多く、大会には約半数しか出られませんでした。その約半数として大会に出る予定の私が、楽器が吹けないことになるなんて考えたくありません。<br>
+　そんなことを考えていると、そのとき近くの車に乗っていたと思われる方々が近寄ってきてくださいました。ああ、人がきてくれるくらい激しくこけたんだなぁ、と実感します。全然見知らぬ人なのに、見知らぬ私にやさしく話しかけてくれました。車の中にあったタオルをもってきてくれて、血が垂れるからおさえておきなさい、とわたしてくれたので、痛いと感じる部分にあてようとすると、そっちじゃない、とあごの方にタオルをあててくれました。そのときはわからなかったけど、頬の方は擦りむいただけで、あごの方が傷が深かったらしく、出血も多かったようです。しかし、あごの痛みより擦りむいた頬の方が痛く感じていました。近くの自動販売機で水も買ってきてくれて、口の中もゆすがせてくれました。顔の傷なので、自分では見えませんが、周りの方々の反応や、タオルについた血から、大事になったことは実感できました。病院に行った方がいいと言われ、病院に行くほどのケガをしたのか、と怖くなり、どうすればいいか全くわからなかったけれど、親切な方々が、親に連絡するように言ってくれて、何が何だかわからないまま、母に電話しました。母も、いきなりの電話にとまどっているようで、自転車を押してでも帰ってきなさい、などと言われましたが、とにかく来て、と頼み込んできてもらえることになりました。その当時我が家には車がなく、母が一人で来ても、自転車でこけた私をどうしようもないというのはありましたが、そのときの電話では詳しく説明しなかったため、こけて足を擦りむいた程度だと思った、ともあとから言われました。<br>
+　母を待つ間も、心優しい方々が一緒にいてくださり、横を通る車から、わざわざ窓を開けて「大丈夫ですか？」などと聞いてくれる方もいました。夏の暑い日に。みんな知らない人なのに、やさしさですごく心があたたかくなりました。少しすると、近所に住む友達のお母さんの車で母が到着しました。ちょうど出かけにあって、事情をきいて一緒に来てくれたらしいのです。そのおかげで、自転車も車に乗せてもらえて、病院にもそのまま連れて行ってもらえました。痛いし怖いしで不安でいっぱいだったこと、その不安の中で、人のやさしさがすごく心にあたたかかったことを覚えています。<br>
+　病院についてからのことはあまり覚えてないのですが、縫うとき、麻酔をしながら「痛いのはここまでだからねー」という先生の言葉がすごく心に残っていて、本当に麻酔をしてからは傷の痛みも縫う痛みもなく、落ち着いていきました。ケガをしてから、たくさんの人のやさしさに触れ、あたたかさを感じ、感謝の気持ちでいっぱいでした。母が来てくれたときの安心感は、とてつもないものでした。医師は私を痛みからすくってくれました。もちろん、私はすべての人に対してありがたく感じていました。ただ、根本的に人を助けることができる医師という職業に、あらためて憧れを感じたのです。それまでも、医学を学びたい、医師になりたいというぼんやりとした希望はありました。周りに医師として憧れる相手もいました。父への思いからはじまり、かかりつけの医師と話すときの安心感などありましたが、あらためて、医師への憧れを感じました。<br>
+　それから、病院に通う日々がはじまりました。大会五日前だというのに練習にもいけず、もちろん楽器も吹けません。大会には出場したものの、結局音は出せませんでした。いつ話をしたのか、よく覚えていないのですが、いつの間にか、医学部志望であることを先生に伝えていたらしく、先生は傷の具合をたずねるのにも英語で話しかけてきたり、医療関係の新しいことや、今後大切になるであろうことを、単語で教えてくれて、調べるように言ってくださったりもしました。<br>
+　あれから四年がたち、私も無事医学部３年生となりました。痛かったし、怖かったし、制服も破けちゃったけど、自転車は無事だったし、医師へのさらなる憧れも感じることができました。あのとき感じた安心感を忘れず、私も患者さんを安心させてあげられるような医師になりたいと思っています。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

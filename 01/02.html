@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>私が医学に興味を持ったきっかけ - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>夜風の通り道</dt></a>
+					<a href="#"><dt>私が医学に興味を持ったきっかけ</dt></a>
+					<a href="03.html"><dt>大学に入学して</dt></a>
+					<a href="04.html"><dt>私がメガネをかけるようになったわけ</dt></a>
+					<a href="05.html"><dt>幼き日のふわふわとした思い出</dt></a>
+					<a href="06.html"><dt>選択にせまられても逃げないようにしたい</dt></a>
+					<a href="07.html"><dt>部活動選びについての短編小説</dt></a>
+					<a href="08.html"><dt>スタイル</dt></a>
+					<a href="09.html"><dt>手紙</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>創刊号 (2012)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">私が医学に興味を持ったきっかけ</span>
+						<span slot="sub-title"> - 浜松 茂子</span>
+						<div slot="content">
+<h2>私が医学に興味を持ったきっかけ</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　浜松　茂子</h4>
+<p>
+　私の父は医者です。<br>
+　母方の祖父も山奥で開業医をしていましたし、母の一番上の姉も医者、その次の姉は医者と結婚しました。さらに言うと従姉妹も医者や作業療法士になり、私の兄と姉も医療系の学部に進学して、今は立派に働いています。<br>
+　このような家系の中で育ったせいか、私は医療関係の職業以外に関心がありませんでした。と言うか、それ以外の職業を知らなかったのです。もちろん本当に知らなかったわけではなく、自分の狭い世界の中では知っている人皆が医療関係の職業に就職しているような感覚を持っていたのです。だから、高校三年生で進路を決める時も、特に深く考えることもなく医療関係の職業に就こうと思いました。と言うのは嘘で、動物が好きだから実は獣医になりたいと考えたこともあったのですが。<br>
+　高校生時代の私は、朝に部活の練習に行き、授業中に寝て、休み時間に早弁をして昼休みにまた部活の練習に行き、午後の授業も寝て放課後は夜まで部活をし、家に帰って晩御飯を食べて寝るという生活を繰り返していたため、お世辞にも勉強ができる生徒ではありませんでした。勉強自体があまり好きではないし、テスト期間は一夜漬けでギリギリ乗り切り、成績は下から数えた方が早かった気がします。<br>
+　そんな私が競争率も偏差値も高い獣医学部などに入れるはずがないと思い、獣医への憧れはすぐに捨て去りました。こうなると私の中での選択肢はやはり医療関係の職業しかありませんでした。しかし、一概に医療職と言っても医者や看護師、作業療法士、理学療法士に検査技師等々、医療職の中にも多くの選択肢があり、なかなか決めることができませんでした。私の父は勤務医であるため後を継ぐ必要もなく、当時の自分の成績を考えるとまず医学科に入学するのは無理だろうと考えました。患者さんと密接に関われる看護師や作業療法士の仕事はすごく魅力的だと思いましたが、どちらかと言うと私はあまり人付き合いが得意ではないため、一人の世界に没頭できそうな検査関係の仕事も楽しそうだと考えていました。<br>
+　なかなか進路先が決まらず悩んでいた時、同じく医療職を目指していた友達が病院の見学に行こうと誘ってくれました。その病院は、規模はあまり大きくはなかったけれど地域の人達と密接なつながりを作る試みを積極的に行っており、終末医療にも力を入れているところでした。<br>
+　病院内を主に案内してくれたのは、四十代の女性の病理医の方でした。その人は私達を病理科の部屋へ案内して、色々なことを教えてくださいました。病理とは何か、プレパラートはどのようにして作るのか、病理医ができることと臨床検査技師ができないこと……。そして、顕微鏡で実際の病理検査のために作られたプレパラートを見せて病理医の仕事を紹介してくださいました。<br>
+　病理科の部屋に入った時にまず最初に目に入ったのは、部屋の隅を機械で埋め尽くされ、中央に置いてある机に何十枚もプレパラートが並べられている様子でした。高校の授業で使っていたプレパラートを病院でも使っているのか、と驚いたのを覚えています。<br>
+　まず患者さんの疾患部位から取り出してきた少量の組織を、専用の機械を用いて蝋に固め、切断、染色してプレパラートを作ります。そしてこのプレパラートを顕微鏡で見て、そこで何が見えるかで何の病気かを診断することが病理医の主な仕事だと、その先生は教えてくださいました。プレパラートを使ったミクロの世界の診断は、肉眼(マクロな世界の診断)だけではわからない多くの情報を与えてくれます。肉眼では同じような病気に見えても、顕微鏡で見ると全く違う細胞の形をしている、などということもあり、最終的な診断と治療の決定になくてはならないものなのです。つまり、病理医はすべての科の病気を診て診断する、診断のプロとも言い換えることが出来ます。<br>
+　癌だけでも色々な姿形があり、「紫色が濃い部分」や「ざかざかしているところ」という言葉を使って、高校生の私達に簡単な解説をしてくださいました。もちろん医学知識は全くなかったので先生の解説はあまり理解できませんでしたが、肉眼では見ることができない、初めての顕微鏡を通した人間の身体は、高校生の私にとってはとても新鮮で面白いものでした。私は絵を描くのが好きで、見るのももちろん好きでしたが、先生は「絵が好きな人は病理医に向いてるかもね」ともおっしゃっていました。<br>
+　高校三年生になり、進路の決定を迫られてから本や資料を用いて色々な職業について調べてきましたが、「これをやってみたい！」と思えるものはなかなか見つかりませんでした。そんな時に病院見学で貴重な体験をして病理医という職業を知り、初めてやってみたいと思えたのです。こう思ってしまったからには、諦めて苦手な勉強をして医学科に入るしかないと考え、両親に医学科に入らせてほしいとお願いをしました。私の兄と姉は医療職に就いていますが医者ではなく、医者である父は本当は誰かに医学部に入ってほしいと思っていたため、とても応援してくれました。<br>
+　高校時代にただでさえ勉強をしていなかったのに加えて、私は高校三年生の夏まで部活をしていました。それで医学科に受かるはずもなく、浪人して両親を始め塾の先生や学校の先生に多大なる迷惑をかけながらも、なんとか宮崎大学の医学部に拾ってもらうことができました。高校時代と浪人時代は後悔も反省もすることが本当に多かったですが、今となってはその後悔と反省は私にとって必要なものだったのだと思えます。<br>
+　<br>
+　たった一度の病院見学で自分が将来何をやってみたいか決まるとは思っていなかったのですが、これを機に「勉学に限らずとりあえず何でもかんでも見てみたら、もっと興味が持てるものが見つかるかもしれない」と思うようになりました。大学に入学してからは地域医療学の特別講義や色々なセミナー、また宮崎のへき地で二泊三日へき地医療の様子を見学するへき地医療ガイダンスに参加して、たくさんの先生方のお話を聞いてきました。今のところは病理以上に興味を持てる分野には出会えていないのですが、こう言っておきながらもやはり私は勉強ができる生徒ではありません。相変わらずテストに追われて勉強をする学生ですが、前期試験ではまたまた多くの後悔と反省をしたので、少しは勉学に真面目に向き合えるのではないかと思います。<br>
+　<br>
+　今は文芸部の締切に追われてこの文章を書いていますが、この課題が終わったら病理の教科書を読んで勉強しようと思います。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>

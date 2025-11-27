@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>大学に入学して - 宮崎大学医学部文芸部</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<link rel="manifest" href="../img/site.webmanifest">
+<link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?608d112e9f9847c286d5082aac1e02e5&fadein=100" charset="utf-8"></script>
+<!--jQuery 読込-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	//<!--スマホ用メニュー-->
+		$(function(){
+			$(".menubtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.left').addClass('active');
+				}else{
+					$('.left').removeClass('active');
+				}
+			});
+		});
+		$(function(){
+			$(".mokujibtn").on("click", function(){
+				$(this).toggleClass('active');
+
+				if($(this).hasClass('active')){
+					$('.novel-menu').addClass('active');
+				}else{
+					$('.novel-menu').removeClass('active');
+				}
+			});
+		});
+
+		<!-- スムーススクロール -->
+  		$(function(){
+  			var width =  $(window).width();
+  			$('a[href*="#"]').click(function() {
+  				var speed = 400;
+  				var href= $(this).attr("href");
+  				var target = $(href == "#" || href == "" ? 'html' : href);
+  				var position = target.offset().top;
+  				$('body,html').animate({scrollTop:position}, speed, 'swing');
+  				return false;
+  			});
+  		});
+</script><!-- スムーススクロールここまで -->
+</head>
+
+<body>
+
+	<div class="wrapper flex">
+		<div class="menubtn">
+			<p>メニュー</p>
+		</div>
+		<div class="left">
+			<!--ヘッダー　サイト名-->
+			<header>
+				<a href="../index.html"><h1>宮崎大学<br>医学部<br>文芸部</h1></a>
+			</header><!--ヘッダー　サイト名ここまで-->
+
+			<!--メニュー-->
+			<nav>
+				<ul class="menu">
+					<li><a href="../index.html">Top</a></li>
+					<li>
+						ときわさんざし
+						<ul>
+							<li class="bushi-title"><a href="../01st.html">創刊号<span class="year"> (2012)</span></a></li>
+							<li class="bushi-title"><a href="../02nd.html">第二号<span class="year"> (2013)</span></a></li>
+							<li class="bushi-title"><a href="../03rd.html">第三号<span class="year"> (2014)</span></a></li>
+							<li class="bushi-title"><a href="../04th.html">第四号<span class="year"> (2015)</span></a></li>
+							<li class="bushi-title"><a href="../05th.html">第五号<span class="year"> (2016)</span></a></li>
+							<li class="bushi-title"><a href="../06th.html">第六号<span class="year"> (2017)</span></a></li>
+							<li class="bushi-title"><a href="../07th.html">第七号<span class="year"> (2018)</span></a></li>
+							<li class="bushi-title"><a href="../08th.html">第八号<span class="year"> (2019)</span></a></li>
+							<li class="bushi-title"><a href="../09th.html">第九号<span class="year"> (2021)</span></a></li>
+							<li class="bushi-title"><a href="../10th.html">第十号<span class="year"> (2022)</span></a></li>
+							<li class="bushi-title"><a href="../11th.html">第十一号<span class="year"> (2023)</span></a></li>
+							<li class="bushi-title"><a href="../12th.html">第十二号<span class="year"> (2024)</span></a></li>
+						</ul>
+					</li>
+					<li><a href="../author.html">著者別一覧</a></li>
+				</ul>
+			</nav>
+
+			<!--フッター　クレジット-->
+			<footer>
+				<small>&copy; 2021 宮崎大学医学部文芸部<br>Design by <a href="https://utsusemi.hiroec.com/" target="_blank">Utsusemi</a>.</small>
+			</footer><!--フッター　クレジットここまで-->
+		</div><!--left-->
+
+		<!--コンテンツ-->
+		<main class="novel">
+
+			<!--カテゴリーごとのメニュー-->
+			<div class="mokujibtn">
+				<p>掲載<br>作品</p>
+			</div>
+			<div class="novel-menu">
+				<dl>
+					<a href="01.html"><dt>夜風の通り道</dt></a>
+					<a href="02.html"><dt>私が医学に興味を持ったきっかけ</dt></a>
+					<a href="#"><dt>大学に入学して</dt></a>
+					<a href="04.html"><dt>私がメガネをかけるようになったわけ</dt></a>
+					<a href="05.html"><dt>幼き日のふわふわとした思い出</dt></a>
+					<a href="06.html"><dt>選択にせまられても逃げないようにしたい</dt></a>
+					<a href="07.html"><dt>部活動選びについての短編小説</dt></a>
+					<a href="08.html"><dt>スタイル</dt></a>
+					<a href="09.html"><dt>手紙</dt></a>
+				</dl>
+			</div><!--カテゴリーごとのメニューここまで-->
+
+			<h2>創刊号 (2012)</h2><!--大見出し-->
+
+			<!--グループ１-->
+			<section class="novelpage">
+					<nehan-player writing-mode="vertical-rl" width="responsive" height="500" font-size="16" layout="1x1" theme="../css/white.css">
+						<span slot="title">大学に入学して</span>
+						<span slot="sub-title"> - 宮崎太郎</span>
+						<div slot="content">
+<h2>大学に入学して</h2>
+<h4>　　　　　　　　　　　　　　　　　　　　　宮崎太郎</h4>
+<p>
+　僕が宮崎大学の医学部に入ってまずショックだったことは、「時間割を自由に選べない」という事だった。高校生の頃想像していた大学生生活といえば、学年の最初に受講したい授業を選び、毎日午前開きだとか、月・火・水曜日だけ一日中授業を受けて木曜日から日曜日まで遊び放題、というような学校生活を送れると想像していた。それから、一・二・三年生のうちに取れる限りの単位を獲得して、四年生はのんびり毎日を過ごす…ということもできると思っていた。だから、僕は新しい学校生活にとてもワクワクしていた。<br>
+　ところが、いざ大学生生活が始まると、その授業形態は僕が想像していたものと全く異なっていた。宮崎大学は木花キャンパスと清武キャンパスに分かれていて、宮崎大学の医学部の一年生は一週間のうち月・水・金曜日は清武キャンパス、火・木曜日は木花キャンパスで一年間授業を受けることになっている。木花キャンパスは数多くある授業の中から興味のある授業を選択して受講することができるが、授業を受ける時間帯は決められているために、自分で時間割を組み合わせることはできない。清武キャンパスに至っては授業すら選択することができず、およそ百人いる生徒たちは全員で同じ授業を受けることになっている。授業は一週間になるべく均等に設けられているため、曜日によっては午前空きもあったりはするが、まとまった休みは得ることができない。二年生以上は木花キャンパスがなくなり、後期からは実習も始まるため、かなりの時間学校に拘束されることになってしまう。上級生の先輩方からは「一年生のうちに遊んでおいたほうが良いよ」とよく言われるが、確かに一年生のうちに遊びつくしておかないと、後々後悔しそうだと思う。<br>
+　どうでもいいことだが、僕はこの「一年生のうちに遊んでおいたほうが良いよ」という言葉を聞いて大学受験を控えた高校生がよく言っていた「一、二年生のうちからちゃんと受験勉強に備えておいたほうが良いよ」という言葉を思い出した。このありがたい忠告を無視し続けた結果大学受験でとても苦労したので、今度はしっかりと、残り半年となった一年生を遊び倒したい。<br>
+　<br>
+　二つ目にショックだったことは、交通の便があまり良くないことだ。僕の出身地は本州にあり、宮崎どころか九州にさえ来たことがなかった。いざ宮崎に来てみると、自宅から山が見え、学校の周りには田圃が広がり、海へも車で三十分もかからずに行くことができるとてものどかな場所で、僕はすぐに気に入った。「宮崎の人は親切」という言葉は本当だったし、初めて行った宮崎の観光地である鬼の洗濯岩はとても感動したのを覚えている。僕の実家がある所はまさにアスファルトジャングルで、近くには山も海もなかったため、宮崎は僕にとって何もかもが新鮮だった。<br>
+　そのたくさんの〝新鮮〟のうち、バスの本数が少なすぎることは僕にとってショックだった。実家では、朝の通勤ラッシュの時間帯、最寄りのバス停には十分に一本はバスが来たものだったが、今僕が一人暮らししているマンションの最寄りのバス停には朝の七時や八時台でも一時間に一本しかバスが来ない。これは僕にとっては本当に困ることだった。<br>
+　まず問題なのは、一時間に一本しかないバスが最寄りのバス停に来るのが八時前後ということだ。僕は普段は自転車で学校に通っていて、自宅から学校まで十五分もかからないため、八時過ぎに起床して、八時二十分に家を出ている。晴れている日はこれでいいのだが、問題は雨の日だ。ずぼらな僕が次の日の天気予報をチェックしているはずもなく、起床して雨が降っていることに気付いてもすでにバスは行ってしまっていた、ということが入学してから半年で五回はあった。その度に傘を差しながら雨の中自転車を走らせ、雨に濡れてぐちょぐちょになった靴下を乾かす暇もないまま教室に入り、授業を受ける羽目になる。また、傘というものは意外ともろく、ただでさえ急いで自転車を走らせている時に強い風が吹こうものならすぐに骨が折れてしまう。僕はこれで今までに二本傘をダメにした。<br>
+　このような経験をするたびにもっと早く起きようと思うのだが、人間なかなか性格は変わらないもので、結局いつも夜更かしをしてしまう。一人暮らしだから両親に早く寝ろと叱られることもない。それに、馬鹿な奴と思われるだろうが、〇時前に寝て、夜中に誰もいない部屋でベッドに寝転びながら本を読みふける、あのだらけきった至福の時間を過ごさないのはもったいないと思うのだ。うっかり徹夜をして明るみ始めた空を眺めている時など、激しい後悔と共によくわからない達成感すら感じてしまう。<br>
+　余談だが、僕にはバスに関してもう一つ失敗談がある。それは宮崎に来て一ヶ月もたっていない時のことで、その日、僕は赤江にあるレンタルビデオコミック店「ゲオ」で漫画を二十冊借りた。僕の主な移動手段は自転車だが、その日は雨が降っていたため、バスで赤江まで行き、帰りもバスで帰るつもりでいた。傘と鞄と二十冊の漫画を持ってゲオの前にあるバス停まで行ったが、次のバスが来る時間まで三十分以上あった。雨でバス停の椅子は濡れていたためバスが来るまでずっと立っていなければいけないし、レンタルの袋を持ってまたゲオで時間をつぶすのもなんだか申し訳ない。それに何より、宮崎のバスの運賃は高い。バス代を少しでも節約しようと思い、僕はバスが追い付くまで家にバス停を渡り歩くことにした。その時はまだ二回ほどしかバスで赤江まで行ったことがなかったため、道がわかるところまで歩こうと思ったのだ。<br>
+　だが、交通の便があまり良くない分、宮崎大学の学生はかなりの人が車を持っている。優しい先輩たちはたまに送り迎えをしてくれるし、飲み会での足を分担する時も、車を持っている人が多いから誰かに負担がかかりすぎることもない。僕の友達もすでに車を買ってもらった人が何人かいて、たまに夜中にドライブをしたりする。この間新月の夜に青島に行ったのだが、その時に見た星空は本当にきれいだった。宮崎は空気が綺麗で街灯が少ないためもともと星がよく見えるが、月の光に邪魔をされていない分いつもよりもはっきりと星が見えた。あんなに綺麗な星空を見たのは初めだった。こういった体験は宮崎ならではと思うし、僕も車を買ってもらって後輩ができたら、車で色々なところに連れて行ってあげたいと考えている。<br>
+　<br>
+　これまでを読めば分かるように、僕はぐうたらな人間である。この学部に入学してきた理由も「医学を学んでみたい」や「人の役に立ちたい」という漠然とした考えのもとである。授業で講義してくださる先生方の学生時代の話や実際に臨床の現場で経験した話を聞いていると、こんな僕が医者になって人の病気を治すことができるのかと、不安になってくることもあるし、自分のあまりの不勉強さに恥ずかしくなることもある。<br>
+　僕はまだ一年生なので医学の専門的な科目はほとんど習っていないが、学年があがるにつれて将来臨床で役に立つ科目がほとんどになってくるだろう。それを勉強するうちに医学生としての自覚が生まれて、勉強に対する姿勢が改善されるといいと思う。こんな甘えたことを言ってるあたり、やっぱり意識の低い学生だなともまた思うのだが。<br>
+　<br>
+　ここまで色々書いてきたが、やっぱり僕は宮崎大学の医学部に入学してよかったと思っている。今の人間関係にとても満足しているからだ。僕は人付き合いが得意な方ではないが、気の合う友達に恵まれ、毎日楽しい学校生活を送れている。さぼり癖のある僕がなんとか授業に行くのも、友達に会えるのが楽しみだからだと思う。部活の先輩たちも優しくていい人ばかりで、文芸部の部長さんは慣れないながらも一生懸命で、色々な課題を考えて部活動を充実したものにしてくれている。僕は兼部していて、そちらの方が忙しいことを言い訳に文芸部にして積極的に参加できているわけではないが、それでも先輩方は僕を快く迎え入れてくれる。<br>
+　今まで読書感想文以外で文章を書く機会などほとんどなく、他人に読ませるための文章を書いたことなど当然ない。今回、悪戦苦闘しながらもこの文章を書いて、いい経験をさせてもらったし、文章を書く楽しさが少しわかった気がする。これからも、この文芸部で与えられる課題を一つずつこなしていき、少しでも自分の言いたいことが伝えられるような、そして読み手に楽しんでもらえるような文章が書けるようになりたいと思う。稚拙な文章で恥ずかしい限りですが、ここまで読んでいただきありがとうございました。
+</p>
+						</div>
+					</nehan-player>
+					<script src="https://cdn.jsdelivr.net/npm/nehan-player/dist/nehan-player.min.js"></script>
+					<script>
+						NehanPlayer.initialize({
+							cssFiles: ["../css/nehan.css"]
+						});
+					</script>
+
+			</section><!--グループ１ここまで-->
+
+		</main><!--コンテンツここまで-->
+
+	</div><!--wrapper-->
+
+</body>
+</html>
