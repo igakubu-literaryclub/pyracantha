@@ -228,8 +228,8 @@ ul.yoko {
       content: "";
       display: block;
       width: 240px;
-      /*12を部誌の巻数に変えてください*/
-      min-height: calc(38px * 12 - 23px + 600px);
+      /*13を部誌の巻数に変えてください*/
+      min-height: calc(38px * 13 - 23px + 600px);
       height: 100vh;
       background: linear-gradient(to bottom, #0d0404, rgba(13, 4, 4, 0) 90vh), url("../img/menu-bg.jpg") no-repeat center bottom;
       background-size: cover;
@@ -289,8 +289,8 @@ nav .menu > li {
     margin: 0;
     margin-left: 24px;
     padding: 0;
-    /*12を部誌の巻数に変えてください*/
-    height: calc(38px * 12 - 23px);
+    /*13を部誌の巻数に変えてください*/
+    height: calc(38px * 13 - 23px);
     padding-left: 24px;
     border-left: 1px dashed #fff; }
     nav .menu > li ul li {
